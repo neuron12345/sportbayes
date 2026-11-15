@@ -1,0 +1,1281 @@
+event_id,date_utc,season,season_type,home,away,home_pts,away_pts,neutral
+extraliga_193153,2022-09-15T16:00Z,2022,0,Kometa Brno,Karlovy Vary,6,1,0
+extraliga_193158,2022-09-16T15:00Z,2022,0,Trinec,Ceske Budejovice,0,2,0
+extraliga_193154,2022-09-16T15:30Z,2022,0,Litvinov,Vitkovice,2,3,0
+extraliga_193155,2022-09-16T15:30Z,2022,0,Mlada Boleslav,Sparta Prague,4,2,0
+extraliga_193157,2022-09-16T15:30Z,2022,0,Plzen,Olomouc,1,2,0
+extraliga_193152,2022-09-16T16:00Z,2022,0,Kladno,Pardubice,4,4,0
+extraliga_193156,2022-09-16T16:00Z,2022,0,Mountfield HK,Liberec,1,1,0
+extraliga_322214,2022-09-18T13:30Z,2022,0,Karlovy Vary,Mountfield HK,2,3,0
+extraliga_322215,2022-09-18T14:00Z,2022,0,Liberec,Kladno,3,3,0
+extraliga_322216,2022-09-18T14:00Z,2022,0,Sparta Prague,Litvinov,3,0,0
+extraliga_322217,2022-09-18T14:00Z,2022,0,Vitkovice,Plzen,4,2,0
+extraliga_322218,2022-09-18T14:30Z,2022,0,Pardubice,Trinec,3,3,0
+extraliga_322219,2022-09-18T15:00Z,2022,0,Ceske Budejovice,Kometa Brno,6,2,0
+extraliga_322220,2022-09-18T15:00Z,2022,0,Olomouc,Mlada Boleslav,2,1,0
+extraliga_322231,2022-09-20T15:30Z,2022,0,Ceske Budejovice,Litvinov,6,3,0
+extraliga_322221,2022-09-22T16:00Z,2022,0,Olomouc,Sparta Prague,4,0,0
+extraliga_322222,2022-09-23T15:00Z,2022,0,Trinec,Karlovy Vary,1,2,0
+extraliga_322223,2022-09-23T15:30Z,2022,0,Litvinov,Liberec,2,2,0
+extraliga_322224,2022-09-23T15:30Z,2022,0,Mlada Boleslav,Ceske Budejovice,5,1,0
+extraliga_322225,2022-09-23T15:30Z,2022,0,Plzen,Pardubice,1,4,0
+extraliga_322226,2022-09-23T16:00Z,2022,0,Kometa Brno,Kladno,1,3,0
+extraliga_322227,2022-09-23T16:00Z,2022,0,Mountfield HK,Vitkovice,2,2,0
+extraliga_322229,2022-09-25T14:00Z,2022,0,Kladno,Mountfield HK,2,1,0
+extraliga_322230,2022-09-25T14:00Z,2022,0,Liberec,Kometa Brno,2,2,0
+extraliga_322232,2022-09-25T15:00Z,2022,0,Trinec,Vitkovice,3,5,0
+extraliga_322233,2022-09-25T15:00Z,2022,0,Sparta Prague,Plzen,3,2,0
+extraliga_322234,2022-09-25T16:00Z,2022,0,Pardubice,Mlada Boleslav,2,2,0
+extraliga_322235,2022-09-27T15:00Z,2022,0,Kometa Brno,Trinec,2,4,0
+extraliga_322236,2022-09-27T15:30Z,2022,0,Litvinov,Kladno,1,1,0
+extraliga_322237,2022-09-27T15:30Z,2022,0,Mlada Boleslav,Liberec,1,1,0
+extraliga_322238,2022-09-27T15:30Z,2022,0,Plzen,Karlovy Vary,6,3,0
+extraliga_322239,2022-09-27T16:00Z,2022,0,Mountfield HK,Ceske Budejovice,3,1,0
+extraliga_322240,2022-09-27T16:00Z,2022,0,Olomouc,Pardubice,1,2,0
+extraliga_322241,2022-09-27T16:30Z,2022,0,Sparta Prague,Vitkovice,5,3,0
+extraliga_322242,2022-09-29T15:30Z,2022,0,Vitkovice,Mlada Boleslav,4,0,0
+extraliga_322243,2022-09-29T16:00Z,2022,0,Liberec,Plzen,2,2,0
+extraliga_322245,2022-09-29T16:00Z,2022,0,Kladno,Trinec,1,2,0
+extraliga_322244,2022-09-30T15:30Z,2022,0,Ceske Budejovice,Olomouc,1,1,0
+extraliga_322246,2022-09-30T16:00Z,2022,0,Kometa Brno,Mountfield HK,4,0,0
+extraliga_322247,2022-09-30T16:00Z,2022,0,Pardubice,Sparta Prague,2,2,0
+extraliga_322248,2022-10-02T14:00Z,2022,0,Mlada Boleslav,Kladno,4,0,0
+extraliga_322249,2022-10-02T14:00Z,2022,0,Sparta Prague,Karlovy Vary,4,4,0
+extraliga_322250,2022-10-02T14:30Z,2022,0,Plzen,Kometa Brno,3,3,0
+extraliga_322251,2022-10-02T15:00Z,2022,0,Trinec,Liberec,3,3,0
+extraliga_322252,2022-10-02T15:00Z,2022,0,Pardubice,Ceske Budejovice,6,1,0
+extraliga_322253,2022-10-02T15:00Z,2022,0,Olomouc,Vitkovice,4,4,0
+extraliga_322254,2022-10-02T15:20Z,2022,0,Litvinov,Mountfield HK,3,2,0
+extraliga_322255,2022-10-04T15:30Z,2022,0,Karlovy Vary,Litvinov,1,4,0
+extraliga_322275,2022-10-04T16:00Z,2022,0,Liberec,Ceske Budejovice,6,1,0
+extraliga_322256,2022-10-06T15:30Z,2022,0,Mlada Boleslav,Karlovy Vary,0,1,0
+extraliga_322258,2022-10-06T16:00Z,2022,0,Pardubice,Vitkovice,2,1,0
+extraliga_322257,2022-10-07T15:30Z,2022,0,Ceske Budejovice,Sparta Prague,2,2,0
+extraliga_322259,2022-10-07T16:00Z,2022,0,Kladno,Plzen,0,4,0
+extraliga_322260,2022-10-07T16:00Z,2022,0,Kometa Brno,Litvinov,5,4,0
+extraliga_322261,2022-10-07T16:00Z,2022,0,Liberec,Olomouc,6,2,0
+extraliga_322264,2022-10-09T14:00Z,2022,0,Mlada Boleslav,Kometa Brno,3,2,0
+extraliga_322265,2022-10-09T14:30Z,2022,0,Plzen,Mountfield HK,2,5,0
+extraliga_322268,2022-10-09T14:45Z,2022,0,Olomouc,Kladno,3,0,0
+extraliga_322266,2022-10-09T15:00Z,2022,0,Ceske Budejovice,Vitkovice,2,2,0
+extraliga_322267,2022-10-09T15:00Z,2022,0,Trinec,Litvinov,4,1,0
+extraliga_322269,2022-10-09T16:00Z,2022,0,Pardubice,Karlovy Vary,2,4,0
+extraliga_322270,2022-10-13T16:00Z,2022,0,Kometa Brno,Pardubice,3,3,0
+extraliga_322271,2022-10-14T15:00Z,2022,0,Trinec,Plzen,3,2,0
+extraliga_322272,2022-10-14T15:30Z,2022,0,Karlovy Vary,Vitkovice,4,5,0
+extraliga_322273,2022-10-14T15:30Z,2022,0,Litvinov,Mlada Boleslav,3,4,0
+extraliga_322274,2022-10-14T16:00Z,2022,0,Mountfield HK,Olomouc,0,3,0
+extraliga_322276,2022-10-14T16:00Z,2022,0,Kladno,Sparta Prague,2,5,0
+extraliga_322277,2022-10-16T14:00Z,2022,0,Mlada Boleslav,Mountfield HK,0,2,0
+extraliga_322279,2022-10-16T14:30Z,2022,0,Plzen,Litvinov,4,3,0
+extraliga_322280,2022-10-16T15:00Z,2022,0,Olomouc,Kometa Brno,2,3,0
+extraliga_322281,2022-10-16T15:00Z,2022,0,Pardubice,Liberec,0,0,0
+extraliga_322282,2022-10-16T15:00Z,2022,0,Trinec,Sparta Prague,4,2,0
+extraliga_322283,2022-10-16T15:20Z,2022,0,Karlovy Vary,Ceske Budejovice,4,3,0
+extraliga_322278,2022-10-16T15:30Z,2022,0,Vitkovice,Kladno,2,0,0
+extraliga_322284,2022-10-18T15:00Z,2022,0,Kometa Brno,Vitkovice,2,1,0
+extraliga_322286,2022-10-18T15:30Z,2022,0,Plzen,Mlada Boleslav,1,1,0
+extraliga_322287,2022-10-18T15:30Z,2022,0,Litvinov,Pardubice,0,0,0
+extraliga_322288,2022-10-18T16:00Z,2022,0,Kladno,Ceske Budejovice,2,1,0
+extraliga_322289,2022-10-18T16:00Z,2022,0,Liberec,Karlovy Vary,3,3,0
+extraliga_322290,2022-10-18T16:00Z,2022,0,Mountfield HK,Sparta Prague,3,2,0
+extraliga_322291,2022-10-20T15:30Z,2022,0,Ceske Budejovice,Plzen,2,2,0
+extraliga_322292,2022-10-21T15:30Z,2022,0,Karlovy Vary,Kladno,4,3,0
+extraliga_322293,2022-10-21T15:30Z,2022,0,Mlada Boleslav,Trinec,2,2,0
+extraliga_322294,2022-10-21T15:30Z,2022,0,Vitkovice,Liberec,6,3,0
+extraliga_322295,2022-10-21T16:00Z,2022,0,Olomouc,Litvinov,5,3,0
+extraliga_322296,2022-10-21T16:00Z,2022,0,Pardubice,Mountfield HK,5,2,0
+extraliga_322297,2022-10-21T16:30Z,2022,0,Sparta Prague,Kometa Brno,2,3,0
+extraliga_322298,2022-10-23T13:30Z,2022,0,Karlovy Vary,Kometa Brno,2,2,0
+extraliga_322300,2022-10-23T14:00Z,2022,0,Sparta Prague,Mlada Boleslav,2,2,0
+extraliga_322301,2022-10-23T14:00Z,2022,0,Vitkovice,Litvinov,5,3,0
+extraliga_322302,2022-10-23T15:00Z,2022,0,Ceske Budejovice,Trinec,2,2,0
+extraliga_322303,2022-10-23T15:00Z,2022,0,Olomouc,Plzen,1,4,0
+extraliga_322304,2022-10-23T15:00Z,2022,0,Pardubice,Kladno,6,2,0
+extraliga_322299,2022-10-23T15:20Z,2022,0,Liberec,Mountfield HK,3,6,0
+extraliga_322420,2022-10-26T16:30Z,2022,0,Sparta Prague,Vitkovice,2,2,0
+extraliga_322305,2022-10-27T15:00Z,2022,0,Trinec,Pardubice,2,3,0
+extraliga_322306,2022-10-28T14:00Z,2022,0,Kladno,Liberec,3,2,0
+extraliga_322307,2022-10-28T14:00Z,2022,0,Mlada Boleslav,Olomouc,2,2,0
+extraliga_322308,2022-10-28T14:00Z,2022,0,Mountfield HK,Karlovy Vary,1,2,0
+extraliga_322309,2022-10-28T14:30Z,2022,0,Plzen,Vitkovice,3,3,0
+extraliga_322310,2022-10-28T15:00Z,2022,0,Kometa Brno,Ceske Budejovice,3,0,0
+extraliga_322311,2022-10-28T15:30Z,2022,0,Litvinov,Sparta Prague,4,0,0
+extraliga_322312,2022-10-30T14:30Z,2022,0,Karlovy Vary,Trinec,2,6,0
+extraliga_322313,2022-10-30T15:00Z,2022,0,Kladno,Kometa Brno,3,5,0
+extraliga_322314,2022-10-30T15:00Z,2022,0,Liberec,Litvinov,2,2,0
+extraliga_322315,2022-10-30T15:00Z,2022,0,Sparta Prague,Olomouc,2,5,0
+extraliga_322316,2022-10-30T15:00Z,2022,0,Vitkovice,Mountfield HK,5,2,0
+extraliga_322317,2022-10-30T16:00Z,2022,0,Ceske Budejovice,Mlada Boleslav,3,0,0
+extraliga_322318,2022-10-30T16:00Z,2022,0,Pardubice,Plzen,7,2,0
+extraliga_322324,2022-11-01T16:20Z,2022,0,Mountfield HK,Kladno,7,7,0
+extraliga_322321,2022-11-01T16:30Z,2022,0,Mlada Boleslav,Pardubice,0,1,0
+extraliga_322322,2022-11-01T16:30Z,2022,0,Litvinov,Ceske Budejovice,6,4,0
+extraliga_322325,2022-11-01T17:00Z,2022,0,Olomouc,Karlovy Vary,2,0,0
+extraliga_322319,2022-11-02T16:00Z,2022,0,Trinec,Vitkovice,1,1,0
+extraliga_322320,2022-11-02T16:30Z,2022,0,Plzen,Sparta Prague,4,0,0
+extraliga_322331,2022-11-03T17:00Z,2022,0,Pardubice,Olomouc,3,0,0
+extraliga_322326,2022-11-04T16:30Z,2022,0,Ceske Budejovice,Mountfield HK,2,1,0
+extraliga_322327,2022-11-04T16:30Z,2022,0,Karlovy Vary,Plzen,4,4,0
+extraliga_322328,2022-11-04T16:30Z,2022,0,Vitkovice,Sparta Prague,3,2,0
+extraliga_322329,2022-11-04T17:00Z,2022,0,Kladno,Litvinov,2,2,0
+extraliga_322330,2022-11-04T17:00Z,2022,0,Liberec,Mlada Boleslav,6,2,0
+extraliga_322333,2022-11-06T14:00Z,2022,0,Trinec,Kladno,8,0,0
+extraliga_322334,2022-11-06T14:30Z,2022,0,Litvinov,Karlovy Vary,5,3,0
+extraliga_322336,2022-11-06T15:00Z,2022,0,Mountfield HK,Kometa Brno,5,1,0
+extraliga_322338,2022-11-06T15:30Z,2022,0,Plzen,Liberec,3,3,0
+extraliga_322339,2022-11-06T16:00Z,2022,0,Olomouc,Ceske Budejovice,3,1,0
+extraliga_322337,2022-11-06T16:20Z,2022,0,Sparta Prague,Pardubice,2,3,0
+extraliga_322228,2022-11-15T16:30Z,2022,0,Karlovy Vary,Olomouc,3,2,0
+extraliga_322465,2022-11-16T16:00Z,2022,0,Trinec,Sparta Prague,2,1,0
+extraliga_322340,2022-11-17T16:00Z,2022,0,Ceske Budejovice,Pardubice,2,4,0
+extraliga_322342,2022-11-18T16:00Z,2022,0,Vitkovice,Olomouc,3,0,0
+extraliga_322341,2022-11-18T16:30Z,2022,0,Karlovy Vary,Sparta Prague,1,5,0
+extraliga_322343,2022-11-18T17:00Z,2022,0,Mountfield HK,Litvinov,3,0,0
+extraliga_322344,2022-11-18T17:00Z,2022,0,Kometa Brno,Plzen,3,1,0
+extraliga_322345,2022-11-18T17:00Z,2022,0,Liberec,Trinec,1,4,0
+extraliga_322346,2022-11-18T17:00Z,2022,0,Kladno,Mlada Boleslav,1,1,0
+extraliga_322347,2022-11-20T14:00Z,2022,0,Trinec,Mountfield HK,4,1,0
+extraliga_322348,2022-11-20T14:30Z,2022,0,Karlovy Vary,Mlada Boleslav,3,3,0
+extraliga_322349,2022-11-20T14:30Z,2022,0,Litvinov,Kometa Brno,5,1,0
+extraliga_322351,2022-11-20T15:30Z,2022,0,Plzen,Kladno,1,1,0
+extraliga_322352,2022-11-20T16:10Z,2022,0,Olomouc,Liberec,4,1,0
+extraliga_322285,2022-11-22T16:00Z,2022,0,Trinec,Olomouc,2,3,0
+extraliga_322353,2022-11-22T16:30Z,2022,0,Vitkovice,Pardubice,4,4,0
+extraliga_322323,2022-11-22T17:00Z,2022,0,Kometa Brno,Liberec,0,5,0
+extraliga_322354,2022-11-25T16:30Z,2022,0,Vitkovice,Ceske Budejovice,4,3,0
+extraliga_322355,2022-11-25T16:30Z,2022,0,Litvinov,Trinec,1,1,0
+extraliga_322356,2022-11-25T16:30Z,2022,0,Karlovy Vary,Pardubice,1,3,0
+extraliga_322357,2022-11-25T17:00Z,2022,0,Kladno,Olomouc,5,2,0
+extraliga_322358,2022-11-25T17:00Z,2022,0,Kometa Brno,Mlada Boleslav,1,3,0
+extraliga_322360,2022-11-25T17:00Z,2022,0,Mountfield HK,Plzen,1,4,0
+extraliga_322359,2022-11-25T17:30Z,2022,0,Sparta Prague,Liberec,3,1,0
+extraliga_322362,2022-11-27T15:00Z,2022,0,Sparta Prague,Kladno,5,1,0
+extraliga_322363,2022-11-27T15:00Z,2022,0,Vitkovice,Karlovy Vary,4,2,0
+extraliga_322364,2022-11-27T15:30Z,2022,0,Plzen,Trinec,2,1,0
+extraliga_322365,2022-11-27T16:00Z,2022,0,Pardubice,Kometa Brno,3,3,0
+extraliga_322366,2022-11-27T16:00Z,2022,0,Olomouc,Mountfield HK,5,0,0
+extraliga_322367,2022-11-27T16:00Z,2022,0,Ceske Budejovice,Liberec,4,1,0
+extraliga_322361,2022-11-27T16:10Z,2022,0,Mlada Boleslav,Litvinov,6,4,0
+extraliga_322371,2022-11-29T16:10Z,2022,0,Kladno,Vitkovice,2,3,0
+extraliga_322369,2022-11-29T16:30Z,2022,0,Ceske Budejovice,Karlovy Vary,0,3,0
+extraliga_322370,2022-11-29T16:30Z,2022,0,Litvinov,Plzen,2,4,0
+extraliga_322372,2022-11-29T17:00Z,2022,0,Kometa Brno,Olomouc,0,0,0
+extraliga_322373,2022-11-29T17:00Z,2022,0,Pardubice,Liberec,1,3,0
+extraliga_322374,2022-11-29T17:00Z,2022,0,Mountfield HK,Mlada Boleslav,0,2,0
+extraliga_322368,2022-11-29T17:30Z,2022,0,Sparta Prague,Trinec,1,0,0
+extraliga_322376,2022-12-01T16:30Z,2022,0,Mlada Boleslav,Plzen,0,1,0
+extraliga_322375,2022-12-02T16:30Z,2022,0,Vitkovice,Kometa Brno,4,1,0
+extraliga_322377,2022-12-02T16:30Z,2022,0,Karlovy Vary,Liberec,0,2,0
+extraliga_322378,2022-12-02T17:00Z,2022,0,Kladno,Ceske Budejovice,1,6,0
+extraliga_322379,2022-12-02T17:00Z,2022,0,Olomouc,Trinec,4,2,0
+extraliga_322381,2022-12-02T17:30Z,2022,0,Sparta Prague,Mountfield HK,2,1,0
+extraliga_322382,2022-12-04T14:00Z,2022,0,Trinec,Mlada Boleslav,3,0,0
+extraliga_322385,2022-12-04T14:00Z,2022,0,Liberec,Vitkovice,2,2,0
+extraliga_322383,2022-12-04T14:30Z,2022,0,Litvinov,Olomouc,5,3,0
+extraliga_322384,2022-12-04T15:00Z,2022,0,Kladno,Karlovy Vary,4,1,0
+extraliga_322387,2022-12-04T15:30Z,2022,0,Plzen,Ceske Budejovice,4,1,0
+extraliga_322388,2022-12-04T16:00Z,2022,0,Kometa Brno,Sparta Prague,2,6,0
+extraliga_322386,2022-12-04T16:10Z,2022,0,Mountfield HK,Pardubice,4,0,0
+extraliga_322263,2022-12-06T17:00Z,2022,0,Liberec,Sparta Prague,0,1,0
+extraliga_322380,2022-12-06T17:00Z,2022,0,Pardubice,Litvinov,1,0,0
+extraliga_322389,2022-12-09T16:00Z,2022,0,Trinec,Ceske Budejovice,2,2,0
+extraliga_322390,2022-12-09T16:30Z,2022,0,Litvinov,Vitkovice,5,3,0
+extraliga_322391,2022-12-09T16:30Z,2022,0,Plzen,Olomouc,5,4,0
+extraliga_322392,2022-12-09T16:30Z,2022,0,Mlada Boleslav,Sparta Prague,1,2,0
+extraliga_322394,2022-12-09T17:00Z,2022,0,Kometa Brno,Karlovy Vary,2,3,0
+extraliga_322396,2022-12-11T14:30Z,2022,0,Karlovy Vary,Mountfield HK,1,4,0
+extraliga_322398,2022-12-11T14:30Z,2022,0,Litvinov,Sparta Prague,5,2,0
+extraliga_322397,2022-12-11T15:00Z,2022,0,Liberec,Kladno,7,3,0
+extraliga_322399,2022-12-11T15:00Z,2022,0,Vitkovice,Plzen,2,2,0
+extraliga_322400,2022-12-11T16:00Z,2022,0,Pardubice,Trinec,0,3,0
+extraliga_322402,2022-12-11T16:00Z,2022,0,Olomouc,Mlada Boleslav,2,0,0
+extraliga_322401,2022-12-11T16:20Z,2022,0,Ceske Budejovice,Kometa Brno,3,1,0
+extraliga_322403,2022-12-20T16:20Z,2022,0,Trinec,Karlovy Vary,4,2,0
+extraliga_322404,2022-12-20T16:30Z,2022,0,Litvinov,Liberec,2,2,0
+extraliga_322405,2022-12-20T16:30Z,2022,0,Mlada Boleslav,Ceske Budejovice,2,1,0
+extraliga_322406,2022-12-20T16:30Z,2022,0,Plzen,Pardubice,0,2,0
+extraliga_322407,2022-12-20T17:00Z,2022,0,Kometa Brno,Kladno,2,2,0
+extraliga_322408,2022-12-20T17:00Z,2022,0,Mountfield HK,Vitkovice,3,3,0
+extraliga_322409,2022-12-20T17:00Z,2022,0,Olomouc,Sparta Prague,0,1,0
+extraliga_322410,2022-12-22T16:30Z,2022,0,Vitkovice,Trinec,1,2,0
+extraliga_322411,2022-12-22T16:30Z,2022,0,Karlovy Vary,Olomouc,0,3,0
+extraliga_322412,2022-12-22T16:30Z,2022,0,Ceske Budejovice,Litvinov,2,5,0
+extraliga_322413,2022-12-22T17:00Z,2022,0,Kladno,Mountfield HK,3,6,0
+extraliga_322414,2022-12-22T17:00Z,2022,0,Liberec,Kometa Brno,2,1,0
+extraliga_322415,2022-12-22T17:00Z,2022,0,Pardubice,Mlada Boleslav,1,1,0
+extraliga_322416,2022-12-22T17:30Z,2022,0,Sparta Prague,Plzen,3,0,0
+extraliga_322417,2022-12-26T14:30Z,2022,0,Litvinov,Kladno,2,3,0
+extraliga_322418,2022-12-26T15:00Z,2022,0,Mlada Boleslav,Liberec,3,7,0
+extraliga_322419,2022-12-26T15:00Z,2022,0,Mountfield HK,Ceske Budejovice,1,4,0
+extraliga_322421,2022-12-26T15:30Z,2022,0,Plzen,Karlovy Vary,1,0,0
+extraliga_322423,2022-12-26T16:00Z,2022,0,Trinec,Kometa Brno,7,2,0
+extraliga_322422,2022-12-26T16:30Z,2022,0,Olomouc,Pardubice,2,2,0
+extraliga_322425,2022-12-28T16:00Z,2022,0,Karlovy Vary,Litvinov,3,0,0
+extraliga_322424,2022-12-28T16:30Z,2022,0,Ceske Budejovice,Olomouc,4,2,0
+extraliga_322426,2022-12-28T16:30Z,2022,0,Vitkovice,Mlada Boleslav,5,2,0
+extraliga_322427,2022-12-28T17:00Z,2022,0,Kladno,Trinec,4,3,0
+extraliga_322428,2022-12-28T17:00Z,2022,0,Kometa Brno,Mountfield HK,2,2,0
+extraliga_322429,2022-12-28T17:00Z,2022,0,Liberec,Plzen,1,1,0
+extraliga_322430,2022-12-30T16:00Z,2022,0,Trinec,Liberec,6,3,0
+extraliga_322431,2022-12-30T16:30Z,2022,0,Litvinov,Mountfield HK,2,2,0
+extraliga_322432,2022-12-30T16:30Z,2022,0,Mlada Boleslav,Kladno,1,2,0
+extraliga_322433,2022-12-30T16:30Z,2022,0,Plzen,Kometa Brno,5,2,0
+extraliga_322434,2022-12-30T17:00Z,2022,0,Pardubice,Ceske Budejovice,4,1,0
+extraliga_322435,2022-12-30T17:00Z,2022,0,Olomouc,Vitkovice,2,4,0
+extraliga_322439,2023-01-03T16:20Z,2022,0,Vitkovice,Pardubice,2,2,0
+extraliga_322438,2023-01-03T16:30Z,2022,0,Karlovy Vary,Mlada Boleslav,4,1,0
+extraliga_322440,2023-01-03T17:00Z,2022,0,Kladno,Plzen,3,4,0
+extraliga_322441,2023-01-03T17:00Z,2022,0,Kometa Brno,Litvinov,3,1,0
+extraliga_322442,2023-01-03T17:00Z,2022,0,Liberec,Olomouc,6,1,0
+extraliga_322443,2023-01-03T17:00Z,2022,0,Mountfield HK,Trinec,2,2,0
+extraliga_322437,2023-01-03T17:30Z,2022,0,Sparta Prague,Ceske Budejovice,5,3,0
+extraliga_322445,2023-01-05T16:30Z,2022,0,Plzen,Mountfield HK,0,4,0
+extraliga_322444,2023-01-06T16:00Z,2022,0,Trinec,Litvinov,2,2,0
+extraliga_322446,2023-01-06T16:30Z,2022,0,Mlada Boleslav,Kometa Brno,7,3,0
+extraliga_322447,2023-01-06T16:30Z,2022,0,Ceske Budejovice,Vitkovice,0,2,0
+extraliga_322448,2023-01-06T17:00Z,2022,0,Olomouc,Kladno,6,2,0
+extraliga_322449,2023-01-06T17:00Z,2022,0,Pardubice,Karlovy Vary,7,4,0
+extraliga_322450,2023-01-06T17:30Z,2022,0,Sparta Prague,Liberec,2,5,0
+extraliga_322452,2023-01-08T14:30Z,2022,0,Karlovy Vary,Vitkovice,1,3,0
+extraliga_322453,2023-01-08T14:30Z,2022,0,Litvinov,Mlada Boleslav,4,3,0
+extraliga_322454,2023-01-08T15:00Z,2022,0,Sparta Prague,Kladno,4,0,0
+extraliga_322455,2023-01-08T15:00Z,2022,0,Liberec,Ceske Budejovice,2,2,0
+extraliga_322456,2023-01-08T15:00Z,2022,0,Mountfield HK,Olomouc,4,4,0
+extraliga_322457,2023-01-08T16:00Z,2022,0,Kometa Brno,Pardubice,1,4,0
+extraliga_322451,2023-01-08T16:20Z,2022,0,Trinec,Plzen,6,1,0
+extraliga_322458,2023-01-10T16:30Z,2022,0,Pardubice,Sparta Prague,0,3,0
+extraliga_322490,2023-01-10T16:30Z,2022,0,Plzen,Vitkovice,2,3,0
+extraliga_322395,2023-01-10T17:00Z,2022,0,Mountfield HK,Liberec,4,4,0
+extraliga_322463,2023-01-11T17:00Z,2022,0,Olomouc,Kometa Brno,1,4,0
+extraliga_322459,2023-01-13T16:30Z,2022,0,Ceske Budejovice,Karlovy Vary,2,4,0
+extraliga_322460,2023-01-13T16:30Z,2022,0,Mlada Boleslav,Mountfield HK,2,2,0
+extraliga_322461,2023-01-13T16:30Z,2022,0,Plzen,Litvinov,4,1,0
+extraliga_322462,2023-01-13T16:30Z,2022,0,Vitkovice,Kladno,0,3,0
+extraliga_322464,2023-01-13T17:00Z,2022,0,Liberec,Pardubice,3,4,0
+extraliga_322332,2023-01-13T17:30Z,2022,0,Trinec,Kometa Brno,6,1,0
+extraliga_322467,2023-01-15T14:30Z,2022,0,Litvinov,Pardubice,1,2,0
+extraliga_322468,2023-01-15T15:00Z,2022,0,Mountfield HK,Sparta Prague,3,3,0
+extraliga_322469,2023-01-15T15:00Z,2022,0,Liberec,Karlovy Vary,3,1,0
+extraliga_322471,2023-01-15T15:30Z,2022,0,Plzen,Mlada Boleslav,2,2,0
+extraliga_322470,2023-01-15T16:00Z,2022,0,Ceske Budejovice,Kladno,6,2,0
+extraliga_322472,2023-01-15T17:00Z,2022,0,Kometa Brno,Vitkovice,2,5,0
+extraliga_322466,2023-01-17T16:00Z,2022,0,Trinec,Olomouc,1,3,0
+extraliga_322335,2023-01-17T16:30Z,2022,0,Mlada Boleslav,Vitkovice,2,2,0
+extraliga_322350,2023-01-17T17:30Z,2022,0,Sparta Prague,Ceske Budejovice,5,0,0
+extraliga_322393,2023-01-18T17:00Z,2022,0,Kladno,Pardubice,1,4,0
+extraliga_322473,2023-01-20T16:30Z,2022,0,Ceske Budejovice,Plzen,3,3,0
+extraliga_322474,2023-01-20T16:30Z,2022,0,Karlovy Vary,Kladno,4,2,0
+extraliga_322475,2023-01-20T16:30Z,2022,0,Mlada Boleslav,Trinec,1,0,0
+extraliga_322476,2023-01-20T16:30Z,2022,0,Vitkovice,Liberec,2,0,0
+extraliga_322477,2023-01-20T17:00Z,2022,0,Olomouc,Litvinov,1,8,0
+extraliga_322478,2023-01-20T17:00Z,2022,0,Pardubice,Mountfield HK,4,1,0
+extraliga_322479,2023-01-20T17:30Z,2022,0,Sparta Prague,Kometa Brno,5,3,0
+extraliga_322480,2023-01-22T14:30Z,2022,0,Karlovy Vary,Kometa Brno,5,4,0
+extraliga_322481,2023-01-22T15:00Z,2022,0,Liberec,Mountfield HK,3,1,0
+extraliga_322482,2023-01-22T15:00Z,2022,0,Vitkovice,Litvinov,2,2,0
+extraliga_322483,2023-01-22T15:00Z,2022,0,Sparta Prague,Mlada Boleslav,4,1,0
+extraliga_322485,2023-01-22T16:00Z,2022,0,Olomouc,Plzen,3,2,0
+extraliga_322486,2023-01-22T16:00Z,2022,0,Pardubice,Kladno,4,2,0
+extraliga_322484,2023-01-22T16:20Z,2022,0,Ceske Budejovice,Trinec,3,2,0
+extraliga_322487,2023-01-24T16:00Z,2022,0,Trinec,Pardubice,0,4,0
+extraliga_322489,2023-01-24T16:20Z,2022,0,Mlada Boleslav,Olomouc,4,0,0
+extraliga_322491,2023-01-24T17:00Z,2022,0,Mountfield HK,Karlovy Vary,3,0,0
+extraliga_322492,2023-01-24T17:00Z,2022,0,Kladno,Liberec,3,2,0
+extraliga_322493,2023-01-24T17:00Z,2022,0,Kometa Brno,Ceske Budejovice,5,2,0
+extraliga_322488,2023-01-25T17:30Z,2022,0,Sparta Prague,Litvinov,3,2,0
+extraliga_322499,2023-01-26T17:15Z,2022,0,Pardubice,Plzen,4,3,0
+extraliga_322494,2023-01-27T16:30Z,2022,0,Ceske Budejovice,Mlada Boleslav,4,4,0
+extraliga_322495,2023-01-27T16:30Z,2022,0,Karlovy Vary,Trinec,4,1,0
+extraliga_322496,2023-01-27T16:30Z,2022,0,Vitkovice,Mountfield HK,2,5,0
+extraliga_322497,2023-01-27T17:00Z,2022,0,Kladno,Kometa Brno,0,3,0
+extraliga_322498,2023-01-27T17:00Z,2022,0,Liberec,Litvinov,5,1,0
+extraliga_322501,2023-01-29T14:30Z,2022,0,Litvinov,Ceske Budejovice,0,0,0
+extraliga_322502,2023-01-29T15:00Z,2022,0,Mountfield HK,Kladno,4,2,0
+extraliga_322505,2023-01-29T16:00Z,2022,0,Kometa Brno,Liberec,3,0,0
+extraliga_322506,2023-01-29T16:00Z,2022,0,Olomouc,Karlovy Vary,3,4,0
+extraliga_322504,2023-01-29T16:20Z,2022,0,Plzen,Sparta Prague,3,3,0
+extraliga_322503,2023-01-29T16:30Z,2022,0,Mlada Boleslav,Pardubice,3,5,0
+extraliga_322507,2023-01-31T16:30Z,2022,0,Vitkovice,Trinec,1,2,0
+extraliga_322436,2023-01-31T17:30Z,2022,0,Sparta Prague,Karlovy Vary,6,3,0
+extraliga_322508,2023-02-02T16:30Z,2022,0,Ceske Budejovice,Mountfield HK,2,3,0
+extraliga_322509,2023-02-03T16:30Z,2022,0,Karlovy Vary,Plzen,3,1,0
+extraliga_322510,2023-02-03T16:30Z,2022,0,Vitkovice,Sparta Prague,3,4,0
+extraliga_322511,2023-02-03T17:00Z,2022,0,Liberec,Mlada Boleslav,3,3,0
+extraliga_322512,2023-02-03T17:00Z,2022,0,Pardubice,Olomouc,4,1,0
+extraliga_322513,2023-02-03T17:00Z,2022,0,Kometa Brno,Trinec,5,1,0
+extraliga_322514,2023-02-03T17:00Z,2022,0,Kladno,Litvinov,5,2,0
+extraliga_322519,2023-02-05T13:45Z,2022,0,Sparta Prague,Pardubice,4,2,0
+extraliga_322515,2023-02-05T14:00Z,2022,0,Trinec,Kladno,5,4,0
+extraliga_322517,2023-02-05T15:00Z,2022,0,Mlada Boleslav,Vitkovice,2,3,0
+extraliga_322518,2023-02-05T15:00Z,2022,0,Mountfield HK,Kometa Brno,1,0,0
+extraliga_322516,2023-02-05T15:30Z,2022,0,Litvinov,Karlovy Vary,1,1,0
+extraliga_322520,2023-02-05T15:30Z,2022,0,Plzen,Liberec,2,4,0
+extraliga_322521,2023-02-05T16:00Z,2022,0,Olomouc,Ceske Budejovice,3,2,0
+extraliga_322262,2023-02-13T16:30Z,2022,0,Mountfield HK,Trinec,4,3,0
+extraliga_322522,2023-02-15T16:30Z,2022,0,Ceske Budejovice,Pardubice,3,7,0
+extraliga_322523,2023-02-15T16:30Z,2022,0,Karlovy Vary,Sparta Prague,3,6,0
+extraliga_322524,2023-02-15T16:30Z,2022,0,Vitkovice,Olomouc,3,1,0
+extraliga_322525,2023-02-15T17:00Z,2022,0,Mountfield HK,Litvinov,3,0,0
+extraliga_322526,2023-02-15T17:00Z,2022,0,Kometa Brno,Plzen,3,0,0
+extraliga_322527,2023-02-15T17:00Z,2022,0,Liberec,Trinec,2,2,0
+extraliga_322528,2023-02-15T17:00Z,2022,0,Kladno,Mlada Boleslav,2,1,0
+extraliga_322529,2023-02-17T16:00Z,2022,0,Trinec,Mountfield HK,1,2,0
+extraliga_322530,2023-02-17T16:30Z,2022,0,Litvinov,Kometa Brno,2,2,0
+extraliga_322531,2023-02-17T16:30Z,2022,0,Mlada Boleslav,Karlovy Vary,0,2,0
+extraliga_322532,2023-02-17T16:30Z,2022,0,Plzen,Kladno,0,3,0
+extraliga_322535,2023-02-17T16:30Z,2022,0,Ceske Budejovice,Sparta Prague,3,3,0
+extraliga_322533,2023-02-17T17:00Z,2022,0,Olomouc,Liberec,2,3,0
+extraliga_322534,2023-02-17T17:00Z,2022,0,Pardubice,Vitkovice,1,4,0
+extraliga_322536,2023-02-19T14:30Z,2022,0,Karlovy Vary,Pardubice,0,5,0
+extraliga_322537,2023-02-19T14:30Z,2022,0,Litvinov,Trinec,3,3,0
+extraliga_322538,2023-02-19T15:00Z,2022,0,Vitkovice,Ceske Budejovice,1,4,0
+extraliga_322540,2023-02-19T15:00Z,2022,0,Mountfield HK,Plzen,2,1,0
+extraliga_322541,2023-02-19T15:00Z,2022,0,Liberec,Sparta Prague,2,1,0
+extraliga_322542,2023-02-19T16:00Z,2022,0,Kometa Brno,Mlada Boleslav,1,4,0
+extraliga_322539,2023-02-19T16:20Z,2022,0,Kladno,Olomouc,4,4,0
+extraliga_322543,2023-02-22T16:30Z,2022,0,Ceske Budejovice,Liberec,3,4,0
+extraliga_322544,2023-02-24T16:30Z,2022,0,Mlada Boleslav,Litvinov,1,2,0
+extraliga_322545,2023-02-24T16:30Z,2022,0,Plzen,Trinec,4,4,0
+extraliga_322546,2023-02-24T16:30Z,2022,0,Vitkovice,Karlovy Vary,6,1,0
+extraliga_322547,2023-02-24T17:00Z,2022,0,Olomouc,Mountfield HK,0,4,0
+extraliga_322548,2023-02-24T17:00Z,2022,0,Pardubice,Kometa Brno,1,3,0
+extraliga_322549,2023-02-24T17:00Z,2022,0,Kladno,Sparta Prague,3,4,0
+extraliga_322551,2023-02-26T14:30Z,2022,0,Litvinov,Plzen,2,1,0
+extraliga_322552,2023-02-26T15:00Z,2022,0,Kladno,Vitkovice,1,2,0
+extraliga_322554,2023-02-26T15:00Z,2022,0,Mountfield HK,Mlada Boleslav,3,3,0
+extraliga_322555,2023-02-26T15:00Z,2022,0,Sparta Prague,Trinec,4,2,0
+extraliga_322550,2023-02-26T15:20Z,2022,0,Karlovy Vary,Ceske Budejovice,5,1,0
+extraliga_322556,2023-02-26T16:00Z,2022,0,Kometa Brno,Olomouc,3,0,0
+extraliga_322553,2023-02-28T17:00Z,2022,0,Liberec,Pardubice,5,1,0
+extraliga_322500,2023-02-28T17:30Z,2022,0,Sparta Prague,Olomouc,1,1,0
+extraliga_322557,2023-03-03T17:00Z,2022,0,Mlada Boleslav,Plzen,4,2,0
+extraliga_322558,2023-03-03T17:00Z,2022,0,Vitkovice,Kometa Brno,5,2,0
+extraliga_322559,2023-03-03T17:00Z,2022,0,Karlovy Vary,Liberec,3,3,0
+extraliga_322560,2023-03-03T17:00Z,2022,0,Ceske Budejovice,Kladno,5,2,0
+extraliga_322561,2023-03-03T17:00Z,2022,0,Olomouc,Trinec,0,5,0
+extraliga_322562,2023-03-03T17:00Z,2022,0,Pardubice,Litvinov,2,2,0
+extraliga_322563,2023-03-03T17:00Z,2022,0,Sparta Prague,Mountfield HK,3,2,0
+extraliga_322564,2023-03-05T15:30Z,2022,0,Trinec,Mlada Boleslav,2,3,0
+extraliga_322565,2023-03-05T15:30Z,2022,0,Litvinov,Olomouc,5,1,0
+extraliga_322566,2023-03-05T15:30Z,2022,0,Kladno,Karlovy Vary,5,4,0
+extraliga_322567,2023-03-05T15:30Z,2022,0,Liberec,Vitkovice,1,1,0
+extraliga_322568,2023-03-05T15:30Z,2022,0,Mountfield HK,Pardubice,3,1,0
+extraliga_322569,2023-03-05T15:30Z,2022,0,Plzen,Ceske Budejovice,3,5,0
+extraliga_322570,2023-03-05T15:30Z,2022,0,Kometa Brno,Sparta Prague,5,2,0
+extraliga_330561,2023-03-08T16:00Z,2022,0,Trinec,Litvinov,3,1,0
+extraliga_330562,2023-03-08T17:00Z,2022,0,Liberec,Plzen,4,1,0
+extraliga_330564,2023-03-08T18:00Z,2022,0,Kometa Brno,Mlada Boleslav,4,2,0
+extraliga_330568,2023-03-09T16:00Z,2022,0,Trinec,Litvinov,4,4,0
+extraliga_330563,2023-03-09T17:00Z,2022,0,Olomouc,Karlovy Vary,4,1,0
+extraliga_330565,2023-03-09T17:00Z,2022,0,Kometa Brno,Mlada Boleslav,2,1,0
+extraliga_330566,2023-03-09T18:00Z,2022,0,Liberec,Plzen,0,6,0
+extraliga_330567,2023-03-11T14:30Z,2022,0,Karlovy Vary,Olomouc,7,4,0
+extraliga_330572,2023-03-11T15:30Z,2022,0,Plzen,Liberec,1,3,0
+extraliga_330571,2023-03-11T16:00Z,2022,0,Mlada Boleslav,Kometa Brno,2,1,0
+extraliga_330570,2023-03-11T16:45Z,2022,0,Litvinov,Trinec,2,4,0
+extraliga_330569,2023-03-12T14:30Z,2022,0,Karlovy Vary,Olomouc,2,2,0
+extraliga_330960,2023-03-12T16:00Z,2022,0,Plzen,Liberec,1,1,0
+extraliga_331101,2023-03-12T17:00Z,2022,0,Mlada Boleslav,Kometa Brno,1,5,0
+extraliga_331102,2023-03-14T16:00Z,2022,0,Olomouc,Karlovy Vary,3,0,0
+extraliga_331151,2023-03-14T18:00Z,2022,0,Liberec,Plzen,3,3,0
+extraliga_331251,2023-03-17T16:00Z,2022,0,Vitkovice,Kometa Brno,3,2,0
+extraliga_331252,2023-03-17T18:00Z,2022,0,Pardubice,Olomouc,5,1,0
+extraliga_331253,2023-03-18T16:00Z,2022,0,Pardubice,Olomouc,2,0,0
+extraliga_331254,2023-03-18T18:00Z,2022,0,Vitkovice,Kometa Brno,0,3,0
+extraliga_331255,2023-03-19T13:00Z,2022,0,Sparta Prague,Trinec,3,2,0
+extraliga_331256,2023-03-19T15:40Z,2022,0,Mountfield HK,Liberec,2,4,0
+extraliga_331257,2023-03-20T16:00Z,2022,0,Mountfield HK,Liberec,3,2,0
+extraliga_331258,2023-03-20T18:00Z,2022,0,Sparta Prague,Trinec,2,2,0
+extraliga_331259,2023-03-21T16:00Z,2022,0,Kometa Brno,Vitkovice,1,4,0
+extraliga_331260,2023-03-21T18:00Z,2022,0,Olomouc,Pardubice,4,4,0
+extraliga_331262,2023-03-22T16:00Z,2022,0,Olomouc,Pardubice,2,3,0
+extraliga_331261,2023-03-22T18:00Z,2022,0,Kometa Brno,Vitkovice,2,1,0
+extraliga_331264,2023-03-23T16:00Z,2022,0,Trinec,Sparta Prague,2,4,0
+extraliga_331263,2023-03-23T18:00Z,2022,0,Liberec,Mountfield HK,1,1,0
+extraliga_331265,2023-03-24T16:00Z,2022,0,Liberec,Mountfield HK,1,2,0
+extraliga_331266,2023-03-24T18:00Z,2022,0,Trinec,Sparta Prague,3,1,0
+extraliga_331489,2023-03-25T16:00Z,2022,0,Vitkovice,Kometa Brno,1,0,0
+extraliga_331584,2023-03-26T14:30Z,2022,0,Sparta Prague,Trinec,0,3,0
+extraliga_331583,2023-03-26T16:00Z,2022,0,Mountfield HK,Liberec,6,4,0
+extraliga_331708,2023-03-27T15:00Z,2022,0,Kometa Brno,Vitkovice,3,3,0
+extraliga_331762,2023-03-28T15:00Z,2022,0,Trinec,Sparta Prague,5,1,0
+extraliga_332006,2023-04-02T15:00Z,2022,0,Pardubice,Trinec,4,2,0
+extraliga_332007,2023-04-03T16:00Z,2022,0,Pardubice,Trinec,0,3,0
+extraliga_332008,2023-04-04T15:30Z,2022,0,Vitkovice,Mountfield HK,0,0,0
+extraliga_332009,2023-04-05T15:30Z,2022,0,Vitkovice,Mountfield HK,2,2,0
+extraliga_332010,2023-04-06T15:00Z,2022,0,Trinec,Pardubice,2,1,0
+extraliga_332011,2023-04-07T15:00Z,2022,0,Trinec,Pardubice,0,2,0
+extraliga_332012,2023-04-08T15:00Z,2022,0,Mountfield HK,Vitkovice,4,2,0
+extraliga_332013,2023-04-09T14:00Z,2022,0,Mountfield HK,Vitkovice,1,2,0
+extraliga_332171,2023-04-10T15:00Z,2022,0,Pardubice,Trinec,2,4,0
+extraliga_332296,2023-04-11T15:30Z,2022,0,Vitkovice,Mountfield HK,2,2,0
+extraliga_332237,2023-04-12T15:00Z,2022,0,Trinec,Pardubice,3,5,0
+extraliga_332364,2023-04-13T15:00Z,2022,0,Mountfield HK,Vitkovice,1,1,0
+extraliga_332393,2023-04-14T15:00Z,2022,0,Pardubice,Trinec,1,2,0
+extraliga_332429,2023-04-15T13:30Z,2022,0,Vitkovice,Mountfield HK,1,1,0
+extraliga_332318,2023-04-16T14:00Z,2022,0,Kladno,Zlin,1,0,0
+extraliga_332319,2023-04-17T16:00Z,2022,0,Kladno,Zlin,3,1,0
+extraliga_332477,2023-04-18T15:00Z,2022,0,Mountfield HK,Trinec,2,4,0
+extraliga_332478,2023-04-19T15:00Z,2022,0,Mountfield HK,Trinec,1,1,0
+extraliga_332320,2023-04-20T15:30Z,2022,0,Zlin,Kladno,1,7,0
+extraliga_332321,2023-04-21T15:30Z,2022,0,Zlin,Kladno,0,1,0
+extraliga_332479,2023-04-22T15:00Z,2022,0,Trinec,Mountfield HK,1,0,0
+extraliga_332480,2023-04-23T15:00Z,2022,0,Trinec,Mountfield HK,1,1,0
+extraliga_332619,2023-04-26T15:00Z,2022,0,Mountfield HK,Trinec,3,0,0
+extraliga_332676,2023-04-28T15:00Z,2022,0,Trinec,Mountfield HK,4,1,0
+extraliga_333205,2023-09-14T15:30Z,2023,0,Plzen,Trinec,3,1,0
+extraliga_333207,2023-09-15T15:30Z,2023,0,Vitkovice,Karlovy Vary,2,6,0
+extraliga_333201,2023-09-15T16:00Z,2023,0,Kometa Brno,Mountfield HK,0,4,0
+extraliga_333202,2023-09-15T16:00Z,2023,0,Liberec,Mlada Boleslav,4,3,0
+extraliga_333203,2023-09-15T16:00Z,2023,0,Olomouc,Kladno,1,0,0
+extraliga_333204,2023-09-15T16:00Z,2023,0,Pardubice,Litvinov,5,1,0
+extraliga_333206,2023-09-15T16:30Z,2023,0,Sparta Prague,Ceske Budejovice,5,2,0
+extraliga_333213,2023-09-17T13:30Z,2023,0,Karlovy Vary,Kometa Brno,4,0,0
+extraliga_333209,2023-09-17T14:00Z,2023,0,Mountfield HK,Liberec,5,3,0
+extraliga_333210,2023-09-17T14:00Z,2023,0,Mlada Boleslav,Vitkovice,2,4,0
+extraliga_333212,2023-09-17T14:00Z,2023,0,Kladno,Pardubice,1,3,0
+extraliga_333214,2023-09-17T15:00Z,2023,0,Ceske Budejovice,Olomouc,3,1,0
+extraliga_333211,2023-09-17T15:30Z,2023,0,Litvinov,Plzen,4,2,0
+extraliga_333208,2023-09-17T15:45Z,2023,0,Trinec,Sparta Prague,2,2,0
+extraliga_333220,2023-09-20T16:30Z,2023,0,Sparta Prague,Pardubice,3,3,0
+extraliga_333216,2023-09-21T15:00Z,2023,0,Trinec,Liberec,4,1,0
+extraliga_333219,2023-09-22T15:30Z,2023,0,Plzen,Ceske Budejovice,0,1,0
+extraliga_333221,2023-09-22T15:30Z,2023,0,Vitkovice,Kladno,2,2,0
+extraliga_333215,2023-09-22T16:00Z,2023,0,Kometa Brno,Litvinov,2,3,0
+extraliga_333217,2023-09-22T16:00Z,2023,0,Mountfield HK,Mlada Boleslav,1,1,0
+extraliga_333218,2023-09-22T16:00Z,2023,0,Olomouc,Karlovy Vary,4,3,0
+extraliga_352865,2023-09-24T12:30Z,2023,0,Litvinov,Liberec,4,1,0
+extraliga_352866,2023-09-24T14:00Z,2023,0,Kladno,Sparta Prague,1,7,0
+extraliga_352867,2023-09-24T14:00Z,2023,0,Mlada Boleslav,Kometa Brno,6,3,0
+extraliga_352868,2023-09-24T15:00Z,2023,0,Trinec,Vitkovice,3,3,0
+extraliga_352869,2023-09-24T15:00Z,2023,0,Ceske Budejovice,Mountfield HK,1,1,0
+extraliga_352870,2023-09-24T16:00Z,2023,0,Pardubice,Olomouc,3,1,0
+extraliga_352871,2023-09-27T15:30Z,2023,0,Mlada Boleslav,Karlovy Vary,1,0,0
+extraliga_352872,2023-09-27T15:30Z,2023,0,Plzen,Sparta Prague,2,3,0
+extraliga_352873,2023-09-27T15:30Z,2023,0,Vitkovice,Pardubice,3,7,0
+extraliga_352874,2023-09-27T16:00Z,2023,0,Kometa Brno,Ceske Budejovice,4,0,0
+extraliga_352875,2023-09-27T16:00Z,2023,0,Liberec,Kladno,3,2,0
+extraliga_352876,2023-09-27T16:00Z,2023,0,Mountfield HK,Litvinov,2,2,0
+extraliga_352877,2023-09-27T16:00Z,2023,0,Olomouc,Trinec,3,4,0
+extraliga_352878,2023-09-29T15:00Z,2023,0,Trinec,Mountfield HK,0,5,0
+extraliga_352879,2023-09-29T15:30Z,2023,0,Litvinov,Mlada Boleslav,5,2,0
+extraliga_352880,2023-09-29T15:30Z,2023,0,Karlovy Vary,Liberec,5,2,0
+extraliga_352881,2023-09-29T15:30Z,2023,0,Ceske Budejovice,Vitkovice,2,1,0
+extraliga_352882,2023-09-29T16:00Z,2023,0,Kladno,Kometa Brno,1,4,0
+extraliga_352883,2023-09-29T16:00Z,2023,0,Pardubice,Plzen,4,1,0
+extraliga_352884,2023-09-29T16:30Z,2023,0,Sparta Prague,Olomouc,4,0,0
+extraliga_352885,2023-10-01T13:30Z,2023,0,Mlada Boleslav,Ceske Budejovice,2,5,0
+extraliga_352886,2023-10-01T14:00Z,2023,0,Liberec,Pardubice,3,3,0
+extraliga_352887,2023-10-01T14:00Z,2023,0,Mountfield HK,Karlovy Vary,2,4,0
+extraliga_352888,2023-10-01T14:00Z,2023,0,Sparta Prague,Kometa Brno,0,2,0
+extraliga_352889,2023-10-01T14:00Z,2023,0,Vitkovice,Olomouc,3,3,0
+extraliga_352890,2023-10-01T14:30Z,2023,0,Plzen,Kladno,4,4,0
+extraliga_352891,2023-10-01T15:30Z,2023,0,Litvinov,Trinec,6,4,0
+extraliga_352892,2023-10-03T16:30Z,2023,0,Sparta Prague,Vitkovice,3,2,0
+extraliga_352893,2023-10-05T15:30Z,2023,0,Ceske Budejovice,Liberec,3,3,0
+extraliga_352894,2023-10-06T15:00Z,2023,0,Trinec,Mlada Boleslav,4,1,0
+extraliga_352895,2023-10-06T15:30Z,2023,0,Karlovy Vary,Litvinov,1,4,0
+extraliga_352896,2023-10-06T16:00Z,2023,0,Kladno,Mountfield HK,3,3,0
+extraliga_352897,2023-10-06T16:00Z,2023,0,Olomouc,Plzen,3,2,0
+extraliga_352898,2023-10-06T16:00Z,2023,0,Pardubice,Kometa Brno,5,3,0
+extraliga_352901,2023-10-08T13:00Z,2023,0,Plzen,Vitkovice,1,0,0
+extraliga_352899,2023-10-08T14:00Z,2023,0,Sparta Prague,Liberec,1,4,0
+extraliga_352900,2023-10-08T14:00Z,2023,0,Mlada Boleslav,Kladno,3,4,0
+extraliga_352902,2023-10-08T15:00Z,2023,0,Kometa Brno,Olomouc,2,2,0
+extraliga_352903,2023-10-08T15:00Z,2023,0,Trinec,Karlovy Vary,5,1,0
+extraliga_352905,2023-10-08T15:30Z,2023,0,Litvinov,Ceske Budejovice,4,3,0
+extraliga_352904,2023-10-08T17:20Z,2023,0,Mountfield HK,Pardubice,2,4,0
+extraliga_352908,2023-10-12T15:30Z,2023,0,Plzen,Kometa Brno,1,2,0
+extraliga_352906,2023-10-13T15:30Z,2023,0,Ceske Budejovice,Karlovy Vary,2,2,0
+extraliga_352907,2023-10-13T15:30Z,2023,0,Litvinov,Sparta Prague,4,2,0
+extraliga_352909,2023-10-13T15:30Z,2023,0,Vitkovice,Liberec,5,2,0
+extraliga_352911,2023-10-13T16:00Z,2023,0,Olomouc,Mountfield HK,1,1,0
+extraliga_352912,2023-10-13T16:00Z,2023,0,Pardubice,Mlada Boleslav,3,1,0
+extraliga_352917,2023-10-15T12:30Z,2023,0,Kometa Brno,Vitkovice,3,5,0
+extraliga_352913,2023-10-15T13:30Z,2023,0,Karlovy Vary,Pardubice,0,3,0
+extraliga_352915,2023-10-15T14:00Z,2023,0,Mlada Boleslav,Plzen,3,4,0
+extraliga_352916,2023-10-15T14:00Z,2023,0,Sparta Prague,Mountfield HK,3,1,0
+extraliga_352918,2023-10-15T15:00Z,2023,0,Ceske Budejovice,Trinec,1,1,0
+extraliga_352919,2023-10-15T15:30Z,2023,0,Litvinov,Kladno,4,4,0
+extraliga_352914,2023-10-16T16:00Z,2023,0,Liberec,Olomouc,4,1,0
+extraliga_352920,2023-10-18T16:30Z,2023,0,Sparta Prague,Karlovy Vary,2,5,0
+extraliga_352921,2023-10-20T15:30Z,2023,0,Plzen,Mountfield HK,3,2,0
+extraliga_352922,2023-10-20T15:30Z,2023,0,Litvinov,Vitkovice,6,3,0
+extraliga_352923,2023-10-20T16:00Z,2023,0,Pardubice,Trinec,3,3,0
+extraliga_352924,2023-10-20T16:00Z,2023,0,Olomouc,Mlada Boleslav,2,3,0
+extraliga_352925,2023-10-20T16:00Z,2023,0,Kometa Brno,Liberec,5,2,0
+extraliga_352926,2023-10-20T16:00Z,2023,0,Kladno,Ceske Budejovice,2,2,0
+extraliga_352927,2023-10-22T13:30Z,2023,0,Karlovy Vary,Kladno,1,2,0
+extraliga_352928,2023-10-22T14:00Z,2023,0,Liberec,Plzen,3,3,0
+extraliga_352929,2023-10-22T14:00Z,2023,0,Mountfield HK,Vitkovice,2,0,0
+extraliga_352931,2023-10-22T15:00Z,2023,0,Ceske Budejovice,Pardubice,3,3,0
+extraliga_352932,2023-10-22T15:00Z,2023,0,Kometa Brno,Trinec,2,2,0
+extraliga_352933,2023-10-22T15:00Z,2023,0,Olomouc,Litvinov,2,1,0
+extraliga_352930,2023-10-22T16:00Z,2023,0,Sparta Prague,Mlada Boleslav,4,1,0
+extraliga_353164,2023-10-24T16:00Z,2023,0,Liberec,Karlovy Vary,1,1,0
+extraliga_352934,2023-10-27T15:00Z,2023,0,Trinec,Plzen,4,1,0
+extraliga_352935,2023-10-27T15:30Z,2023,0,Mlada Boleslav,Liberec,0,8,0
+extraliga_352936,2023-10-27T15:30Z,2023,0,Ceske Budejovice,Sparta Prague,1,4,0
+extraliga_352937,2023-10-27T15:30Z,2023,0,Litvinov,Pardubice,4,1,0
+extraliga_352938,2023-10-27T15:30Z,2023,0,Karlovy Vary,Vitkovice,3,1,0
+extraliga_352939,2023-10-27T16:00Z,2023,0,Kladno,Olomouc,3,2,0
+extraliga_352940,2023-10-27T16:00Z,2023,0,Mountfield HK,Kometa Brno,1,5,0
+extraliga_352941,2023-10-29T15:00Z,2023,0,Liberec,Mountfield HK,5,4,0
+extraliga_352942,2023-10-29T15:00Z,2023,0,Sparta Prague,Trinec,2,2,0
+extraliga_352945,2023-10-29T15:00Z,2023,0,Kladno,Pardubice,2,6,0
+extraliga_352946,2023-10-29T16:00Z,2023,0,Olomouc,Ceske Budejovice,5,2,0
+extraliga_352947,2023-10-29T16:00Z,2023,0,Kometa Brno,Karlovy Vary,3,0,0
+extraliga_352943,2023-10-29T16:30Z,2023,0,Mlada Boleslav,Vitkovice,2,3,0
+extraliga_352944,2023-10-29T17:00Z,2023,0,Plzen,Litvinov,5,2,0
+extraliga_352949,2023-10-31T16:30Z,2023,0,Ceske Budejovice,Plzen,4,1,0
+extraliga_352950,2023-10-31T16:30Z,2023,0,Litvinov,Kometa Brno,6,3,0
+extraliga_352948,2023-10-31T17:00Z,2023,0,Liberec,Trinec,1,3,0
+extraliga_352953,2023-10-31T17:00Z,2023,0,Pardubice,Sparta Prague,4,3,0
+extraliga_352954,2023-11-01T16:30Z,2023,0,Karlovy Vary,Olomouc,4,4,0
+extraliga_352955,2023-11-03T16:30Z,2023,0,Plzen,Karlovy Vary,2,2,0
+extraliga_352956,2023-11-03T16:30Z,2023,0,Vitkovice,Trinec,3,6,0
+extraliga_352957,2023-11-03T17:00Z,2023,0,Olomouc,Pardubice,1,5,0
+extraliga_352958,2023-11-03T17:00Z,2023,0,Liberec,Litvinov,5,2,0
+extraliga_352959,2023-11-03T17:00Z,2023,0,Kometa Brno,Mlada Boleslav,2,1,0
+extraliga_352960,2023-11-03T17:00Z,2023,0,Mountfield HK,Ceske Budejovice,4,1,0
+extraliga_352961,2023-11-03T17:00Z,2023,0,Kladno,Sparta Prague,2,3,0
+extraliga_352962,2023-11-05T14:00Z,2023,0,Trinec,Olomouc,5,0,0
+extraliga_352963,2023-11-05T14:30Z,2023,0,Karlovy Vary,Mlada Boleslav,1,1,0
+extraliga_352964,2023-11-05T14:30Z,2023,0,Litvinov,Mountfield HK,0,2,0
+extraliga_352965,2023-11-05T15:00Z,2023,0,Kladno,Liberec,3,6,0
+extraliga_352966,2023-11-05T15:00Z,2023,0,Sparta Prague,Plzen,5,3,0
+extraliga_352967,2023-11-05T16:00Z,2023,0,Ceske Budejovice,Kometa Brno,5,2,0
+extraliga_352968,2023-11-05T16:00Z,2023,0,Vitkovice,Pardubice,0,2,0
+extraliga_352951,2023-11-15T16:30Z,2023,0,Mlada Boleslav,Mountfield HK,0,3,0
+extraliga_352975,2023-11-16T17:00Z,2023,0,Olomouc,Sparta Prague,1,3,0
+extraliga_352971,2023-11-17T15:00Z,2023,0,Mountfield HK,Trinec,3,5,0
+extraliga_352972,2023-11-17T15:00Z,2023,0,Mlada Boleslav,Litvinov,5,0,0
+extraliga_352973,2023-11-17T15:30Z,2023,0,Plzen,Pardubice,1,6,0
+extraliga_352974,2023-11-17T16:00Z,2023,0,Kometa Brno,Kladno,8,1,0
+extraliga_352970,2023-11-17T17:00Z,2023,0,Liberec,Karlovy Vary,4,4,0
+extraliga_352976,2023-11-19T14:00Z,2023,0,Trinec,Litvinov,2,2,0
+extraliga_352978,2023-11-19T15:15Z,2023,0,Kladno,Plzen,2,4,0
+extraliga_352977,2023-11-19T16:00Z,2023,0,Karlovy Vary,Mountfield HK,3,4,0
+extraliga_352979,2023-11-19T16:00Z,2023,0,Pardubice,Liberec,2,3,0
+extraliga_352980,2023-11-19T16:00Z,2023,0,Olomouc,Vitkovice,2,2,0
+extraliga_352981,2023-11-19T16:00Z,2023,0,Kometa Brno,Sparta Prague,1,1,0
+extraliga_352982,2023-11-19T16:00Z,2023,0,Ceske Budejovice,Mlada Boleslav,3,2,0
+extraliga_352998,2023-11-22T16:30Z,2023,0,Karlovy Vary,Ceske Budejovice,4,2,0
+extraliga_352983,2023-11-24T16:30Z,2023,0,Litvinov,Karlovy Vary,6,4,0
+extraliga_352984,2023-11-24T16:30Z,2023,0,Mlada Boleslav,Trinec,2,2,0
+extraliga_352985,2023-11-24T16:30Z,2023,0,Plzen,Olomouc,1,1,0
+extraliga_352986,2023-11-24T16:30Z,2023,0,Vitkovice,Sparta Prague,1,3,0
+extraliga_352987,2023-11-24T17:00Z,2023,0,Kometa Brno,Pardubice,3,3,0
+extraliga_352988,2023-11-24T17:00Z,2023,0,Liberec,Ceske Budejovice,2,5,0
+extraliga_352989,2023-11-24T17:00Z,2023,0,Mountfield HK,Kladno,2,1,0
+extraliga_352991,2023-11-26T15:00Z,2023,0,Vitkovice,Plzen,2,2,0
+extraliga_352992,2023-11-26T15:00Z,2023,0,Liberec,Sparta Prague,4,5,0
+extraliga_352993,2023-11-26T15:00Z,2023,0,Kladno,Mlada Boleslav,2,2,0
+extraliga_352990,2023-11-26T16:00Z,2023,0,Trinec,Karlovy Vary,3,1,0
+extraliga_352994,2023-11-26T16:00Z,2023,0,Ceske Budejovice,Litvinov,1,0,0
+extraliga_352995,2023-11-26T16:00Z,2023,0,Olomouc,Kometa Brno,3,1,0
+extraliga_352996,2023-11-26T16:00Z,2023,0,Pardubice,Mountfield HK,5,2,0
+extraliga_352997,2023-11-28T16:00Z,2023,0,Trinec,Kladno,3,3,0
+extraliga_352999,2023-11-28T16:30Z,2023,0,Mlada Boleslav,Pardubice,1,4,0
+extraliga_353000,2023-11-28T17:00Z,2023,0,Kometa Brno,Plzen,4,1,0
+extraliga_353001,2023-11-28T17:00Z,2023,0,Liberec,Vitkovice,2,1,0
+extraliga_353002,2023-11-28T17:00Z,2023,0,Mountfield HK,Olomouc,5,3,0
+extraliga_353003,2023-11-28T17:30Z,2023,0,Sparta Prague,Litvinov,3,1,0
+extraliga_353010,2023-11-30T17:00Z,2023,0,Mountfield HK,Sparta Prague,2,1,0
+extraliga_353055,2023-11-30T17:00Z,2023,0,Pardubice,Vitkovice,1,1,0
+extraliga_353004,2023-12-01T16:00Z,2023,0,Trinec,Ceske Budejovice,3,2,0
+extraliga_353005,2023-12-01T16:30Z,2023,0,Plzen,Mlada Boleslav,5,0,0
+extraliga_353007,2023-12-01T17:00Z,2023,0,Kladno,Litvinov,3,0,0
+extraliga_353008,2023-12-01T17:00Z,2023,0,Olomouc,Liberec,3,2,0
+extraliga_353011,2023-12-03T14:00Z,2023,0,Trinec,Pardubice,1,5,0
+extraliga_353016,2023-12-03T14:00Z,2023,0,Liberec,Kometa Brno,1,6,0
+extraliga_353012,2023-12-03T14:30Z,2023,0,Karlovy Vary,Sparta Prague,0,3,0
+extraliga_353014,2023-12-03T15:00Z,2023,0,Mountfield HK,Plzen,1,1,0
+extraliga_353015,2023-12-03T15:00Z,2023,0,Mlada Boleslav,Olomouc,2,4,0
+extraliga_353013,2023-12-03T16:00Z,2023,0,Vitkovice,Litvinov,6,2,0
+extraliga_353017,2023-12-03T16:00Z,2023,0,Ceske Budejovice,Kladno,6,3,0
+extraliga_353019,2023-12-07T16:30Z,2023,0,Plzen,Liberec,1,3,0
+extraliga_353022,2023-12-08T16:00Z,2023,0,Trinec,Kometa Brno,2,1,0
+extraliga_353018,2023-12-08T16:30Z,2023,0,Mlada Boleslav,Sparta Prague,3,6,0
+extraliga_353020,2023-12-08T16:30Z,2023,0,Vitkovice,Mountfield HK,2,2,0
+extraliga_353023,2023-12-08T16:30Z,2023,0,Litvinov,Olomouc,1,1,0
+extraliga_353021,2023-12-08T17:00Z,2023,0,Kladno,Karlovy Vary,2,2,0
+extraliga_353024,2023-12-08T17:00Z,2023,0,Pardubice,Ceske Budejovice,3,3,0
+extraliga_353025,2023-12-10T13:00Z,2023,0,Vitkovice,Karlovy Vary,4,1,0
+extraliga_353026,2023-12-10T15:00Z,2023,0,Sparta Prague,Ceske Budejovice,2,2,0
+extraliga_353027,2023-12-10T15:00Z,2023,0,Liberec,Mlada Boleslav,4,1,0
+extraliga_353029,2023-12-10T15:00Z,2023,0,Mountfield HK,Kometa Brno,5,2,0
+extraliga_353030,2023-12-10T16:00Z,2023,0,Olomouc,Kladno,2,2,0
+extraliga_353031,2023-12-10T16:00Z,2023,0,Pardubice,Litvinov,2,4,0
+extraliga_353028,2023-12-10T17:00Z,2023,0,Plzen,Trinec,5,4,0
+extraliga_353032,2023-12-18T17:00Z,2023,0,Pardubice,Olomouc,8,2,0
+extraliga_353037,2023-12-19T16:30Z,2023,0,Vitkovice,Mlada Boleslav,2,0,0
+extraliga_353033,2023-12-20T16:00Z,2023,0,Trinec,Sparta Prague,1,1,0
+extraliga_353034,2023-12-20T16:30Z,2023,0,Ceske Budejovice,Olomouc,4,0,0
+extraliga_353035,2023-12-20T16:30Z,2023,0,Karlovy Vary,Kometa Brno,2,2,0
+extraliga_353036,2023-12-20T16:30Z,2023,0,Litvinov,Plzen,2,2,0
+extraliga_353038,2023-12-20T17:00Z,2023,0,Mountfield HK,Liberec,2,5,0
+extraliga_353039,2023-12-20T17:00Z,2023,0,Pardubice,Kladno,4,3,0
+extraliga_353047,2023-12-26T14:30Z,2023,0,Karlovy Vary,Plzen,4,1,0
+extraliga_353048,2023-12-26T14:30Z,2023,0,Litvinov,Liberec,6,3,0
+extraliga_353050,2023-12-26T15:00Z,2023,0,Mlada Boleslav,Kometa Brno,3,1,0
+extraliga_353049,2023-12-26T16:00Z,2023,0,Sparta Prague,Kladno,5,3,0
+extraliga_353051,2023-12-26T16:00Z,2023,0,Ceske Budejovice,Mountfield HK,4,2,0
+extraliga_353052,2023-12-26T16:00Z,2023,0,Trinec,Vitkovice,2,4,0
+extraliga_353053,2023-12-28T16:30Z,2023,0,Mlada Boleslav,Karlovy Vary,4,1,0
+extraliga_353054,2023-12-28T16:30Z,2023,0,Plzen,Sparta Prague,2,4,0
+extraliga_353056,2023-12-28T17:00Z,2023,0,Kometa Brno,Ceske Budejovice,2,5,0
+extraliga_353057,2023-12-28T17:00Z,2023,0,Liberec,Kladno,4,8,0
+extraliga_353058,2023-12-28T17:00Z,2023,0,Mountfield HK,Litvinov,1,5,0
+extraliga_353059,2023-12-28T17:00Z,2023,0,Olomouc,Trinec,1,2,0
+extraliga_353060,2023-12-30T14:30Z,2023,0,Karlovy Vary,Liberec,2,4,0
+extraliga_353062,2023-12-30T15:00Z,2023,0,Kladno,Kometa Brno,4,4,0
+extraliga_353063,2023-12-30T15:00Z,2023,0,Sparta Prague,Olomouc,1,4,0
+extraliga_353064,2023-12-30T16:00Z,2023,0,Ceske Budejovice,Vitkovice,3,3,0
+extraliga_353066,2023-12-30T16:00Z,2023,0,Trinec,Mountfield HK,7,2,0
+extraliga_353061,2023-12-30T16:30Z,2023,0,Litvinov,Mlada Boleslav,6,1,0
+extraliga_353067,2024-01-03T16:30Z,2023,0,Litvinov,Karlovy Vary,1,6,0
+extraliga_353068,2024-01-03T16:30Z,2023,0,Mlada Boleslav,Trinec,2,2,0
+extraliga_353069,2024-01-03T16:30Z,2023,0,Plzen,Olomouc,8,0,0
+extraliga_353070,2024-01-03T17:00Z,2023,0,Mountfield HK,Kladno,4,2,0
+extraliga_353071,2024-01-03T17:00Z,2023,0,Liberec,Ceske Budejovice,4,1,0
+extraliga_353073,2024-01-03T17:30Z,2023,0,Sparta Prague,Vitkovice,2,1,0
+extraliga_353074,2024-01-05T16:30Z,2023,0,Litvinov,Trinec,5,2,0
+extraliga_353075,2024-01-05T16:30Z,2023,0,Mlada Boleslav,Ceske Budejovice,2,4,0
+extraliga_353076,2024-01-05T16:30Z,2023,0,Plzen,Kladno,7,2,0
+extraliga_353077,2024-01-05T16:30Z,2023,0,Vitkovice,Olomouc,2,2,0
+extraliga_353078,2024-01-05T17:00Z,2023,0,Kometa Brno,Sparta Prague,2,3,0
+extraliga_353079,2024-01-05T17:00Z,2023,0,Liberec,Pardubice,1,4,0
+extraliga_353080,2024-01-05T17:00Z,2023,0,Mountfield HK,Karlovy Vary,2,2,0
+extraliga_353081,2024-01-07T14:00Z,2023,0,Trinec,Mlada Boleslav,1,1,0
+extraliga_353082,2024-01-07T14:30Z,2023,0,Karlovy Vary,Litvinov,1,1,0
+extraliga_353084,2024-01-07T15:00Z,2023,0,Vitkovice,Sparta Prague,2,4,0
+extraliga_353083,2024-01-07T16:00Z,2023,0,Kladno,Mountfield HK,1,1,0
+extraliga_353085,2024-01-07T16:00Z,2023,0,Ceske Budejovice,Liberec,1,8,0
+extraliga_353086,2024-01-07T16:00Z,2023,0,Olomouc,Plzen,7,3,0
+extraliga_353087,2024-01-07T16:00Z,2023,0,Pardubice,Kometa Brno,3,3,0
+extraliga_353043,2024-01-10T17:00Z,2023,0,Liberec,Trinec,4,1,0
+extraliga_353072,2024-01-10T17:00Z,2023,0,Kometa Brno,Pardubice,6,6,0
+extraliga_353088,2024-01-12T16:30Z,2023,0,Karlovy Vary,Trinec,0,3,0
+extraliga_353089,2024-01-12T16:30Z,2023,0,Litvinov,Ceske Budejovice,3,3,0
+extraliga_353090,2024-01-12T16:30Z,2023,0,Mlada Boleslav,Kladno,3,3,0
+extraliga_353091,2024-01-12T16:30Z,2023,0,Plzen,Vitkovice,2,1,0
+extraliga_353092,2024-01-12T17:00Z,2023,0,Mountfield HK,Pardubice,2,3,0
+extraliga_353093,2024-01-12T17:00Z,2023,0,Liberec,Sparta Prague,3,4,0
+extraliga_353094,2024-01-12T17:00Z,2023,0,Kometa Brno,Olomouc,4,3,0
+extraliga_353095,2024-01-14T15:00Z,2023,0,Vitkovice,Liberec,2,0,0
+extraliga_353096,2024-01-14T15:00Z,2023,0,Sparta Prague,Litvinov,6,3,0
+extraliga_353097,2024-01-14T15:00Z,2023,0,Kladno,Trinec,3,5,0
+extraliga_353099,2024-01-14T16:00Z,2023,0,Ceske Budejovice,Karlovy Vary,3,0,0
+extraliga_353100,2024-01-14T16:00Z,2023,0,Olomouc,Mountfield HK,2,2,0
+extraliga_353101,2024-01-14T16:00Z,2023,0,Pardubice,Mlada Boleslav,3,3,0
+extraliga_353098,2024-01-14T16:30Z,2023,0,Plzen,Kometa Brno,2,3,0
+extraliga_353040,2024-01-17T16:30Z,2023,0,Plzen,Ceske Budejovice,4,3,0
+extraliga_353042,2024-01-17T17:00Z,2023,0,Kometa Brno,Litvinov,3,1,0
+extraliga_353044,2024-01-17T17:00Z,2023,0,Mountfield HK,Mlada Boleslav,2,2,0
+extraliga_353045,2024-01-17T17:00Z,2023,0,Olomouc,Karlovy Vary,3,1,0
+extraliga_353046,2024-01-17T17:30Z,2023,0,Sparta Prague,Pardubice,1,1,0
+extraliga_353102,2024-01-19T16:00Z,2023,0,Trinec,Ceske Budejovice,3,3,0
+extraliga_353103,2024-01-19T16:30Z,2023,0,Mlada Boleslav,Plzen,1,1,0
+extraliga_353104,2024-01-19T16:30Z,2023,0,Litvinov,Kladno,4,3,0
+extraliga_353105,2024-01-19T16:30Z,2023,0,Karlovy Vary,Pardubice,3,3,0
+extraliga_353106,2024-01-19T17:00Z,2023,0,Kometa Brno,Vitkovice,7,1,0
+extraliga_353107,2024-01-19T17:00Z,2023,0,Mountfield HK,Sparta Prague,2,2,0
+extraliga_353108,2024-01-19T17:00Z,2023,0,Liberec,Olomouc,5,2,0
+extraliga_353109,2024-01-21T15:00Z,2023,0,Kladno,Ceske Budejovice,0,3,0
+extraliga_353110,2024-01-21T15:00Z,2023,0,Sparta Prague,Karlovy Vary,1,4,0
+extraliga_353111,2024-01-21T15:00Z,2023,0,Vitkovice,Litvinov,5,1,0
+extraliga_353112,2024-01-21T15:30Z,2023,0,Plzen,Mountfield HK,2,2,0
+extraliga_353113,2024-01-21T16:00Z,2023,0,Kometa Brno,Liberec,4,1,0
+extraliga_353114,2024-01-21T16:00Z,2023,0,Olomouc,Mlada Boleslav,7,1,0
+extraliga_353115,2024-01-21T17:00Z,2023,0,Pardubice,Trinec,5,3,0
+extraliga_353116,2024-01-23T16:00Z,2023,0,Trinec,Kometa Brno,5,1,0
+extraliga_353117,2024-01-23T16:30Z,2023,0,Mlada Boleslav,Sparta Prague,3,2,0
+extraliga_353118,2024-01-23T16:30Z,2023,0,Ceske Budejovice,Pardubice,3,4,0
+extraliga_353119,2024-01-23T16:30Z,2023,0,Litvinov,Olomouc,4,1,0
+extraliga_353120,2024-01-23T16:30Z,2023,0,Karlovy Vary,Kladno,4,1,0
+extraliga_353121,2024-01-23T17:00Z,2023,0,Liberec,Plzen,2,1,0
+extraliga_353122,2024-01-23T17:00Z,2023,0,Mountfield HK,Vitkovice,3,3,0
+extraliga_353125,2024-01-25T16:30Z,2023,0,Karlovy Vary,Vitkovice,0,3,0
+extraliga_353123,2024-01-26T16:00Z,2023,0,Trinec,Plzen,3,0,0
+extraliga_353124,2024-01-26T16:30Z,2023,0,Ceske Budejovice,Sparta Prague,5,3,0
+extraliga_353126,2024-01-26T16:30Z,2023,0,Litvinov,Pardubice,1,3,0
+extraliga_353127,2024-01-26T16:30Z,2023,0,Mlada Boleslav,Liberec,1,4,0
+extraliga_353128,2024-01-26T17:00Z,2023,0,Kometa Brno,Mountfield HK,2,2,0
+extraliga_353129,2024-01-26T17:00Z,2023,0,Kladno,Olomouc,2,3,0
+extraliga_353131,2024-01-28T15:00Z,2023,0,Sparta Prague,Trinec,5,1,0
+extraliga_353132,2024-01-28T15:00Z,2023,0,Vitkovice,Mlada Boleslav,0,0,0
+extraliga_353133,2024-01-28T15:30Z,2023,0,Plzen,Litvinov,3,5,0
+extraliga_353130,2024-01-28T16:00Z,2023,0,Liberec,Mountfield HK,3,3,0
+extraliga_353134,2024-01-28T16:00Z,2023,0,Kometa Brno,Karlovy Vary,5,1,0
+extraliga_353135,2024-01-28T16:00Z,2023,0,Olomouc,Ceske Budejovice,2,2,0
+extraliga_353136,2024-01-28T16:00Z,2023,0,Pardubice,Kladno,3,1,0
+extraliga_352969,2024-01-30T16:30Z,2023,0,Vitkovice,Ceske Budejovice,1,2,0
+extraliga_353065,2024-01-30T17:00Z,2023,0,Pardubice,Plzen,3,1,0
+extraliga_352910,2024-01-31T16:00Z,2023,0,Trinec,Kladno,5,0,0
+extraliga_353179,2024-01-31T17:30Z,2023,0,Sparta Prague,Liberec,4,1,0
+extraliga_353139,2024-02-01T16:30Z,2023,0,Litvinov,Kometa Brno,2,3,0
+extraliga_353137,2024-02-02T16:00Z,2023,0,Trinec,Liberec,5,1,0
+extraliga_353138,2024-02-02T16:30Z,2023,0,Mlada Boleslav,Mountfield HK,2,1,0
+extraliga_353140,2024-02-02T16:30Z,2023,0,Karlovy Vary,Olomouc,1,3,0
+extraliga_353141,2024-02-02T16:30Z,2023,0,Ceske Budejovice,Plzen,4,3,0
+extraliga_353142,2024-02-02T16:30Z,2023,0,Vitkovice,Kladno,4,2,0
+extraliga_353143,2024-02-02T17:00Z,2023,0,Pardubice,Sparta Prague,1,3,0
+extraliga_353144,2024-02-04T15:00Z,2023,0,Liberec,Litvinov,6,2,0
+extraliga_353145,2024-02-04T15:00Z,2023,0,Mountfield HK,Ceske Budejovice,4,0,0
+extraliga_353146,2024-02-04T15:00Z,2023,0,Sparta Prague,Kladno,5,3,0
+extraliga_353147,2024-02-04T15:00Z,2023,0,Vitkovice,Trinec,2,6,0
+extraliga_353148,2024-02-04T15:30Z,2023,0,Plzen,Karlovy Vary,4,3,0
+extraliga_353149,2024-02-04T16:00Z,2023,0,Kometa Brno,Mlada Boleslav,2,2,0
+extraliga_353150,2024-02-04T16:00Z,2023,0,Olomouc,Pardubice,2,1,0
+extraliga_353041,2024-02-10T15:00Z,2023,0,Kladno,Vitkovice,2,3,0
+extraliga_353159,2024-02-12T16:30Z,2023,0,Plzen,Pardubice,1,3,0
+extraliga_352952,2024-02-12T17:00Z,2023,0,Kladno,Vitkovice,0,4,0
+extraliga_353151,2024-02-14T16:00Z,2023,0,Trinec,Olomouc,6,1,0
+extraliga_353152,2024-02-14T16:30Z,2023,0,Ceske Budejovice,Kometa Brno,1,2,0
+extraliga_353153,2024-02-14T16:30Z,2023,0,Karlovy Vary,Mlada Boleslav,4,1,0
+extraliga_353154,2024-02-14T16:30Z,2023,0,Litvinov,Mountfield HK,5,5,0
+extraliga_353155,2024-02-14T17:00Z,2023,0,Kladno,Liberec,2,7,0
+extraliga_353156,2024-02-14T17:00Z,2023,0,Pardubice,Vitkovice,5,3,0
+extraliga_353157,2024-02-14T18:00Z,2023,0,Sparta Prague,Plzen,4,2,0
+extraliga_353158,2024-02-16T16:30Z,2023,0,Mlada Boleslav,Litvinov,2,3,0
+extraliga_353160,2024-02-16T16:30Z,2023,0,Vitkovice,Ceske Budejovice,5,7,0
+extraliga_353161,2024-02-16T17:00Z,2023,0,Olomouc,Sparta Prague,2,4,0
+extraliga_353162,2024-02-16T17:00Z,2023,0,Mountfield HK,Trinec,2,3,0
+extraliga_353163,2024-02-16T17:00Z,2023,0,Kometa Brno,Kladno,2,2,0
+extraliga_353165,2024-02-17T16:00Z,2023,0,Karlovy Vary,Plzen,2,5,0
+extraliga_353169,2024-02-18T13:00Z,2023,0,Sparta Prague,Kometa Brno,4,4,0
+extraliga_353166,2024-02-18T14:00Z,2023,0,Trinec,Litvinov,5,2,0
+extraliga_353167,2024-02-18T14:30Z,2023,0,Karlovy Vary,Mountfield HK,0,3,0
+extraliga_353168,2024-02-18T15:00Z,2023,0,Kladno,Plzen,3,3,0
+extraliga_353170,2024-02-18T16:00Z,2023,0,Ceske Budejovice,Mlada Boleslav,0,1,0
+extraliga_353172,2024-02-18T16:00Z,2023,0,Pardubice,Liberec,7,1,0
+extraliga_353171,2024-02-18T17:00Z,2023,0,Olomouc,Vitkovice,1,2,0
+extraliga_353006,2024-02-21T16:30Z,2023,0,Vitkovice,Kometa Brno,4,0,0
+extraliga_353009,2024-02-21T17:00Z,2023,0,Pardubice,Karlovy Vary,5,2,0
+extraliga_353174,2024-02-22T16:30Z,2023,0,Ceske Budejovice,Litvinov,4,7,0
+extraliga_353173,2024-02-23T16:30Z,2023,0,Vitkovice,Plzen,1,0,0
+extraliga_353175,2024-02-23T16:30Z,2023,0,Karlovy Vary,Trinec,4,5,0
+extraliga_353176,2024-02-23T17:00Z,2023,0,Kladno,Mlada Boleslav,0,5,0
+extraliga_353177,2024-02-23T17:00Z,2023,0,Olomouc,Kometa Brno,3,3,0
+extraliga_353178,2024-02-23T17:00Z,2023,0,Pardubice,Mountfield HK,2,2,0
+extraliga_353181,2024-02-25T14:30Z,2023,0,Karlovy Vary,Ceske Budejovice,0,3,0
+extraliga_353180,2024-02-25T15:00Z,2023,0,Kladno,Trinec,5,2,0
+extraliga_353184,2024-02-25T15:00Z,2023,0,Liberec,Vitkovice,3,3,0
+extraliga_353185,2024-02-25T15:00Z,2023,0,Mlada Boleslav,Pardubice,1,4,0
+extraliga_353182,2024-02-25T15:30Z,2023,0,Litvinov,Sparta Prague,3,8,0
+extraliga_353183,2024-02-25T16:00Z,2023,0,Mountfield HK,Olomouc,2,4,0
+extraliga_353186,2024-02-25T16:00Z,2023,0,Kometa Brno,Plzen,5,1,0
+extraliga_353187,2024-02-27T16:30Z,2023,0,Ceske Budejovice,Trinec,5,2,0
+extraliga_353188,2024-02-27T16:30Z,2023,0,Plzen,Mlada Boleslav,3,5,0
+extraliga_353189,2024-02-27T16:30Z,2023,0,Vitkovice,Kometa Brno,2,0,0
+extraliga_353190,2024-02-27T17:00Z,2023,0,Kladno,Litvinov,2,0,0
+extraliga_353191,2024-02-27T17:00Z,2023,0,Olomouc,Liberec,2,5,0
+extraliga_353192,2024-02-27T17:00Z,2023,0,Pardubice,Karlovy Vary,6,2,0
+extraliga_353193,2024-02-27T17:30Z,2023,0,Sparta Prague,Mountfield HK,4,1,0
+extraliga_353194,2024-03-01T16:30Z,2023,0,Mlada Boleslav,Olomouc,2,0,0
+extraliga_353195,2024-03-01T16:30Z,2023,0,Trinec,Pardubice,3,3,0
+extraliga_353196,2024-03-01T16:30Z,2023,0,Mountfield HK,Plzen,3,1,0
+extraliga_353197,2024-03-01T16:30Z,2023,0,Liberec,Kometa Brno,4,6,0
+extraliga_353198,2024-03-01T16:30Z,2023,0,Litvinov,Vitkovice,5,4,0
+extraliga_353199,2024-03-01T16:30Z,2023,0,Karlovy Vary,Sparta Prague,5,1,0
+extraliga_353200,2024-03-01T16:30Z,2023,0,Ceske Budejovice,Kladno,5,3,0
+extraliga_353201,2024-03-03T15:30Z,2023,0,Kladno,Karlovy Vary,1,4,0
+extraliga_353202,2024-03-03T15:30Z,2023,0,Kometa Brno,Trinec,2,2,0
+extraliga_353203,2024-03-03T15:30Z,2023,0,Olomouc,Litvinov,3,3,0
+extraliga_353204,2024-03-03T15:30Z,2023,0,Pardubice,Ceske Budejovice,7,2,0
+extraliga_353205,2024-03-03T15:30Z,2023,0,Plzen,Liberec,3,6,0
+extraliga_353206,2024-03-03T15:30Z,2023,0,Sparta Prague,Mlada Boleslav,2,1,0
+extraliga_353207,2024-03-03T15:30Z,2023,0,Vitkovice,Mountfield HK,1,1,0
+extraliga_359598,2024-03-06T16:30Z,2023,0,Litvinov,Plzen,4,2,0
+extraliga_359599,2024-03-06T16:30Z,2023,0,Ceske Budejovice,Karlovy Vary,4,2,0
+extraliga_359596,2024-03-06T17:00Z,2023,0,Mountfield HK,Vitkovice,4,3,0
+extraliga_359597,2024-03-06T18:00Z,2023,0,Liberec,Olomouc,0,0,0
+extraliga_359600,2024-03-07T16:00Z,2023,0,Ceske Budejovice,Karlovy Vary,4,4,0
+extraliga_359602,2024-03-07T16:30Z,2023,0,Litvinov,Plzen,4,1,0
+extraliga_359601,2024-03-07T17:00Z,2023,0,Liberec,Olomouc,2,2,0
+extraliga_359603,2024-03-07T17:00Z,2023,0,Mountfield HK,Vitkovice,1,0,0
+extraliga_359607,2024-03-09T14:00Z,2023,0,Vitkovice,Mountfield HK,1,3,0
+extraliga_359604,2024-03-09T15:30Z,2023,0,Karlovy Vary,Ceske Budejovice,1,3,0
+extraliga_359606,2024-03-09T15:30Z,2023,0,Plzen,Litvinov,1,1,0
+extraliga_359605,2024-03-09T16:00Z,2023,0,Olomouc,Liberec,3,4,0
+extraliga_360114,2024-03-10T16:00Z,2023,0,Olomouc,Liberec,3,5,0
+extraliga_360198,2024-03-12T17:00Z,2023,0,Liberec,Olomouc,4,1,0
+extraliga_360371,2024-03-15T17:00Z,2023,0,Pardubice,Mountfield HK,4,4,0
+extraliga_360372,2024-03-15T18:00Z,2023,0,Sparta Prague,Liberec,2,2,0
+extraliga_360373,2024-03-16T14:00Z,2023,0,Pardubice,Mountfield HK,3,2,0
+extraliga_360374,2024-03-16T17:00Z,2023,0,Sparta Prague,Liberec,2,2,0
+extraliga_360116,2024-03-17T14:00Z,2023,0,Trinec,Ceske Budejovice,2,0,0
+extraliga_360115,2024-03-17T16:00Z,2023,0,Kometa Brno,Litvinov,1,1,0
+extraliga_360117,2024-03-18T16:00Z,2023,0,Kometa Brno,Litvinov,1,5,0
+extraliga_360118,2024-03-18T16:00Z,2023,0,Trinec,Ceske Budejovice,2,0,0
+extraliga_360375,2024-03-19T17:00Z,2023,0,Liberec,Sparta Prague,3,5,0
+extraliga_360376,2024-03-19T18:00Z,2023,0,Mountfield HK,Pardubice,1,1,0
+extraliga_360377,2024-03-20T16:00Z,2023,0,Liberec,Sparta Prague,2,5,0
+extraliga_360378,2024-03-20T17:00Z,2023,0,Mountfield HK,Pardubice,0,1,0
+extraliga_360119,2024-03-21T16:00Z,2023,0,Ceske Budejovice,Trinec,3,4,0
+extraliga_360120,2024-03-21T16:30Z,2023,0,Litvinov,Kometa Brno,3,4,0
+extraliga_360122,2024-03-22T16:00Z,2023,0,Litvinov,Kometa Brno,1,5,0
+extraliga_360121,2024-03-22T16:30Z,2023,0,Ceske Budejovice,Trinec,4,1,0
+extraliga_362259,2024-03-23T16:00Z,2023,0,Pardubice,Mountfield HK,3,2,0
+extraliga_362363,2024-03-24T16:00Z,2023,0,Kometa Brno,Litvinov,1,1,0
+extraliga_362385,2024-03-24T16:00Z,2023,0,Trinec,Ceske Budejovice,2,3,0
+extraliga_362386,2024-03-26T16:30Z,2023,0,Litvinov,Kometa Brno,4,1,0
+extraliga_362542,2024-03-26T16:30Z,2023,0,Ceske Budejovice,Trinec,3,0,0
+extraliga_362640,2024-03-28T16:00Z,2023,0,Trinec,Ceske Budejovice,2,0,0
+extraliga_362733,2024-03-31T15:00Z,2023,0,Pardubice,Litvinov,2,1,0
+extraliga_362734,2024-04-01T15:00Z,2023,0,Pardubice,Litvinov,3,0,0
+extraliga_362735,2024-04-02T16:30Z,2023,0,Sparta Prague,Trinec,3,0,0
+extraliga_362736,2024-04-03T16:00Z,2023,0,Sparta Prague,Trinec,2,2,0
+extraliga_362737,2024-04-04T15:30Z,2023,0,Litvinov,Pardubice,2,3,0
+extraliga_362738,2024-04-05T17:00Z,2023,0,Litvinov,Pardubice,5,6,0
+extraliga_362739,2024-04-06T15:00Z,2023,0,Trinec,Sparta Prague,2,2,0
+extraliga_362740,2024-04-07T16:00Z,2023,0,Trinec,Sparta Prague,4,1,0
+extraliga_363005,2024-04-09T16:30Z,2023,0,Sparta Prague,Trinec,2,3,0
+extraliga_363081,2024-04-11T15:00Z,2023,0,Trinec,Sparta Prague,1,1,0
+extraliga_363131,2024-04-13T11:00Z,2023,0,Sparta Prague,Trinec,2,2,0
+extraliga_363161,2024-04-16T16:00Z,2023,0,Pardubice,Trinec,1,2,0
+extraliga_363082,2024-04-17T15:00Z,2023,0,Kladno,Vsetin,4,1,0
+extraliga_363162,2024-04-17T16:00Z,2023,0,Pardubice,Trinec,6,3,0
+extraliga_363083,2024-04-18T16:00Z,2023,0,Kladno,Vsetin,7,2,0
+extraliga_363163,2024-04-20T15:00Z,2023,0,Trinec,Pardubice,4,3,0
+extraliga_363084,2024-04-21T15:00Z,2023,0,Vsetin,Kladno,2,3,0
+extraliga_363164,2024-04-21T15:00Z,2023,0,Trinec,Pardubice,2,6,0
+extraliga_363085,2024-04-22T16:00Z,2023,0,Vsetin,Kladno,3,4,0
+extraliga_363278,2024-04-24T16:00Z,2023,0,Pardubice,Trinec,3,0,0
+extraliga_363376,2024-04-26T15:00Z,2023,0,Trinec,Pardubice,4,1,0
+extraliga_363424,2024-04-28T17:00Z,2023,0,Pardubice,Trinec,1,1,0
+extraliga_363586,2024-09-17T16:30Z,2024,0,Sparta Prague,Trinec,3,0,0
+extraliga_363582,2024-09-18T15:30Z,2024,0,Ceske Budejovice,Karlovy Vary,3,0,0
+extraliga_363583,2024-09-18T15:30Z,2024,0,Litvinov,Mountfield HK,4,2,0
+extraliga_363584,2024-09-18T15:30Z,2024,0,Mlada Boleslav,Olomouc,4,2,0
+extraliga_363587,2024-09-18T15:30Z,2024,0,Vitkovice,Plzen,2,2,0
+extraliga_363585,2024-09-18T16:00Z,2024,0,Pardubice,Kladno,5,1,0
+extraliga_363588,2024-09-18T16:00Z,2024,0,Kometa Brno,Liberec,1,2,0
+extraliga_363590,2024-09-20T15:00Z,2024,0,Trinec,Ceske Budejovice,4,0,0
+extraliga_363591,2024-09-20T15:30Z,2024,0,Plzen,Litvinov,1,3,0
+extraliga_363589,2024-09-20T16:00Z,2024,0,Olomouc,Pardubice,2,4,0
+extraliga_363592,2024-09-20T16:00Z,2024,0,Mountfield HK,Kometa Brno,1,2,0
+extraliga_363593,2024-09-20T16:00Z,2024,0,Liberec,Vitkovice,2,4,0
+extraliga_363594,2024-09-20T16:00Z,2024,0,Kladno,Sparta Prague,4,2,0
+extraliga_363595,2024-09-20T16:00Z,2024,0,Karlovy Vary,Mlada Boleslav,0,2,0
+extraliga_363599,2024-09-22T14:00Z,2024,0,Mlada Boleslav,Plzen,1,1,0
+extraliga_363600,2024-09-22T14:00Z,2024,0,Mountfield HK,Liberec,3,3,0
+extraliga_363601,2024-09-22T14:00Z,2024,0,Sparta Prague,Karlovy Vary,1,2,0
+extraliga_363602,2024-09-22T14:00Z,2024,0,Vitkovice,Olomouc,7,1,0
+extraliga_363596,2024-09-22T15:30Z,2024,0,Ceske Budejovice,Pardubice,6,1,0
+extraliga_363598,2024-09-22T15:30Z,2024,0,Litvinov,Kladno,3,2,0
+extraliga_363597,2024-09-22T16:00Z,2024,0,Trinec,Kometa Brno,1,1,0
+extraliga_363604,2024-09-24T15:30Z,2024,0,Vitkovice,Trinec,1,1,0
+extraliga_363605,2024-09-24T15:30Z,2024,0,Plzen,Sparta Prague,0,5,0
+extraliga_363608,2024-09-24T15:30Z,2024,0,Karlovy Vary,Mountfield HK,6,3,0
+extraliga_363603,2024-09-24T16:00Z,2024,0,Pardubice,Mlada Boleslav,5,2,0
+extraliga_363606,2024-09-24T16:00Z,2024,0,Kladno,Kometa Brno,4,1,0
+extraliga_363607,2024-09-24T16:00Z,2024,0,Olomouc,Ceske Budejovice,3,1,0
+extraliga_363609,2024-09-24T16:00Z,2024,0,Liberec,Litvinov,2,4,0
+extraliga_363611,2024-09-26T15:30Z,2024,0,Ceske Budejovice,Sparta Prague,0,4,0
+extraliga_363612,2024-09-27T15:30Z,2024,0,Vitkovice,Pardubice,3,4,0
+extraliga_363613,2024-09-27T15:30Z,2024,0,Mlada Boleslav,Trinec,3,3,0
+extraliga_363614,2024-09-27T15:30Z,2024,0,Litvinov,Karlovy Vary,5,2,0
+extraliga_363610,2024-09-27T16:00Z,2024,0,Mountfield HK,Kladno,4,2,0
+extraliga_363615,2024-09-27T16:00Z,2024,0,Liberec,Plzen,1,1,0
+extraliga_363616,2024-09-27T16:00Z,2024,0,Kometa Brno,Olomouc,1,4,0
+extraliga_363618,2024-09-29T13:30Z,2024,0,Karlovy Vary,Vitkovice,2,4,0
+extraliga_363619,2024-09-29T14:00Z,2024,0,Liberec,Kladno,2,2,0
+extraliga_363617,2024-09-29T15:00Z,2024,0,Ceske Budejovice,Mlada Boleslav,2,3,0
+extraliga_363620,2024-09-29T15:00Z,2024,0,Olomouc,Litvinov,1,2,0
+extraliga_363623,2024-09-29T15:00Z,2024,0,Trinec,Mountfield HK,4,1,0
+extraliga_363621,2024-09-29T16:00Z,2024,0,Pardubice,Sparta Prague,0,4,0
+extraliga_363622,2024-09-29T16:00Z,2024,0,Plzen,Kometa Brno,3,1,0
+extraliga_363627,2024-10-01T15:30Z,2024,0,Litvinov,Ceske Budejovice,5,1,0
+extraliga_363624,2024-10-01T16:00Z,2024,0,Mountfield HK,Plzen,4,0,0
+extraliga_363628,2024-10-01T16:00Z,2024,0,Kladno,Trinec,3,2,0
+extraliga_363629,2024-10-01T16:00Z,2024,0,Kometa Brno,Pardubice,2,2,0
+extraliga_363630,2024-10-01T16:00Z,2024,0,Liberec,Karlovy Vary,4,2,0
+extraliga_363626,2024-10-02T16:00Z,2024,0,Olomouc,Sparta Prague,3,2,0
+extraliga_363633,2024-10-04T15:00Z,2024,0,Trinec,Liberec,6,3,0
+extraliga_363635,2024-10-04T15:30Z,2024,0,Mlada Boleslav,Sparta Prague,1,2,0
+extraliga_363636,2024-10-04T15:30Z,2024,0,Karlovy Vary,Kometa Brno,4,4,0
+extraliga_363631,2024-10-04T16:00Z,2024,0,Pardubice,Litvinov,3,1,0
+extraliga_363634,2024-10-04T16:00Z,2024,0,Olomouc,Mountfield HK,4,1,0
+extraliga_363638,2024-10-06T14:00Z,2024,0,Kladno,Karlovy Vary,2,2,0
+extraliga_363644,2024-10-06T15:00Z,2024,0,Trinec,Plzen,3,3,0
+extraliga_363641,2024-10-06T15:30Z,2024,0,Mlada Boleslav,Litvinov,2,2,0
+extraliga_363642,2024-10-06T15:30Z,2024,0,Mountfield HK,Pardubice,1,1,0
+extraliga_363632,2024-10-09T15:30Z,2024,0,Plzen,Kladno,3,4,0
+extraliga_363639,2024-10-09T16:00Z,2024,0,Kometa Brno,Ceske Budejovice,3,0,0
+extraliga_363649,2024-10-10T15:30Z,2024,0,Mlada Boleslav,Mountfield HK,2,1,0
+extraliga_363646,2024-10-11T15:30Z,2024,0,Litvinov,Sparta Prague,2,4,0
+extraliga_363650,2024-10-11T15:30Z,2024,0,Karlovy Vary,Plzen,6,1,0
+extraliga_363651,2024-10-11T15:30Z,2024,0,Ceske Budejovice,Kladno,3,0,0
+extraliga_363645,2024-10-11T16:00Z,2024,0,Pardubice,Liberec,1,1,0
+extraliga_363647,2024-10-11T16:00Z,2024,0,Kometa Brno,Vitkovice,5,3,0
+extraliga_363648,2024-10-11T16:00Z,2024,0,Olomouc,Trinec,2,0,0
+extraliga_363652,2024-10-13T14:00Z,2024,0,Kladno,Olomouc,7,3,0
+extraliga_363654,2024-10-13T14:00Z,2024,0,Sparta Prague,Liberec,2,2,0
+extraliga_363656,2024-10-13T14:00Z,2024,0,Mountfield HK,Ceske Budejovice,4,1,0
+extraliga_363658,2024-10-13T15:00Z,2024,0,Trinec,Karlovy Vary,2,4,0
+extraliga_363655,2024-10-13T15:30Z,2024,0,Litvinov,Vitkovice,1,4,0
+extraliga_363657,2024-10-13T15:30Z,2024,0,Pardubice,Plzen,5,0,0
+extraliga_363653,2024-10-14T16:30Z,2024,0,Kometa Brno,Mlada Boleslav,4,2,0
+extraliga_363659,2024-10-16T15:30Z,2024,0,Vitkovice,Kladno,5,5,0
+extraliga_363698,2024-10-16T16:00Z,2024,0,Mountfield HK,Karlovy Vary,5,1,0
+extraliga_363663,2024-10-18T15:30Z,2024,0,Mlada Boleslav,Liberec,4,3,0
+extraliga_363664,2024-10-18T15:30Z,2024,0,Litvinov,Kometa Brno,5,2,0
+extraliga_363665,2024-10-18T15:30Z,2024,0,Ceske Budejovice,Plzen,2,1,0
+extraliga_363660,2024-10-18T16:00Z,2024,0,Mountfield HK,Sparta Prague,5,0,0
+extraliga_363661,2024-10-18T16:00Z,2024,0,Pardubice,Trinec,4,2,0
+extraliga_363662,2024-10-18T16:00Z,2024,0,Olomouc,Karlovy Vary,3,1,0
+extraliga_363667,2024-10-20T14:00Z,2024,0,Kladno,Mlada Boleslav,2,4,0
+extraliga_363669,2024-10-20T14:00Z,2024,0,Liberec,Ceske Budejovice,2,1,0
+extraliga_363670,2024-10-20T14:00Z,2024,0,Mountfield HK,Vitkovice,9,7,0
+extraliga_363671,2024-10-20T14:30Z,2024,0,Plzen,Olomouc,3,2,0
+extraliga_363666,2024-10-20T15:00Z,2024,0,Karlovy Vary,Pardubice,1,1,0
+extraliga_363668,2024-10-20T15:00Z,2024,0,Kometa Brno,Sparta Prague,1,1,0
+extraliga_363672,2024-10-20T15:00Z,2024,0,Trinec,Litvinov,2,2,0
+extraliga_363789,2024-10-22T16:00Z,2024,0,Pardubice,Mlada Boleslav,2,0,0
+extraliga_363643,2024-10-22T16:30Z,2024,0,Sparta Prague,Vitkovice,5,1,0
+extraliga_363678,2024-10-25T10:00Z,2024,0,Karlovy Vary,Ceske Budejovice,1,1,0
+extraliga_363674,2024-10-25T15:00Z,2024,0,Trinec,Sparta Prague,2,2,0
+extraliga_363673,2024-10-25T16:00Z,2024,0,Olomouc,Mlada Boleslav,3,1,0
+extraliga_363675,2024-10-25T16:00Z,2024,0,Vitkovice,Plzen,4,2,0
+extraliga_363676,2024-10-25T16:00Z,2024,0,Kladno,Pardubice,1,4,0
+extraliga_363677,2024-10-25T16:00Z,2024,0,Mountfield HK,Litvinov,2,0,0
+extraliga_363679,2024-10-25T16:00Z,2024,0,Liberec,Kometa Brno,3,4,0
+extraliga_363685,2024-10-27T14:00Z,2024,0,Sparta Prague,Kladno,5,2,0
+extraliga_363683,2024-10-27T15:00Z,2024,0,Mlada Boleslav,Karlovy Vary,4,4,0
+extraliga_363686,2024-10-27T15:00Z,2024,0,Vitkovice,Liberec,7,0,0
+extraliga_363680,2024-10-27T16:00Z,2024,0,Ceske Budejovice,Trinec,5,2,0
+extraliga_363681,2024-10-27T16:00Z,2024,0,Kometa Brno,Mountfield HK,2,3,0
+extraliga_363684,2024-10-27T16:00Z,2024,0,Pardubice,Olomouc,2,1,0
+extraliga_363682,2024-10-27T16:30Z,2024,0,Litvinov,Plzen,6,0,0
+extraliga_363687,2024-10-29T16:30Z,2024,0,Ceske Budejovice,Pardubice,2,2,0
+extraliga_363689,2024-10-29T16:30Z,2024,0,Plzen,Mlada Boleslav,1,3,0
+extraliga_363693,2024-10-29T16:30Z,2024,0,Karlovy Vary,Sparta Prague,6,3,0
+extraliga_363688,2024-10-29T17:00Z,2024,0,Kometa Brno,Trinec,3,2,0
+extraliga_363690,2024-10-29T17:00Z,2024,0,Olomouc,Vitkovice,5,3,0
+extraliga_363691,2024-10-29T17:00Z,2024,0,Liberec,Mountfield HK,3,4,0
+extraliga_363692,2024-10-29T17:00Z,2024,0,Kladno,Litvinov,3,4,0
+extraliga_363700,2024-11-01T16:00Z,2024,0,Trinec,Vitkovice,2,1,0
+extraliga_363694,2024-11-01T16:30Z,2024,0,Ceske Budejovice,Olomouc,2,1,0
+extraliga_363696,2024-11-01T16:30Z,2024,0,Litvinov,Liberec,4,1,0
+extraliga_363697,2024-11-01T16:30Z,2024,0,Mlada Boleslav,Pardubice,5,1,0
+extraliga_363695,2024-11-01T17:00Z,2024,0,Kometa Brno,Kladno,3,2,0
+extraliga_363699,2024-11-01T17:30Z,2024,0,Sparta Prague,Plzen,1,1,0
+extraliga_363702,2024-11-03T14:00Z,2024,0,Trinec,Mlada Boleslav,2,3,0
+extraliga_363704,2024-11-03T15:00Z,2024,0,Sparta Prague,Ceske Budejovice,8,1,0
+extraliga_363706,2024-11-03T15:00Z,2024,0,Karlovy Vary,Litvinov,2,0,0
+extraliga_363707,2024-11-03T15:00Z,2024,0,Kladno,Mountfield HK,4,4,0
+extraliga_363703,2024-11-03T15:30Z,2024,0,Plzen,Liberec,1,0,0
+extraliga_363705,2024-11-03T16:00Z,2024,0,Olomouc,Kometa Brno,2,2,0
+extraliga_363701,2024-11-03T16:30Z,2024,0,Pardubice,Vitkovice,6,2,0
+extraliga_363625,2024-11-13T16:30Z,2024,0,Vitkovice,Mlada Boleslav,0,2,0
+extraliga_363725,2024-11-13T17:00Z,2024,0,Kladno,Plzen,3,4,0
+extraliga_363710,2024-11-15T16:30Z,2024,0,Litvinov,Olomouc,4,0,0
+extraliga_363711,2024-11-15T16:30Z,2024,0,Mlada Boleslav,Ceske Budejovice,2,4,0
+extraliga_363714,2024-11-15T16:30Z,2024,0,Vitkovice,Karlovy Vary,2,5,0
+extraliga_363708,2024-11-15T17:00Z,2024,0,Kometa Brno,Plzen,2,2,0
+extraliga_363709,2024-11-15T17:00Z,2024,0,Kladno,Liberec,1,4,0
+extraliga_363712,2024-11-15T17:00Z,2024,0,Mountfield HK,Trinec,2,1,0
+extraliga_363713,2024-11-15T17:30Z,2024,0,Sparta Prague,Pardubice,8,1,0
+extraliga_363719,2024-11-16T15:00Z,2024,0,Sparta Prague,Olomouc,3,2,0
+extraliga_363716,2024-11-17T14:00Z,2024,0,Trinec,Kladno,1,4,0
+extraliga_363720,2024-11-17T15:00Z,2024,0,Mlada Boleslav,Vitkovice,2,3,0
+extraliga_363721,2024-11-17T15:00Z,2024,0,Karlovy Vary,Liberec,3,3,0
+extraliga_363717,2024-11-17T15:30Z,2024,0,Plzen,Mountfield HK,1,1,0
+extraliga_363715,2024-11-17T16:00Z,2024,0,Pardubice,Kometa Brno,3,2,0
+extraliga_363718,2024-11-20T16:30Z,2024,0,Ceske Budejovice,Litvinov,3,4,0
+extraliga_363727,2024-11-20T17:00Z,2024,0,Kometa Brno,Karlovy Vary,4,2,0
+extraliga_363722,2024-11-21T17:00Z,2024,0,Mountfield HK,Olomouc,2,1,0
+extraliga_363723,2024-11-22T16:30Z,2024,0,Vitkovice,Ceske Budejovice,1,5,0
+extraliga_363724,2024-11-22T16:30Z,2024,0,Mlada Boleslav,Sparta Prague,2,2,0
+extraliga_363726,2024-11-22T16:30Z,2024,0,Litvinov,Pardubice,4,1,0
+extraliga_363728,2024-11-22T17:00Z,2024,0,Liberec,Trinec,1,1,0
+extraliga_363734,2024-11-24T13:00Z,2024,0,Plzen,Trinec,3,3,0
+extraliga_363730,2024-11-24T15:00Z,2024,0,Karlovy Vary,Kladno,4,3,0
+extraliga_363731,2024-11-24T15:00Z,2024,0,Mlada Boleslav,Litvinov,4,1,0
+extraliga_363732,2024-11-24T15:00Z,2024,0,Olomouc,Liberec,5,3,0
+extraliga_363733,2024-11-24T16:00Z,2024,0,Pardubice,Mountfield HK,7,1,0
+extraliga_363729,2024-11-24T16:30Z,2024,0,Ceske Budejovice,Kometa Brno,5,5,0
+extraliga_363735,2024-11-24T16:30Z,2024,0,Vitkovice,Sparta Prague,4,1,0
+extraliga_363855,2024-11-26T16:00Z,2024,0,Trinec,Sparta Prague,2,1,0
+extraliga_363793,2024-11-26T17:00Z,2024,0,Pardubice,Vitkovice,6,1,0
+extraliga_363640,2024-11-27T17:00Z,2024,0,Liberec,Olomouc,5,2,0
+extraliga_363737,2024-11-29T16:00Z,2024,0,Trinec,Olomouc,3,2,0
+extraliga_363741,2024-11-29T16:00Z,2024,0,Liberec,Pardubice,1,4,0
+extraliga_363738,2024-11-29T16:30Z,2024,0,Plzen,Karlovy Vary,0,3,0
+extraliga_363740,2024-11-29T16:30Z,2024,0,Litvinov,Sparta Prague,0,4,0
+extraliga_363742,2024-11-29T16:30Z,2024,0,Vitkovice,Kometa Brno,5,2,0
+extraliga_363736,2024-11-29T17:00Z,2024,0,Mountfield HK,Mlada Boleslav,2,1,0
+extraliga_363739,2024-11-29T17:00Z,2024,0,Kladno,Ceske Budejovice,1,4,0
+extraliga_363745,2024-12-01T14:30Z,2024,0,Plzen,Pardubice,5,2,0
+extraliga_363743,2024-12-01T15:00Z,2024,0,Litvinov,Vitkovice,3,2,0
+extraliga_363744,2024-12-01T15:00Z,2024,0,Liberec,Sparta Prague,3,1,0
+extraliga_363747,2024-12-01T15:00Z,2024,0,Mlada Boleslav,Kometa Brno,4,2,0
+extraliga_363748,2024-12-01T15:00Z,2024,0,Karlovy Vary,Trinec,2,2,0
+extraliga_363746,2024-12-01T16:00Z,2024,0,Olomouc,Kladno,4,1,0
+extraliga_363749,2024-12-01T16:00Z,2024,0,Ceske Budejovice,Mountfield HK,4,2,0
+extraliga_363637,2024-12-04T16:30Z,2024,0,Ceske Budejovice,Vitkovice,3,4,0
+extraliga_363754,2024-12-05T17:30Z,2024,0,Sparta Prague,Mountfield HK,3,0,0
+extraliga_363756,2024-12-06T16:00Z,2024,0,Trinec,Pardubice,3,5,0
+extraliga_363755,2024-12-06T16:30Z,2024,0,Plzen,Ceske Budejovice,0,1,0
+extraliga_363750,2024-12-06T17:00Z,2024,0,Karlovy Vary,Olomouc,4,1,0
+extraliga_363751,2024-12-06T17:00Z,2024,0,Kladno,Vitkovice,1,4,0
+extraliga_363752,2024-12-06T17:00Z,2024,0,Kometa Brno,Litvinov,0,3,0
+extraliga_363753,2024-12-06T17:00Z,2024,0,Liberec,Mlada Boleslav,2,2,0
+extraliga_363759,2024-12-08T14:00Z,2024,0,Trinec,Litvinov,0,1,0
+extraliga_363762,2024-12-08T14:00Z,2024,0,Pardubice,Karlovy Vary,5,1,0
+extraliga_363757,2024-12-08T15:00Z,2024,0,Sparta Prague,Kometa Brno,3,4,0
+extraliga_363760,2024-12-08T15:00Z,2024,0,Mlada Boleslav,Kladno,2,6,0
+extraliga_363763,2024-12-08T15:00Z,2024,0,Vitkovice,Mountfield HK,1,4,0
+extraliga_363758,2024-12-08T16:00Z,2024,0,Ceske Budejovice,Liberec,1,1,0
+extraliga_363761,2024-12-08T17:00Z,2024,0,Olomouc,Plzen,3,4,0
+extraliga_363768,2024-12-19T16:30Z,2024,0,Mlada Boleslav,Olomouc,3,3,0
+extraliga_363765,2024-12-20T16:30Z,2024,0,Plzen,Vitkovice,2,0,0
+extraliga_363767,2024-12-20T16:30Z,2024,0,Ceske Budejovice,Karlovy Vary,4,4,0
+extraliga_363769,2024-12-20T16:30Z,2024,0,Litvinov,Mountfield HK,4,5,0
+extraliga_363764,2024-12-20T17:00Z,2024,0,Pardubice,Kladno,3,3,0
+extraliga_363770,2024-12-20T17:00Z,2024,0,Kometa Brno,Liberec,4,2,0
+extraliga_363766,2024-12-20T17:30Z,2024,0,Sparta Prague,Trinec,2,3,0
+extraliga_363776,2024-12-22T14:00Z,2024,0,Trinec,Ceske Budejovice,3,1,0
+extraliga_363771,2024-12-22T15:00Z,2024,0,Kladno,Sparta Prague,2,4,0
+extraliga_363772,2024-12-22T15:00Z,2024,0,Liberec,Vitkovice,1,3,0
+extraliga_363773,2024-12-22T15:00Z,2024,0,Mountfield HK,Kometa Brno,4,2,0
+extraliga_363777,2024-12-22T15:00Z,2024,0,Karlovy Vary,Mlada Boleslav,3,2,0
+extraliga_363775,2024-12-22T15:30Z,2024,0,Plzen,Litvinov,1,2,0
+extraliga_363774,2024-12-22T16:00Z,2024,0,Olomouc,Pardubice,0,2,0
+extraliga_363782,2024-12-26T14:30Z,2024,0,Litvinov,Kladno,1,0,0
+extraliga_363778,2024-12-26T15:00Z,2024,0,Sparta Prague,Karlovy Vary,1,1,0
+extraliga_363779,2024-12-26T15:00Z,2024,0,Vitkovice,Olomouc,2,2,0
+extraliga_363780,2024-12-26T15:00Z,2024,0,Mountfield HK,Liberec,0,2,0
+extraliga_363781,2024-12-26T15:00Z,2024,0,Mlada Boleslav,Plzen,2,3,0
+extraliga_363783,2024-12-26T17:00Z,2024,0,Kometa Brno,Trinec,4,2,0
+extraliga_363790,2024-12-28T13:30Z,2024,0,Plzen,Sparta Prague,1,3,0
+extraliga_363785,2024-12-28T15:00Z,2024,0,Karlovy Vary,Mountfield HK,1,3,0
+extraliga_363787,2024-12-28T15:00Z,2024,0,Liberec,Litvinov,0,3,0
+extraliga_363786,2024-12-28T15:30Z,2024,0,Kladno,Kometa Brno,1,1,0
+extraliga_363788,2024-12-28T16:00Z,2024,0,Olomouc,Ceske Budejovice,1,1,0
+extraliga_363791,2024-12-28T16:00Z,2024,0,Trinec,Vitkovice,4,0,0
+extraliga_363796,2024-12-30T15:00Z,2024,0,Mlada Boleslav,Trinec,2,2,0
+extraliga_363798,2024-12-30T16:30Z,2024,0,Litvinov,Karlovy Vary,4,1,0
+extraliga_363792,2024-12-30T17:00Z,2024,0,Mountfield HK,Kladno,2,4,0
+extraliga_363795,2024-12-30T17:00Z,2024,0,Liberec,Plzen,3,3,0
+extraliga_363797,2024-12-30T17:00Z,2024,0,Kometa Brno,Olomouc,5,3,0
+extraliga_363794,2024-12-30T17:30Z,2024,0,Sparta Prague,Ceske Budejovice,7,5,0
+extraliga_363805,2025-01-03T16:00Z,2024,0,Trinec,Mountfield HK,0,0,0
+extraliga_363799,2025-01-03T16:30Z,2024,0,Ceske Budejovice,Mlada Boleslav,3,3,0
+extraliga_363804,2025-01-03T16:30Z,2024,0,Plzen,Kometa Brno,3,1,0
+extraliga_363800,2025-01-03T17:00Z,2024,0,Karlovy Vary,Vitkovice,6,3,0
+extraliga_363801,2025-01-03T17:00Z,2024,0,Kladno,Liberec,3,2,0
+extraliga_363802,2025-01-03T17:00Z,2024,0,Olomouc,Litvinov,3,1,0
+extraliga_363803,2025-01-03T17:30Z,2024,0,Sparta Prague,Pardubice,6,2,0
+extraliga_363809,2025-01-05T14:00Z,2024,0,Trinec,Kladno,1,2,0
+extraliga_363810,2025-01-05T14:30Z,2024,0,Litvinov,Ceske Budejovice,1,3,0
+extraliga_363806,2025-01-05T15:00Z,2024,0,Mountfield HK,Plzen,2,2,0
+extraliga_363807,2025-01-05T15:00Z,2024,0,Vitkovice,Mlada Boleslav,3,4,0
+extraliga_363808,2025-01-05T15:00Z,2024,0,Sparta Prague,Olomouc,4,4,0
+extraliga_363811,2025-01-05T16:00Z,2024,0,Liberec,Karlovy Vary,1,3,0
+extraliga_363812,2025-01-05T16:00Z,2024,0,Kometa Brno,Pardubice,2,2,0
+extraliga_363813,2025-01-07T16:00Z,2024,0,Trinec,Liberec,6,6,0
+extraliga_363815,2025-01-07T16:30Z,2024,0,Plzen,Kladno,2,2,0
+extraliga_363816,2025-01-07T16:30Z,2024,0,Karlovy Vary,Kometa Brno,2,2,0
+extraliga_363819,2025-01-07T16:30Z,2024,0,Ceske Budejovice,Vitkovice,3,2,0
+extraliga_363817,2025-01-07T17:00Z,2024,0,Olomouc,Mountfield HK,6,2,0
+extraliga_363818,2025-01-07T17:30Z,2024,0,Sparta Prague,Mlada Boleslav,1,1,0
+extraliga_363823,2025-01-09T17:00Z,2024,0,Mountfield HK,Pardubice,3,2,0
+extraliga_363825,2025-01-10T16:00Z,2024,0,Trinec,Plzen,5,4,0
+extraliga_363822,2025-01-10T16:30Z,2024,0,Litvinov,Mlada Boleslav,1,2,0
+extraliga_363820,2025-01-10T17:00Z,2024,0,Kladno,Karlovy Vary,0,4,0
+extraliga_363821,2025-01-10T17:00Z,2024,0,Liberec,Olomouc,4,1,0
+extraliga_363826,2025-01-10T17:00Z,2024,0,Kometa Brno,Ceske Budejovice,2,2,0
+extraliga_363824,2025-01-10T17:30Z,2024,0,Sparta Prague,Vitkovice,5,1,0
+extraliga_363832,2025-01-12T13:00Z,2024,0,Sparta Prague,Litvinov,5,3,0
+extraliga_363831,2025-01-12T14:00Z,2024,0,Pardubice,Liberec,2,3,0
+extraliga_363829,2025-01-12T15:00Z,2024,0,Mlada Boleslav,Mountfield HK,1,1,0
+extraliga_363833,2025-01-12T15:00Z,2024,0,Vitkovice,Kometa Brno,2,5,0
+extraliga_363827,2025-01-12T16:00Z,2024,0,Ceske Budejovice,Kladno,3,6,0
+extraliga_363830,2025-01-12T16:00Z,2024,0,Olomouc,Trinec,2,2,0
+extraliga_363814,2025-01-16T17:00Z,2024,0,Pardubice,Litvinov,3,1,0
+extraliga_363838,2025-01-16T17:00Z,2024,0,Kometa Brno,Mlada Boleslav,4,0,0
+extraliga_363836,2025-01-17T16:30Z,2024,0,Plzen,Pardubice,2,1,0
+extraliga_363837,2025-01-17T16:30Z,2024,0,Vitkovice,Litvinov,2,3,0
+extraliga_363834,2025-01-17T17:00Z,2024,0,Mountfield HK,Ceske Budejovice,5,1,0
+extraliga_363839,2025-01-17T17:00Z,2024,0,Kladno,Olomouc,7,3,0
+extraliga_363840,2025-01-17T17:00Z,2024,0,Liberec,Sparta Prague,4,1,0
+extraliga_363846,2025-01-19T14:30Z,2024,0,Litvinov,Kometa Brno,3,2,0
+extraliga_363842,2025-01-19T15:00Z,2024,0,Sparta Prague,Mountfield HK,5,4,0
+extraliga_363843,2025-01-19T15:00Z,2024,0,Vitkovice,Kladno,2,5,0
+extraliga_363845,2025-01-19T15:30Z,2024,0,Mlada Boleslav,Liberec,2,2,0
+extraliga_363841,2025-01-19T16:00Z,2024,0,Pardubice,Trinec,1,0,0
+extraliga_363844,2025-01-19T16:00Z,2024,0,Olomouc,Karlovy Vary,2,0,0
+extraliga_363847,2025-01-19T16:00Z,2024,0,Ceske Budejovice,Plzen,4,4,0
+extraliga_363828,2025-01-22T17:00Z,2024,0,Karlovy Vary,Plzen,2,5,0
+extraliga_363853,2025-01-24T16:30Z,2024,0,Plzen,Olomouc,1,1,0
+extraliga_363854,2025-01-24T16:30Z,2024,0,Litvinov,Trinec,1,3,0
+extraliga_363848,2025-01-24T17:00Z,2024,0,Karlovy Vary,Pardubice,4,4,0
+extraliga_363849,2025-01-24T17:00Z,2024,0,Kladno,Mlada Boleslav,1,5,0
+extraliga_363850,2025-01-24T17:00Z,2024,0,Kometa Brno,Sparta Prague,1,4,0
+extraliga_363851,2025-01-24T17:00Z,2024,0,Liberec,Ceske Budejovice,7,4,0
+extraliga_363852,2025-01-24T17:00Z,2024,0,Mountfield HK,Vitkovice,3,2,0
+extraliga_363858,2025-01-26T15:00Z,2024,0,Liberec,Kometa Brno,5,3,0
+extraliga_363859,2025-01-26T15:00Z,2024,0,Mountfield HK,Litvinov,2,2,0
+extraliga_363861,2025-01-26T15:00Z,2024,0,Karlovy Vary,Ceske Budejovice,1,1,0
+extraliga_363856,2025-01-26T15:30Z,2024,0,Plzen,Vitkovice,4,1,0
+extraliga_363857,2025-01-26T16:00Z,2024,0,Olomouc,Mlada Boleslav,2,2,0
+extraliga_363860,2025-01-26T17:00Z,2024,0,Kladno,Pardubice,2,5,0
+extraliga_363863,2025-01-28T16:30Z,2024,0,Litvinov,Plzen,2,5,0
+extraliga_363864,2025-01-28T16:30Z,2024,0,Mlada Boleslav,Karlovy Vary,2,2,0
+extraliga_363867,2025-01-28T16:30Z,2024,0,Vitkovice,Liberec,4,3,0
+extraliga_363868,2025-01-28T16:30Z,2024,0,Ceske Budejovice,Trinec,2,2,0
+extraliga_363866,2025-01-28T17:30Z,2024,0,Sparta Prague,Kladno,5,2,0
+extraliga_363865,2025-01-29T17:00Z,2024,0,Pardubice,Olomouc,1,0,0
+extraliga_363874,2025-01-30T17:00Z,2024,0,Liberec,Mountfield HK,4,1,0
+extraliga_363870,2025-01-31T16:00Z,2024,0,Trinec,Kometa Brno,1,3,0
+extraliga_363871,2025-01-31T16:30Z,2024,0,Plzen,Mlada Boleslav,0,5,0
+extraliga_363869,2025-01-31T17:00Z,2024,0,Pardubice,Ceske Budejovice,5,1,0
+extraliga_363872,2025-01-31T17:00Z,2024,0,Karlovy Vary,Sparta Prague,0,6,0
+extraliga_363873,2025-01-31T17:00Z,2024,0,Olomouc,Vitkovice,1,2,0
+extraliga_363875,2025-01-31T17:00Z,2024,0,Kladno,Litvinov,3,0,0
+extraliga_363882,2025-02-02T14:30Z,2024,0,Litvinov,Liberec,4,3,0
+extraliga_363876,2025-02-02T15:00Z,2024,0,Vitkovice,Trinec,4,1,0
+extraliga_363877,2025-02-02T15:00Z,2024,0,Sparta Prague,Plzen,4,0,0
+extraliga_363878,2025-02-02T15:00Z,2024,0,Mountfield HK,Karlovy Vary,2,6,0
+extraliga_363879,2025-02-02T15:00Z,2024,0,Mlada Boleslav,Pardubice,4,4,0
+extraliga_363880,2025-02-02T16:00Z,2024,0,Kometa Brno,Kladno,2,3,0
+extraliga_363881,2025-02-02T16:00Z,2024,0,Ceske Budejovice,Olomouc,1,1,0
+extraliga_363835,2025-02-09T14:00Z,2024,0,Trinec,Karlovy Vary,2,1,0
+extraliga_363885,2025-02-12T16:00Z,2024,0,Trinec,Mlada Boleslav,5,1,0
+extraliga_363883,2025-02-12T16:30Z,2024,0,Vitkovice,Pardubice,3,1,0
+extraliga_363884,2025-02-12T16:30Z,2024,0,Plzen,Liberec,2,2,0
+extraliga_363888,2025-02-12T16:30Z,2024,0,Karlovy Vary,Litvinov,6,4,0
+extraliga_363889,2025-02-12T16:30Z,2024,0,Ceske Budejovice,Sparta Prague,1,5,0
+extraliga_363886,2025-02-12T17:00Z,2024,0,Olomouc,Kometa Brno,3,6,0
+extraliga_363887,2025-02-12T17:00Z,2024,0,Kladno,Mountfield HK,1,2,0
+extraliga_363892,2025-02-14T16:30Z,2024,0,Litvinov,Olomouc,0,2,0
+extraliga_363893,2025-02-14T16:30Z,2024,0,Mlada Boleslav,Ceske Budejovice,3,5,0
+extraliga_363896,2025-02-14T16:30Z,2024,0,Vitkovice,Karlovy Vary,1,3,0
+extraliga_363890,2025-02-14T17:00Z,2024,0,Kometa Brno,Plzen,3,3,0
+extraliga_363891,2025-02-14T17:00Z,2024,0,Liberec,Kladno,3,5,0
+extraliga_363894,2025-02-14T17:00Z,2024,0,Mountfield HK,Trinec,1,2,0
+extraliga_363895,2025-02-14T17:00Z,2024,0,Pardubice,Sparta Prague,3,5,0
+extraliga_363897,2025-02-16T15:00Z,2024,0,Kladno,Trinec,1,2,0
+extraliga_363902,2025-02-16T15:00Z,2024,0,Mlada Boleslav,Vitkovice,1,3,0
+extraliga_363903,2025-02-16T15:00Z,2024,0,Karlovy Vary,Liberec,3,3,0
+extraliga_363899,2025-02-16T15:30Z,2024,0,Plzen,Mountfield HK,2,2,0
+extraliga_363898,2025-02-16T16:00Z,2024,0,Pardubice,Kometa Brno,3,4,0
+extraliga_363900,2025-02-16T16:00Z,2024,0,Olomouc,Sparta Prague,2,3,0
+extraliga_363901,2025-02-16T16:00Z,2024,0,Ceske Budejovice,Litvinov,5,1,0
+extraliga_363909,2025-02-17T17:00Z,2024,0,Liberec,Trinec,3,1,0
+extraliga_363784,2025-02-19T17:00Z,2024,0,Pardubice,Ceske Budejovice,2,3,0
+extraliga_363862,2025-02-19T17:00Z,2024,0,Kometa Brno,Mountfield HK,3,0,0
+extraliga_363905,2025-02-20T17:00Z,2024,0,Kladno,Plzen,1,4,0
+extraliga_363907,2025-02-21T16:30Z,2024,0,Vitkovice,Ceske Budejovice,1,3,0
+extraliga_363908,2025-02-21T16:30Z,2024,0,Litvinov,Pardubice,2,5,0
+extraliga_363904,2025-02-21T17:00Z,2024,0,Mountfield HK,Olomouc,3,2,0
+extraliga_363910,2025-02-21T17:00Z,2024,0,Kometa Brno,Karlovy Vary,3,2,0
+extraliga_363906,2025-02-21T17:30Z,2024,0,Sparta Prague,Mlada Boleslav,4,4,0
+extraliga_363915,2025-02-23T13:00Z,2024,0,Plzen,Trinec,1,1,0
+extraliga_363912,2025-02-23T14:30Z,2024,0,Litvinov,Mlada Boleslav,1,0,0
+extraliga_363911,2025-02-23T15:00Z,2024,0,Karlovy Vary,Kladno,2,1,0
+extraliga_363916,2025-02-23T15:00Z,2024,0,Vitkovice,Sparta Prague,6,2,0
+extraliga_363913,2025-02-23T16:00Z,2024,0,Olomouc,Liberec,1,6,0
+extraliga_363917,2025-02-23T16:00Z,2024,0,Ceske Budejovice,Kometa Brno,5,5,0
+extraliga_363914,2025-02-23T16:30Z,2024,0,Pardubice,Mountfield HK,1,2,0
+extraliga_363919,2025-02-25T16:00Z,2024,0,Trinec,Olomouc,6,3,0
+extraliga_363920,2025-02-25T16:30Z,2024,0,Plzen,Karlovy Vary,2,2,0
+extraliga_363918,2025-02-25T17:00Z,2024,0,Mountfield HK,Mlada Boleslav,2,1,0
+extraliga_363922,2025-02-25T17:00Z,2024,0,Kometa Brno,Vitkovice,5,1,0
+extraliga_363923,2025-02-25T17:00Z,2024,0,Kladno,Ceske Budejovice,2,3,0
+extraliga_363924,2025-02-25T17:00Z,2024,0,Liberec,Pardubice,3,2,0
+extraliga_363921,2025-02-25T17:30Z,2024,0,Sparta Prague,Litvinov,5,1,0
+extraliga_363929,2025-02-27T17:00Z,2024,0,Pardubice,Plzen,0,2,0
+extraliga_363925,2025-02-28T16:30Z,2024,0,Ceske Budejovice,Mountfield HK,1,3,0
+extraliga_363927,2025-02-28T16:30Z,2024,0,Mlada Boleslav,Kometa Brno,3,0,0
+extraliga_363931,2025-02-28T16:30Z,2024,0,Vitkovice,Litvinov,2,2,0
+extraliga_363926,2025-02-28T17:00Z,2024,0,Karlovy Vary,Trinec,2,0,0
+extraliga_363928,2025-02-28T17:00Z,2024,0,Olomouc,Kladno,2,4,0
+extraliga_363930,2025-02-28T17:30Z,2024,0,Sparta Prague,Liberec,1,0,0
+extraliga_363932,2025-03-02T15:30Z,2024,0,Mountfield HK,Sparta Prague,4,1,0
+extraliga_363933,2025-03-02T15:30Z,2024,0,Trinec,Pardubice,3,0,0
+extraliga_363934,2025-03-02T15:30Z,2024,0,Plzen,Ceske Budejovice,1,1,0
+extraliga_363935,2025-03-02T15:30Z,2024,0,Kladno,Vitkovice,0,5,0
+extraliga_363936,2025-03-02T15:30Z,2024,0,Liberec,Mlada Boleslav,4,3,0
+extraliga_363937,2025-03-02T15:30Z,2024,0,Kometa Brno,Litvinov,4,1,0
+extraliga_363938,2025-03-02T15:30Z,2024,0,Karlovy Vary,Olomouc,4,1,0
+extraliga_363939,2025-03-04T17:00Z,2024,0,Ceske Budejovice,Liberec,5,2,0
+extraliga_363940,2025-03-04T17:00Z,2024,0,Litvinov,Trinec,1,3,0
+extraliga_363941,2025-03-04T17:00Z,2024,0,Mlada Boleslav,Kladno,5,8,0
+extraliga_363942,2025-03-04T17:00Z,2024,0,Olomouc,Plzen,2,5,0
+extraliga_363943,2025-03-04T17:00Z,2024,0,Pardubice,Karlovy Vary,4,0,0
+extraliga_363944,2025-03-04T17:00Z,2024,0,Sparta Prague,Kometa Brno,1,1,0
+extraliga_363945,2025-03-04T17:00Z,2024,0,Vitkovice,Mountfield HK,2,4,0
+extraliga_392111,2025-03-07T16:00Z,2024,0,Karlovy Vary,Vitkovice,3,3,0
+extraliga_392110,2025-03-07T16:30Z,2024,0,Plzen,Mlada Boleslav,3,5,0
+extraliga_392113,2025-03-07T16:30Z,2024,0,Ceske Budejovice,Liberec,4,2,0
+extraliga_392112,2025-03-07T17:00Z,2024,0,Litvinov,Trinec,1,1,0
+extraliga_392114,2025-03-08T15:00Z,2024,0,Ceske Budejovice,Liberec,0,1,0
+extraliga_392117,2025-03-08T15:30Z,2024,0,Plzen,Mlada Boleslav,2,3,0
+extraliga_392116,2025-03-08T16:00Z,2024,0,Litvinov,Trinec,2,4,0
+extraliga_392115,2025-03-08T17:00Z,2024,0,Karlovy Vary,Vitkovice,2,5,0
+extraliga_392120,2025-03-10T16:00Z,2024,0,Trinec,Litvinov,3,2,0
+extraliga_392119,2025-03-10T16:30Z,2024,0,Mlada Boleslav,Plzen,0,3,0
+extraliga_392121,2025-03-10T16:30Z,2024,0,Vitkovice,Karlovy Vary,3,3,0
+extraliga_392118,2025-03-10T18:00Z,2024,0,Liberec,Ceske Budejovice,3,0,0
+extraliga_392262,2025-03-11T16:00Z,2024,0,Trinec,Litvinov,4,1,0
+extraliga_392263,2025-03-11T16:30Z,2024,0,Vitkovice,Karlovy Vary,1,3,0
+extraliga_392353,2025-03-11T16:30Z,2024,0,Mlada Boleslav,Plzen,0,0,0
+extraliga_392261,2025-03-11T17:00Z,2024,0,Liberec,Ceske Budejovice,0,3,0
+extraliga_392432,2025-03-13T16:30Z,2024,0,Ceske Budejovice,Liberec,2,2,0
+extraliga_392433,2025-03-13T17:00Z,2024,0,Karlovy Vary,Vitkovice,2,1,0
+extraliga_392553,2025-03-16T15:00Z,2024,0,Mountfield HK,Mlada Boleslav,1,2,0
+extraliga_392554,2025-03-16T16:00Z,2024,0,Sparta Prague,Trinec,3,3,0
+extraliga_392555,2025-03-17T16:00Z,2024,0,Mountfield HK,Mlada Boleslav,0,2,0
+extraliga_392556,2025-03-17T18:00Z,2024,0,Sparta Prague,Trinec,2,1,0
+extraliga_392557,2025-03-18T16:00Z,2024,0,Pardubice,Ceske Budejovice,3,0,0
+extraliga_392558,2025-03-18T17:00Z,2024,0,Kometa Brno,Karlovy Vary,3,3,0
+extraliga_392559,2025-03-19T16:00Z,2024,0,Kometa Brno,Karlovy Vary,3,2,0
+extraliga_392560,2025-03-19T17:00Z,2024,0,Pardubice,Ceske Budejovice,4,2,0
+extraliga_392562,2025-03-20T16:00Z,2024,0,Trinec,Sparta Prague,3,2,0
+extraliga_392561,2025-03-20T17:00Z,2024,0,Mlada Boleslav,Mountfield HK,3,4,0
+extraliga_392563,2025-03-21T16:00Z,2024,0,Mlada Boleslav,Mountfield HK,2,2,0
+extraliga_392564,2025-03-21T17:00Z,2024,0,Trinec,Sparta Prague,3,3,0
+extraliga_392565,2025-03-22T16:00Z,2024,0,Ceske Budejovice,Pardubice,2,6,0
+extraliga_392566,2025-03-22T17:00Z,2024,0,Karlovy Vary,Kometa Brno,0,2,0
+extraliga_392567,2025-03-23T15:00Z,2024,0,Ceske Budejovice,Pardubice,1,1,0
+extraliga_392568,2025-03-23T16:00Z,2024,0,Karlovy Vary,Kometa Brno,1,0,0
+extraliga_392895,2025-03-24T17:00Z,2024,0,Mountfield HK,Mlada Boleslav,4,2,0
+extraliga_392896,2025-03-24T18:00Z,2024,0,Sparta Prague,Trinec,3,2,0
+extraliga_392839,2025-03-25T17:00Z,2024,0,Kometa Brno,Karlovy Vary,5,3,0
+extraliga_392911,2025-03-26T16:30Z,2024,0,Mlada Boleslav,Mountfield HK,5,5,0
+extraliga_393052,2025-03-27T17:00Z,2024,0,Karlovy Vary,Kometa Brno,0,1,0
+extraliga_393282,2025-03-28T17:00Z,2024,0,Mountfield HK,Mlada Boleslav,3,0,0
+extraliga_393349,2025-04-01T17:00Z,2024,0,Sparta Prague,Kometa Brno,2,3,0
+extraliga_393350,2025-04-02T16:30Z,2024,0,Sparta Prague,Kometa Brno,3,0,0
+extraliga_393351,2025-04-03T16:00Z,2024,0,Mountfield HK,Pardubice,2,4,0
+extraliga_393352,2025-04-04T15:30Z,2024,0,Mountfield HK,Pardubice,2,2,0
+extraliga_393353,2025-04-05T15:00Z,2024,0,Kometa Brno,Sparta Prague,3,0,0
+extraliga_393354,2025-04-06T15:00Z,2024,0,Kometa Brno,Sparta Prague,0,1,0
+extraliga_393355,2025-04-07T16:00Z,2024,0,Pardubice,Mountfield HK,4,0,0
+extraliga_393356,2025-04-08T15:30Z,2024,0,Pardubice,Mountfield HK,2,0,0
+extraliga_393531,2025-04-09T16:30Z,2024,0,Sparta Prague,Kometa Brno,3,3,0
+extraliga_393588,2025-04-10T16:00Z,2024,0,Mountfield HK,Pardubice,1,5,0
+extraliga_393625,2025-04-11T16:00Z,2024,0,Kometa Brno,Sparta Prague,0,3,0
+extraliga_393801,2025-04-13T16:30Z,2024,0,Sparta Prague,Kometa Brno,1,3,0
+extraliga_393802,2025-04-16T16:00Z,2024,0,Olomouc,Jihlava,1,1,0
+extraliga_393803,2025-04-17T15:00Z,2024,0,Olomouc,Jihlava,6,0,0
+extraliga_393892,2025-04-17T16:00Z,2024,0,Pardubice,Kometa Brno,1,1,0
+extraliga_393893,2025-04-18T16:00Z,2024,0,Pardubice,Kometa Brno,2,1,0
+extraliga_393804,2025-04-20T15:00Z,2024,0,Jihlava,Olomouc,1,2,0
+extraliga_393805,2025-04-21T15:00Z,2024,0,Jihlava,Olomouc,0,3,0
+extraliga_393894,2025-04-21T17:00Z,2024,0,Kometa Brno,Pardubice,1,4,0
+extraliga_393895,2025-04-22T16:00Z,2024,0,Kometa Brno,Pardubice,7,4,0
+extraliga_394031,2025-04-25T16:00Z,2024,0,Pardubice,Kometa Brno,2,4,0
+extraliga_394135,2025-04-27T15:00Z,2024,0,Kometa Brno,Pardubice,1,5,0
+extraliga_394212,2025-04-29T16:00Z,2024,0,Pardubice,Kometa Brno,0,3,0
+extraliga_426382,2026-11-15T15:00Z,2026,0,Sparta Prague,Mountfield HK,1,3,0
+extraliga_426383,2026-11-15T15:00Z,2026,0,Liberec,Litvinov,5,1,0
+extraliga_426384,2026-11-15T15:00Z,2026,0,Kladno,Trinec,1,4,0
+extraliga_426386,2026-11-15T16:00Z,2026,0,Ceske Budejovice,Pardubice,2,1,0
+extraliga_426388,2026-11-15T16:00Z,2026,0,Vitkovice,Olomouc,1,1,0
+extraliga_426385,2026-11-15T16:30Z,2026,0,Plzen,Mlada Boleslav,2,2,0
