@@ -600,6 +600,88 @@ def pct(v, d=0):
     return "–" if v is None else f"{v * 100:.{d}f} %"
 
 
+def team_stats(app, min_edge, prior_min=10):
+    """Za kazdy tym: jak uspesne ho model v historii predpovidal (walk-forward, tedy bez
+    znalosti vysledku) a jak dopadly tipy modelu i moje sazky na nej."""
+    sides = app.sides
+    st = {}
+
+    def T(t):
+        return st.setdefault(t, {"n": 0, "hit": 0, "ll": 0.0, "hn": 0, "hhit": 0, "an": 0, "ahit": 0,
+                                 "bets": 0, "wins": 0, "pnl": 0.0, "mb": 0, "mw": 0, "mp": 0.0})
+    cnt = {}
+    for r in sorted(app.rows, key=lambda r: (r["date_utc"], r["event_id"])):
+        h, a = r["home"], r["away"]
+        ps = app.hist.get(r["event_id"])
+        enough = cnt.get(h, 0) >= prior_min and cnt.get(a, 0) >= prior_min
+        cnt[h] = cnt.get(h, 0) + 1
+        cnt[a] = cnt.get(a, 0) + 1
+        if not ps or not enough:
+            continue
+        won = result_side(r["home_pts"], r["away_pts"])
+        if won not in sides:
+            continue
+        hit = max(sides, key=lambda k: ps[k]) == won
+        ll = -math.log(min(max(ps[won], 1e-9), 1.0))
+        for t, home in ((h, True), (a, False)):
+            x = T(t)
+            x["n"] += 1
+            x["hit"] += hit
+            x["ll"] += ll
+            x["hn" if home else "an"] += 1
+            x["hhit" if home else "ahit"] += hit
+    res = {r["event_id"]: r for r in app.rows}
+    for e, p in load_preds(app.lg).items():                    # tipy modelu s kurzy, ktere aplikace zalogovala
+        g = res.get(e)
+        ps = log_probs(p, sides)
+        o = log_odds(p, sides)
+        if not g or ps is None or not o:
+            continue
+        won = result_side(g["home_pts"], g["away_pts"])
+        edges = {k: ps[k] * o[k] - 1 for k in sides}
+        side = max(sides, key=lambda k: edges[k])
+        if edges[side] < min_edge or side == "draw":
+            continue
+        x = T(g["home"] if side == "home" else g["away"])
+        x["bets"] += 1
+        if side == won:
+            x["wins"] += 1
+            x["pnl"] += o[side] - 1
+        else:
+            x["pnl"] -= 1
+    names = {}
+    for r in app.board:
+        names[r["home_name"] or r["home"]] = r["home"]
+        names[r["away_name"] or r["away"]] = r["away"]
+    for d in diary_load():                                      # moje skutecne sazky z deniku
+        if d.get("lg") != app.lg or d.get("status") not in ("won", "lost") or not d.get("odds") or not d.get("stake"):
+            continue
+        t = names.get(d.get("tip"), d.get("tip"))
+        if t in st or t in cnt:
+            x = T(t)
+            x["mb"] += 1
+            x["mw"] += d["status"] == "won"
+            x["mp"] += d["stake"] * (d["odds"] - 1) if d["status"] == "won" else -d["stake"]
+    return {t: x for t, x in st.items() if x["n"] or x["bets"] or x["mb"]}
+
+
+JS_TEAMS = """
+(function(){
+var tb=document.getElementById('ts');if(!tb)return;
+var cur={k:'hit',d:-1};
+function apply(){
+  var min=parseInt(document.getElementById('ts_min').value)||0,rows=[].slice.call(tb.querySelectorAll('tr[data-n]'));
+  rows.sort(function(a,b){var x=parseFloat(a.dataset[cur.k]),y=parseFloat(b.dataset[cur.k]);
+    if(isNaN(x))x=-1e9;if(isNaN(y))y=-1e9;return (x-y)*cur.d||a.dataset.t.localeCompare(b.dataset.t)});
+  rows.forEach(function(r,i){tb.appendChild(r);r.style.display=(+r.dataset.n<min)?'none':'';r.cells[0].textContent=i+1});
+}
+tb.querySelectorAll('th[data-k]').forEach(function(th){th.style.cursor='pointer';th.onclick=function(){
+  var k=th.dataset.k;cur.d=cur.k===k?-cur.d:-1;cur.k=k;apply()}});
+document.getElementById('ts_min').oninput=apply;apply();
+})();
+"""
+
+
 def nav_html(cfg, cur, static=False):
     st = load_settings(cfg, not static)
     items = []
@@ -768,7 +850,53 @@ def render(app, static=False):
         out.append(f"<tr><td class='mut'>{i}</td><td class='l'>{e(t)}</td><td class='num {c}'>{s:+.{dec}f}</td>"
                    f"<td class='num mut'>± {sd:.{dec}f}</td><td class='num mut'>{n}</td></tr>")
     out.append("</table></div>")
-    return page_close(out, JS + JS_BET, static, pre=f"var MIN={float(cfg['min_edge'])},REFRESH={refresh};")
+    ts = team_stats(app, float(cfg["min_edge"]))
+    if ts:
+        def ci(k, n):
+            return 1.96 * math.sqrt(max(k / n * (1 - k / n), 0) / n) * 100 if n else 0
+        out.append("<h2>Statistika týmů – úspěšnost modelu a sázek</h2>"
+                   "<div class='sub'>Kolik zápasů tohoto týmu model předem trefil (favorit vyhrál), bez znalosti výsledku. "
+                   "Řadit lze kliknutím na záhlaví. Minimum zápasů: "
+                   "<input class='t n' id='ts_min' value='20' inputmode='numeric'></div>"
+                   "<div class='wrap'><table id='ts'><tr><th>#</th><th class='l'>Tým</th><th data-k='n'>Zápasů</th>"
+                   "<th data-k='hit'>Trefa modelu</th><th data-k='home'>doma</th><th data-k='away'>venku</th>"
+                   "<th data-k='ll'>Log-loss</th><th data-k='bets'>Tipy modelu</th><th data-k='pnl'>Zisk tipů (jedn.)</th>"
+                   "<th data-k='mb'>Moje sázky</th><th data-k='mp'>Můj zisk Kč</th></tr>")
+        pc = lambda v: "–" if v is None else f"{v * 100:.0f} %"
+        col = lambda v: "" if not v else ("good" if v > 0 else "bad")
+        num = lambda v: "" if v is None else str(v)
+        for t, x in ts.items():
+            n = x["n"]
+            hit = x["hit"] / n if n else None
+            hh = x["hhit"] / x["hn"] if x["hn"] else None
+            ha = x["ahit"] / x["an"] if x["an"] else None
+            ll = x["ll"] / n if n else None
+            pnl = x["pnl"] if x["bets"] else None
+            mp = x["mp"] if x["mb"] else None
+            attrs = (" data-t='" + e(t) + "' data-n='" + str(n) + "' data-hit='" + num(hit) + "' data-home='" + num(hh)
+                     + "' data-away='" + num(ha) + "' data-ll='" + num(None if ll is None else -ll)
+                     + "' data-bets='" + str(x["bets"]) + "' data-pnl='" + num(pnl) + "' data-mb='" + str(x["mb"])
+                     + "' data-mp='" + num(mp) + "'")
+            ci_txt = (" <span class='mut'>±" + format(ci(x["hit"], n), ".0f") + "</span>") if n else ""
+            ll_txt = "–" if ll is None else format(ll, ".3f")
+            tips = (str(x["wins"]) + " / " + str(x["bets"])) if x["bets"] else "–"
+            mine = (str(x["mw"]) + " / " + str(x["mb"])) if x["mb"] else "–"
+            pnl_txt = "–" if pnl is None else format(pnl, "+.2f")
+            mp_txt = "–" if mp is None else format(mp, "+.0f")
+            out.append("<tr" + attrs + "><td class='mut'></td><td class='l'>" + e(t) + "</td><td class='num mut'>" + str(n)
+                       + "</td><td class='num'><b>" + pc(hit) + "</b>" + ci_txt + "</td><td class='num mut'>" + pc(hh)
+                       + "</td><td class='num mut'>" + pc(ha) + "</td><td class='num mut'>" + ll_txt + "</td><td class='num'>"
+                       + tips + "</td><td class='num " + col(pnl) + "'>" + pnl_txt + "</td><td class='num'>" + mine
+                       + "</td><td class='num " + col(mp) + "'>" + mp_txt + "</td></tr>")
+        out.append("</table></div><div class='note'>Rozdíly mezi týmy jsou z velké části náhoda: při 40 zápasech je "
+                   "nejistota trefy kolem ±15 procentních bodů (číslo za ±). Vysoká trefa v minulosti neznamená, že "
+                   "model bude tým trefovat i příště. <b>Tipy modelu</b> se počítají jen ze zápasů, u kterých aplikace "
+                   "zalogovala kurzy před začátkem (proto jich je zatím málo); <b>Moje sázky</b> jsou vyhodnocené sázky "
+                   "z deníku na daný tým.</div>")
+        js_teams = JS_TEAMS
+    else:
+        js_teams = ""
+    return page_close(out, JS + JS_BET + js_teams, static, pre=f"var MIN={float(cfg['min_edge'])},REFRESH={refresh};")
 
 
 JS_DIARY = r"""
@@ -848,19 +976,23 @@ var CUR=null,$=function(i){return document.getElementById(i)};
 function num(v){return parseFloat(String(v).replace(',','.'))}
 function rows(){return [].slice.call(document.querySelectorAll('#sp tr[data-i]'))}
 function initGames(){
-  var h='<option value="">– vyber zápas –</option>',last=null;
-  GAMES.forEach(function(g,i){
-    if(g.lg!==last){if(last!==null)h+='</optgroup>';h+='<optgroup label="'+esc(LG[g.lg]||g.lg)+'">';last=g.lg}
-    h+='<option value="'+i+'">'+esc(g.w+' · '+g.nm[0]+' – '+g.nm[g.nm.length-1])+'</option>'});
-  if(last!==null)h+='</optgroup>';
-  $('f_game').innerHTML=h+'<option value="manual">jiný zápas (zadat ručně)…</option>';
-  $('f_game').onchange=pickGame;
+  var seen={},h='<option value="">– vyber ligu –</option>';
+  GAMES.forEach(function(g){if(!seen[g.lg]){seen[g.lg]=1;h+='<option value="'+esc(g.lg)+'">'+esc(LG[g.lg]||g.lg)+'</option>'}});
+  $('f_liga').innerHTML=h+'<option value="manual">jiná sázka (zadat ručně)…</option>';
+  $('f_liga').onchange=pickLeague;$('f_game').onchange=pickGame;
+}
+function pickLeague(){
+  var v=$('f_liga').value,gs=$('f_game'),h='<option value="">– vyber zápas –</option>';
+  CUR=null;$('blk_split').style.display='none';
+  $('blk_manual').style.display=v==='manual'?'':'none';
+  if(v===''||v==='manual'){gs.innerHTML='<option value="">–</option>';gs.disabled=true;return}
+  GAMES.forEach(function(g,i){if(g.lg===v)h+='<option value="'+i+'">'+esc(g.w+' · '+g.nm[0]+' – '+g.nm[g.nm.length-1])+'</option>'});
+  gs.innerHTML=h;gs.disabled=false;
 }
 function pickGame(){
   var v=$('f_game').value;
-  $('blk_manual').style.display=v==='manual'?'':'none';
-  $('blk_split').style.display=(v!==''&&v!=='manual')?'':'none';
-  if(v===''||v==='manual'){CUR=null;return}
+  $('blk_split').style.display=v!==''?'':'none';
+  if(v===''){CUR=null;return}
   CUR=GAMES[+v];buildSplit();
 }
 function buildSplit(){
@@ -1004,17 +1136,18 @@ def render_diary(cfg, static=False, games=None):
              "jinak (např. vítěz včetně prodloužení), stav přepiš v rozbalovátku. Ručně zadané sázky se vyhodnocují ručně.")
     out.append(f"<div class='sub'>Evidence tvých sázek, zisku a návratnosti. {where}</div>")
     out.append("<div id='sum' class='cards'></div>")
-    out.append("<h2>Nová sázka</h2><div class='form'><div style='grid-column:1/-1'><label>Zápas</label>"
-               "<select id='f_game'></select></div></div>")
-    out.append("<div id='blk_split' style='display:none;margin-top:10px'><div class='form'>"
-               "<div><label>Celkový vklad na tento zápas (Kč)</label><input class='t' id='f_total' inputmode='decimal'></div>"
-               "<div style='grid-column:span 2'><button onclick='splitModel()'>Podíly podle modelu</button> "
-               "<button onclick='splitEqual()'>Rovným dílem</button></div></div>"
-               "<div class='wrap' style='margin-top:8px'><table id='sp'></table></div>"
+    out.append("<h2>Nová sázka</h2><div class='form'>"
+               "<div><label>1. Liga</label><select id='f_liga'></select></div>"
+               "<div style='grid-column:span 2'><label>2. Zápas</label><select id='f_game' disabled></select></div>"
+               "<div><label>3. Celkový vklad (Kč)</label><input class='t' id='f_total' inputmode='decimal' placeholder='např. 1000'></div></div>")
+    out.append("<div id='blk_split' style='display:none;margin-top:10px'>"
+               "<div style='margin-bottom:8px'><button onclick='splitModel()'>Podíly podle modelu</button> "
+               "<button onclick='splitEqual()'>Rovným dílem</button></div>"
+               "<div class='wrap'><table id='sp'></table></div>"
                "<div class='note' id='sp_sum'></div>"
                "<p><button class='pri' onclick='saveSplit()'>Zapsat označené sázky</button></p>"
-               "<div class='note'>Napiš celkový vklad, označ výsledky, na které sázíš, a vklad se rozdělí podle podílů v procentech "
-               "(předvyplněno podle pravděpodobností modelu, podíly můžeš přepsat). Kurz doplň, pokud chybí. "
+               "<div class='note'>Vyber ligu a zápas, napiš celkový vklad a označ výsledky, na které sázíš. Vklad se rozdělí podle podílů "
+               "v procentech (předvyplněno podle pravděpodobností modelu, podíly můžeš přepsat). Kurz doplň, pokud chybí. "
                "Sloupec vpravo ukazuje celkový zisk, když daný výsledek vyjde.</div></div>")
     out.append("<div id='blk_manual' class='form' style='display:none;margin-top:10px'>"
                "<div><label>Datum</label><input class='t' type='date' id='f_date'></div>"
