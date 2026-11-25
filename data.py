@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """Stahovani vysledku, rozpisu a kurzu NBA + lokalni cache v data/games.csv."""
 import csv
+import html
+import re
 import datetime as dt
 import json
 import os
@@ -43,14 +45,23 @@ def _apisports(name, sport, host, as_path, league_id, prefix, params, hockey):
             "free_seasons": (2022, 2023, 2024)}
 
 
-LEAGUES["extraliga"] = _apisports("Extraliga", "Česko · hokej", "v1.hockey.api-sports.io", "/games", 10,
-                                  "extraliga_", "hockey3", True)
+# Extraliga: zdroj je web Českého hokeje (ceskyhokej.cz), API-Sports se nepouziva.
+# Nove soubory maji predponu "extrach_", aby se nemichaly se starymi daty z API-Sports.
+LEAGUES["extraliga"] = {"name": "Extraliga", "sport": "Česko · hokej", "provider": "ceskyhokej",
+                        "comps": {2026: 14}, "hk_seasons": (2025, 2024, 2023, 2022), "path": "", "odds_key": "", "prefix": "extrach_", "unit": "g.",
+                        "dec": 2, "params": "hockey3", "three_way": True, "keep_types": None,
+                        "off_months": (), "start_month": 9, "min_team_games": 0, "window": (-1, 1),
+                        "b2b": True, "hockey": True}
 LEAGUES["czliga"] = _apisports("1. liga", "Česko · fotbal", "v3.football.api-sports.io", "/fixtures", 345,
                                "czliga_", "soccer", False)
 
 
 def is_apisports(lg):
     return LEAGUES[lg].get("provider") == "apisports"
+
+
+def is_ch(lg):
+    return LEAGUES[lg].get("provider") == "ceskyhokej"
 
 
 def keep_event(e, lg="nba"):
@@ -331,6 +342,8 @@ def update_history(seasons_back=3, progress=None, lg="nba"):
     """Prvni beh stahne posledni sezony, dalsi behy jen doplni chybejici dny."""
     if is_apisports(lg):
         return as_history(lg, progress)
+    if is_ch(lg):
+        return ch_history(lg, progress)
     rows = load_games(lg)
     today = us_today()
     if rows:
@@ -621,3 +634,283 @@ def as_window(lg):
     if err is not None and not out:
         raise err
     return list(out.values())
+
+
+# ---------------------------------------------------------------- Extraliga: ceskyhokej.cz
+CH_BASE = "https://www.ceskyhokej.cz"
+CH_PAUSE = 1.5          # pauza mezi dotazy na web (s)
+CH_MAX_PAGES = 20
+_CH_RE_ITEM = re.compile(r'<div class="game-item-wrapper">(.*?)</a>\s*<div></div>\s*</div>', re.S)
+_CH_RE_DATE = re.compile(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4}),\s*(\d{1,2}):(\d{2})")
+
+
+def _last_sunday(y, m):
+    d = dt.date(y, m, 31)
+    return d - dt.timedelta(days=(d.weekday() + 1) % 7)
+
+
+def prague_to_utc(y, mo, d, h, mi):
+    """Cas na webu je cesky. Letni cas: od posledni nedele v breznu do posledni nedele v rijnu (01:00 UTC)."""
+    naive = dt.datetime(y, mo, d, h, mi)
+    start = dt.datetime.combine(_last_sunday(y, 3), dt.time(1, 0)) + dt.timedelta(hours=1)    # 02:00 mistniho -> 03:00
+    end = dt.datetime.combine(_last_sunday(y, 10), dt.time(1, 0)) + dt.timedelta(hours=2)     # 01:00 UTC = 03:00 letniho
+    off = 2 if start <= naive < end else 1
+    return (naive - dt.timedelta(hours=off)).replace(tzinfo=dt.timezone.utc)
+
+
+def _clean(t):
+    t = re.sub(r"<[^>]+>", "", t)
+    return html.unescape(re.sub(r"\s+", " ", t)).strip()
+
+
+def ch_parse_page(page_html, comp, now=None):
+    """HTML stranky se zapasy -> seznam zapasu ve stejnem tvaru jako parse_event.
+    Skore pro model je po 60 minutach = soucet prvnich tri tretin (prodlouzeni a najezdy = remiza)."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    out = []
+    for it in _CH_RE_ITEM.findall(page_html):
+        try:
+            gid = re.search(r"/game/detail/(\d+)", it).group(1)
+            hn = _clean(re.search(r"team-left.*?<h4 class=\"h4\">(.*?)</h4>", it, re.S).group(1))
+            an = _clean(re.search(r"team-right.*?<h4 class=\"h4\">(.*?)</h4>", it, re.S).group(1))
+            sc = re.findall(r'<h6 class="score[^"]*">(.*?)</h6>', it, re.S)
+            m = _CH_RE_DATE.search(it)
+            if not m:
+                continue
+            d, mo, y, h, mi = (int(x) for x in m.groups())
+            when = prague_to_utc(y, mo, d, h, mi)
+            ot = [_clean(x) for x in re.findall(r'overtime-result[^"]*">(.*?)<', it, re.S)]
+            ot = (ot[0] if ot else "").upper()
+            info = re.search(r'<div class="game-info">\s*<p>(.*?)</p>', it, re.S)
+            per_txt = _clean(info.group(1)) if info else ""
+            regpart = per_txt.split(" - ")[0]
+            per = re.findall(r"(\d+):(\d+)", regpart)
+            has_periods = bool(per) and not _CH_RE_DATE.search(per_txt)
+            fh = int(sc[0]) if len(sc) > 0 and sc[0].strip().isdigit() else None
+            fa = int(sc[1]) if len(sc) > 1 and sc[1].strip().isdigit() else None
+            started = (now - when) > dt.timedelta(minutes=0)
+            if not has_periods or fh is None or fa is None:
+                state, completed, reg_h, reg_a, txt, det = "pre", False, None, None, "", ""
+                if started and (now - when) > dt.timedelta(hours=4) and not has_periods:
+                    state, det = "post", "odloženo"          # bez vysledku dlouho po zacatku
+            elif (now - when) < dt.timedelta(minutes=140) and not ot:
+                state, completed, reg_h, reg_a = "in", False, None, None
+                txt, det = f"{fh}:{fa}", "probíhá"
+            else:
+                state, completed, det = "post", True, "konec"
+                if len(per) >= 3:
+                    reg_h, reg_a = sum(int(a) for a, _ in per[:3]), sum(int(b) for _, b in per[:3])
+                else:
+                    reg_h = reg_a = min(fh, fa) if ot else None
+                    if not ot:
+                        reg_h, reg_a = fh, fa
+                if ot and reg_h != reg_a:                    # kdyby soucet nesedel, remiza je jistota
+                    reg_h = reg_a = min(fh, fa)
+                txt = f"{fh}:{fa}" + (" pp" if ot == "P" else " sn" if ot == "SN" else "")
+            out.append({
+                "event_id": "extrach_" + gid,
+                "date_utc": when.strftime("%Y-%m-%dT%H:%MZ"),
+                "season": y if mo >= 7 else y - 1,
+                "season_type": 0, "home": hn, "away": an, "home_name": hn, "away_name": an,
+                "home_pts": reg_h, "away_pts": reg_a, "neutral": 0, "state": state, "completed": completed,
+                "detail": det, "score_txt": txt, "odds": None,
+            })
+        except (AttributeError, ValueError, IndexError):
+            continue
+    return out
+
+
+def _ch_get(url):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (SportBayes; osobni nekomercni projekt)",
+        "Accept-Language": "cs"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def ch_fetch_season(comp, pause=CH_PAUSE):
+    """Projde strankovani rozpisu soutezi (cca 7 stranek). Kazda stranka se stahuje jednou."""
+    seen, out = set(), []
+    for page in range(1, CH_MAX_PAGES + 1):
+        url = f"{CH_BASE}/competition/games/{comp}"
+        if page > 1:
+            url += f"?gameListWidget-page={page}&do=gameListWidget-changePage"
+        evs = ch_parse_page(_ch_get(url), comp)
+        new = [e for e in evs if e["event_id"] not in seen]
+        if not new:
+            break
+        for e in new:
+            seen.add(e["event_id"])
+            out.append(e)
+        time.sleep(pause)
+    return out
+
+
+def _ch_cache_path(lg, comp):
+    return os.path.join(DATA_DIR, LEAGUES[lg]["prefix"] + f"comp{comp}.json")
+
+
+def ch_events(lg, comp=None, force=False):
+    """Cela sezona s mezipameti na disku. Obnova: 15 min kdyz se hraje, 30 min pred zacatkem
+    zapasu, jinak po 3 hodinach (na GitHubu 2x delsi)."""
+    comp = comp or max(LEAGUES[lg]["comps"].values())
+    path = _ch_cache_path(lg, comp)
+    try:
+        with open(path, encoding="utf-8") as f:
+            c = json.load(f)
+    except (OSError, ValueError):
+        c = {"ts": 0, "events": []}
+    now = time.time()
+    nowd = dt.datetime.now(dt.timezone.utc)
+    evs = c["events"]
+    live = any(e["state"] != "pre" and not e["completed"] and
+               abs((nowd - parse_utc(e["date_utc"])).total_seconds()) < 4 * 3600 for e in evs)
+    soon = any(e["state"] == "pre" and 0 <= (parse_utc(e["date_utc"]) - nowd).total_seconds() < 3600 for e in evs)
+    slow = 2 if os.environ.get("GITHUB_ACTIONS") else 1
+    ttl = (900 if live else 1800 if soon else 3 * 3600) * slow
+    if force or not evs or now - c["ts"] > ttl:
+        try:
+            new = ch_fetch_season(comp)
+            if new:
+                evs = new
+                os.makedirs(DATA_DIR, exist_ok=True)
+                with open(path, "w", encoding="utf-8") as f:
+                    json.dump({"ts": now, "events": evs}, f, ensure_ascii=False)
+        except Exception:
+            if not evs:
+                raise
+    return evs
+
+
+def ch_window(lg, back=1, ahead=7):
+    """Zapasy od vcerejska do +7 dni (rozpis dalsich kol)."""
+    evs = ch_events(lg)
+    today = dt.datetime.now(dt.timezone.utc).date()
+    lo, hi = today - dt.timedelta(days=back), today + dt.timedelta(days=ahead)
+    return [e for e in evs if lo <= parse_utc(e["date_utc"]).date() <= hi]
+
+
+def ch_history(lg, progress=None):
+    """Dohrane zapasy sezony do cache games.csv; starsi sezony (kdyz jsou v LEAGUES[...]['comps']) jen jednou."""
+    rows = load_games(lg)
+    have = {r["season"] for r in rows}
+    cur = max(LEAGUES[lg]["comps"])
+    new = 0
+    for season, comp in sorted(LEAGUES[lg]["comps"].items()):
+        if season != cur and season in have:
+            continue
+        evs = ch_events(lg, comp, force=True) if season != cur else ch_events(lg, comp)
+        n = merge_finals(rows, evs, lg)
+        new += n
+        if n:
+            save_games(rows, lg)
+        if progress:
+            progress(dt.date(season, 9, 1), n)
+    cnt = {}
+    for r in rows:
+        cnt[r["season"]] = cnt.get(r["season"], 0) + 1
+    for season in LEAGUES[lg].get("hk_seasons", ()):          # starsi sezony z hokej.cz (jednorazove)
+        if cnt.get(season, 0) >= 150:                         # sezona uz je stazena celá
+            continue
+        try:
+            evs = hk_season(season)
+        except Exception:
+            continue
+        n = merge_finals(rows, evs, lg)
+        new += n
+        if n:
+            save_games(rows, lg)
+        if progress:
+            progress(dt.date(season, 9, 1), n)
+    return rows, new
+
+
+# ---------------------------------------------------------------- Extraliga: starsi sezony z hokej.cz
+HK_BASE = "https://www.hokej.cz/tipsport-extraliga/zapasy"
+HK_COMP = {2026: 7562, 2025: 7397, 2024: 7230, 2023: 7071}      # cislo soutezi "Extraliga" v dane sezone
+_HK_MONTHS = {"leden": 1, "unor": 2, "brezen": 3, "duben": 4, "kveten": 5, "cerven": 6, "cervenec": 7,
+              "srpen": 8, "zari": 9, "rijen": 10, "listopad": 11, "prosinec": 12}
+_HK_TEAMS = [("budejovice", "BANES Motor České Budějovice"), ("liberec", "Bílí Tygři Liberec"),
+             ("boleslav", "BK Mladá Boleslav"), ("karlovy", "BYD Energie Karlovy Vary"),
+             ("pardubice", "HC DYNAMO PARDUBICE"), ("kometa", "HC KOMETA BRNO"),
+             ("trinec", "HC Oceláři Třinec"), ("olomouc", "HC Olomouc"), ("sparta", "HC Sparta Praha"),
+             ("plzen", "HC ŠKODA PLZEŇ"), ("litvinov", "HC Litvínov"), ("vitkovice", "HC VÍTKOVICE RIDERA"),
+             ("mountfield", "Mountfield HK, a.s."), ("hradec", "Mountfield HK, a.s."),
+             ("kladno", "Rytíři Kladno")]
+
+
+def _ascii(t):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
+
+
+def canon_team(name):
+    """Sjednoti nazvy tymu z hokej.cz s nazvy z ceskyhokej.cz (jinak by model videl dva ruzne tymy)."""
+    a = _ascii(name)
+    for needle, full in _HK_TEAMS:
+        if needle in a:
+            return full
+    return name.strip()
+
+
+def hk_parse(page_html, season):
+    """Dohrane zapasy zakladni casti z hokej.cz (bez casu zacatku). Skore pro model = soucet prvnich 3 tretin."""
+    out, year = [], season
+    pos = [(m.start(), "h", m.group(1)) for m in re.finditer(r"<h3>(.*?)</h3>", page_html, re.S)]
+    pos += [(m.start(), "r", m) for m in re.finditer(r'<tr data-href="/zapas/(\d+)"[^>]*>(.*?)</tr>', page_html, re.S)]
+    for _, kind, v in sorted(pos, key=lambda x: x[0]):
+        if kind == "h":
+            t = _ascii(_clean(v)).split()
+            if len(t) == 2 and t[0] in _HK_MONTHS and t[1].isdigit():
+                year = int(t[1])
+            continue
+        gid, row = v.group(1), v.group(2)
+        try:
+            names = re.findall(r'preview__name--long">(.*?)</span>', row, re.S)
+            sc = re.findall(r'<td class="preview__score[^"]*"><span[^>]*>(\d+)</span>', row)
+            dm = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.", re.search(r"match-start-time\">(.*?)<", row, re.S).group(1))
+            per_txt = _clean(re.search(r"match-start-time.*?</span>\s*<span>(.*?)</span>", row, re.S).group(1))
+            if len(names) < 2 or len(sc) < 2:
+                continue
+            per = re.findall(r"(\d+):(\d+)", per_txt.split(" - ")[0])
+            if len(per) < 3:
+                continue
+            fh, fa = int(sc[0]), int(sc[1])
+            reg_h, reg_a = sum(int(a) for a, _ in per[:3]), sum(int(b) for _, b in per[:3])
+            ot = " - " in per_txt
+            if ot and reg_h != reg_a:
+                reg_h = reg_a = min(fh, fa)
+            if not ot and (reg_h, reg_a) != (fh, fa):
+                continue                                    # nesedi -> radsi vynechat
+            d, mo = int(dm.group(1)), int(dm.group(2))
+            when = dt.datetime(year, mo, d, 17, 0, tzinfo=dt.timezone.utc)
+            h_, a_ = canon_team(_clean(names[0])), canon_team(_clean(names[1]))
+            out.append({"event_id": "extrach_h" + gid, "date_utc": when.strftime("%Y-%m-%dT%H:%MZ"),
+                        "season": season, "season_type": 0, "home": h_, "away": a_, "home_name": h_,
+                        "away_name": a_, "home_pts": reg_h, "away_pts": reg_a, "neutral": 0, "state": "post",
+                        "completed": True, "detail": "konec", "score_txt": f"{fh}:{fa}" + (" pp/sn" if ot else ""),
+                        "odds": None})
+        except (AttributeError, ValueError, IndexError):
+            continue
+    return out
+
+
+def hk_comp_id(season, pause=CH_PAUSE):
+    if season in HK_COMP:
+        return HK_COMP[season]
+    h = _ch_get(f"{HK_BASE}?matchList-filter-season={season}&matchList-filter-competition=0")
+    time.sleep(pause)
+    sel = re.search(r'<select[^>]*name="competition"[^>]*>(.*?)</select>', h, re.S)
+    for val, label in re.findall(r'value="(\d+)"[^>]*>([^<]*)<', sel.group(1) if sel else ""):
+        l = _ascii(label)
+        if "extraliga" in l and not any(w in l for w in ("play", "baraz", "predkolo", "1.", "2.", "liga junioru")):
+            return int(val)
+    raise RuntimeError(f"nenalezena soutez extraligy pro sezonu {season}")
+
+
+def hk_season(season, pause=CH_PAUSE):
+    comp = hk_comp_id(season, pause)
+    h = _ch_get(f"{HK_BASE}?matchList-filter-season={season}&matchList-filter-competition={comp}"
+                f"&matchList-view-round-round=1&do=matchList-view-all")      # vsechna kola, ne jen jedno
+    time.sleep(pause)
+    return hk_parse(h, season)

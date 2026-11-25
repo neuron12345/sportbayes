@@ -353,6 +353,8 @@ class App:
         se nacitaji jen jednou za pul hodiny, aby obnova netrvala dlouho."""
         if data.is_apisports(self.lg):
             return data.as_window(self.lg)
+        if data.is_ch(self.lg):
+            return data.ch_window(self.lg)
         d1, d2 = today + dt.timedelta(days=lo), today + dt.timedelta(days=hi)
         if data._CHUNK["days"] > 1:
             return data.fetch_range(d1, d2, None, None, self.lg)
@@ -734,10 +736,10 @@ def render(app, static=False):
     out.append(f"<h2>Zápasy – {span}</h2><div class='wrap'><table class='games'><tr>"
                "<th class='l'>Začátek</th><th class='l'>Domácí – Hosté</th><th class='l'>Stav</th>"
                f"<th>Model: {hdr if three else 'domácí'}</th><th>Férový kurz {hdr}</th><th>Kurz trhu {hdr}</th>"
-               f"<th>Trh: {hdr if three else 'domácí'}</th><th>Výhodnost {hdr}</th><th class='l'>Tip</th>"
+               f"<th>Trh: {hdr if three else 'domácí'}</th><th title='25 % model + 75 % kurz trhu'>Mix 25/75: {hdr if three else 'domácí'}</th><th>Výhodnost {hdr}</th><th class='l'>Tip</th>"
                f"<th>Můj kurz {hdr}</th><th class='l'>Výhodnost mého kurzu</th><th class='l'>Do deníku</th></tr>")
     if not app.board:
-        out.append("<tr><td class='l mut' colspan='12'>V těchto dnech nejsou na programu žádné zápasy.</td></tr>")
+        out.append("<tr><td class='l mut' colspan='13'>V těchto dnech nejsou na programu žádné zápasy.</td></tr>")
 
     def edge(v):
         c = "good" if v >= float(cfg["min_edge"]) else ("bad" if v < 0 else "")
@@ -779,6 +781,11 @@ def render(app, static=False):
             trh = (" / ".join(f"{r['fair'][k] * 100:.0f}" for k in sides) + " %") if three else pct(r["fair"]["home"], 1)
         else:
             trh = "–"
+        if ps is not None and r["fair"]:                      # 25 % model + 75 % trh
+            mix = {k: 0.25 * ps[k] + 0.75 * r["fair"][k] for k in sides}
+            mixs = (" / ".join(f"{mix[k] * 100:.0f}" for k in sides) + " %") if three else pct(mix["home"], 1)
+        else:
+            mixs = "–"
         edges = " / ".join(edge(r["edge"][k]) for k in sides) if r["edge"] else "–"
         tip = ""
         if r["pick"]:
@@ -814,6 +821,7 @@ def render(app, static=False):
                    f"<td class='num' data-l='Férový kurz {hdr}'>{fair}</td>"
                    f"<td class='num' data-l='Kurz trhu {hdr}'>{kurz}</td>"
                    f"<td class='num' data-l='Trh: {hdr if three else 'domácí'}'>{trh}</td>"
+                   f"<td class='num' data-l='Mix 25/75: {hdr if three else 'domácí'}'>{mixs}</td>"
                    f"<td class='num' data-l='Výhodnost {hdr}'>{edges}</td>"
                    f"<td class='l' data-l='Tip'>{tip}</td>"
                    f"<td data-l='Můj kurz {hdr}'>{my}</td><td class='l my' data-l='Výhodnost mého kurzu'></td>"
@@ -824,9 +832,13 @@ def render(app, static=False):
     if app.lg == "extraliga":
         legend += (" Počítá se výsledek po základní hrací době (60 minut): zápas, který šel do prodloužení"
                    " nebo nájezdů, je remíza. „pp“ = po prodloužení, „sn“ = po nájezdech.")
+    if data.is_ch(app.lg):
+        legend += (" Zdroj: web Českého hokeje (ceskyhokej.cz); kurzy je třeba zadat ručně.")
     if data.is_apisports(app.lg):
         legend += (f" Zdroj dat má denní limit (dnes využito {data.as_used(app.info['host'])} ze 100 dotazů),"
                    " proto se zápasy obnovují po 15–30 minutách a kurzy je třeba zadat ručně.")
+    legend += (" <b>Mix 25/75</b> = 25 % model + 75 % kurz trhu. V NBA na datech od roku 2012 trefuje stejně jako samotný trh,"
+               " takže slouží jako kontrola, ne jako doporučení k sázení.")
     out.append(f"<div class='note'>{legend} <b>Výhodnost</b> = očekávaný zisk na 1 Kč vkladu podle modelu "
                f"(pravděpodobnost × kurz − 1). Tip se zobrazí od {pct(float(cfg['min_edge']))}. "
                "Do sloupce „Můj kurz“ napiš kurz své sázkovky a výhodnost se přepočítá. "
@@ -1222,6 +1234,23 @@ class Handler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def do_GET(self):
+        try:
+            self._do_get()
+        except Exception:                      # misto prazdne odpovedi ukaz chybu a ulozit ji do chyby.log
+            import traceback
+            tb = traceback.format_exc()
+            print(f"[chyba] {self.path}\n{tb}")
+            try:
+                with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "chyby.log"), "a", encoding="utf-8") as f:
+                    f.write(f"--- {dt.datetime.now():%Y-%m-%d %H:%M:%S} {self.path}\n{tb}\n")
+            except OSError:
+                pass
+            try:
+                self._send("<pre>Chyba při sestavení stránky:\n\n" + html.escape(tb) + "</pre>", code=500)
+            except Exception:
+                pass
+
+    def _do_get(self):
         cfg = Handler.cfg
         path = self.path.split("?")[0].strip("/")
         name = path.replace(".html", "") or "index"
@@ -1483,6 +1512,15 @@ def cmd_test(cfg, only=None):
 
 
 def _test_league(cfg, lg):
+    if data.is_ch(lg):
+        try:
+            evs = data.ch_window(lg)
+            print(f"   OK: {len(evs)} zápasů od včerejška do +7 dní (zdroj ceskyhokej.cz)")
+            for x in evs[:6]:
+                print("  ", x["date_utc"], x["home"], "–", x["away"], "|", x["state"], x.get("score_txt"), x["detail"])
+        except Exception as ex:
+            print("   CHYBA:", type(ex).__name__, ex)
+        return
     if data.is_apisports(lg):
         try:
             evs = data.as_window(lg)
