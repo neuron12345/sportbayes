@@ -1,0 +1,1609 @@
+event_id,date_utc,season,season_type,home,away,home_pts,away_pts,neutral
+extrach_h2901740,2022-01-03T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,2,2,0
+extrach_h2901741,2022-01-03T17:00Z,2022,0,HC Sparta Praha,BANES Motor České Budějovice,5,3,0
+extrach_h2901742,2022-01-03T17:00Z,2022,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,4,1,0
+extrach_h2901743,2022-01-03T17:00Z,2022,0,HC KOMETA BRNO,HC Litvínov,3,1,0
+extrach_h2901744,2022-01-03T17:00Z,2022,0,Bílí Tygři Liberec,HC Olomouc,6,1,0
+extrach_h2901745,2022-01-03T17:00Z,2022,0,Rytíři Kladno,HC ŠKODA PLZEŇ,3,4,0
+extrach_h2901746,2022-01-03T17:00Z,2022,0,"Mountfield HK, a.s.",HC Oceláři Třinec,2,2,0
+extrach_h2901749,2022-01-05T17:00Z,2022,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",0,4,0
+extrach_h2901747,2022-01-06T17:00Z,2022,0,HC Oceláři Třinec,HC Litvínov,2,2,0
+extrach_h2901748,2022-01-06T17:00Z,2022,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,0,2,0
+extrach_h2901750,2022-01-06T17:00Z,2022,0,BK Mladá Boleslav,HC KOMETA BRNO,7,3,0
+extrach_h2901751,2022-01-06T17:00Z,2022,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,7,4,0
+extrach_h2901752,2022-01-06T17:00Z,2022,0,HC Olomouc,Rytíři Kladno,6,2,0
+extrach_h2901753,2022-01-06T17:00Z,2022,0,HC Sparta Praha,Bílí Tygři Liberec,2,5,0
+extrach_h2901754,2022-01-08T17:00Z,2022,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,6,1,0
+extrach_h2901755,2022-01-08T17:00Z,2022,0,HC Litvínov,BK Mladá Boleslav,4,3,0
+extrach_h2901756,2022-01-08T17:00Z,2022,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,1,3,0
+extrach_h2901757,2022-01-08T17:00Z,2022,0,Bílí Tygři Liberec,BANES Motor České Budějovice,2,2,0
+extrach_h2901758,2022-01-08T17:00Z,2022,0,"Mountfield HK, a.s.",HC Olomouc,4,4,0
+extrach_h2901759,2022-01-08T17:00Z,2022,0,HC Sparta Praha,Rytíři Kladno,4,0,0
+extrach_h2901760,2022-01-08T17:00Z,2022,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2901697,2022-01-10T17:00Z,2022,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,4,4,0
+extrach_h2901761,2022-01-10T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Sparta Praha,0,3,0
+extrach_h2901793,2022-01-10T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2901766,2022-01-11T17:00Z,2022,0,HC Olomouc,HC KOMETA BRNO,1,4,0
+extrach_h2901632,2022-01-13T17:00Z,2022,0,HC Oceláři Třinec,HC KOMETA BRNO,6,1,0
+extrach_h2901762,2022-01-13T17:00Z,2022,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,0,3,0
+extrach_h2901763,2022-01-13T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Litvínov,4,1,0
+extrach_h2901764,2022-01-13T17:00Z,2022,0,BK Mladá Boleslav,"Mountfield HK, a.s.",2,2,0
+extrach_h2901765,2022-01-13T17:00Z,2022,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,2,4,0
+extrach_h2901767,2022-01-13T17:00Z,2022,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,3,4,0
+extrach_h2901770,2022-01-15T17:00Z,2022,0,HC Litvínov,HC DYNAMO PARDUBICE,1,2,0
+extrach_h2901771,2022-01-15T17:00Z,2022,0,BANES Motor České Budějovice,Rytíři Kladno,6,2,0
+extrach_h2901772,2022-01-15T17:00Z,2022,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,3,1,0
+extrach_h2901773,2022-01-15T17:00Z,2022,0,"Mountfield HK, a.s.",HC Sparta Praha,3,3,0
+extrach_h2901774,2022-01-15T17:00Z,2022,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,2,2,0
+extrach_h2901775,2022-01-15T17:00Z,2022,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,2,5,0
+extrach_h2901640,2022-01-17T17:00Z,2022,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2901652,2022-01-17T17:00Z,2022,0,HC Sparta Praha,BANES Motor České Budějovice,5,0,0
+extrach_h2901769,2022-01-17T17:00Z,2022,0,HC Oceláři Třinec,HC Olomouc,1,3,0
+extrach_h2901698,2022-01-18T17:00Z,2022,0,Rytíři Kladno,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2901776,2022-01-20T17:00Z,2022,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,3,3,0
+extrach_h2901777,2022-01-20T17:00Z,2022,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,2,0,0
+extrach_h2901778,2022-01-20T17:00Z,2022,0,BYD Energie Karlovy Vary,Rytíři Kladno,4,2,0
+extrach_h2901779,2022-01-20T17:00Z,2022,0,BK Mladá Boleslav,HC Oceláři Třinec,1,0,0
+extrach_h2901780,2022-01-20T17:00Z,2022,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",4,1,0
+extrach_h2901781,2022-01-20T17:00Z,2022,0,HC Olomouc,HC Litvínov,1,8,0
+extrach_h2901782,2022-01-20T17:00Z,2022,0,HC Sparta Praha,HC KOMETA BRNO,5,3,0
+extrach_h2901783,2022-01-22T17:00Z,2022,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,5,4,0
+extrach_h2901784,2022-01-22T17:00Z,2022,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",3,1,0
+extrach_h2901785,2022-01-22T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Litvínov,2,2,0
+extrach_h2901786,2022-01-22T17:00Z,2022,0,HC Sparta Praha,BK Mladá Boleslav,4,1,0
+extrach_h2901787,2022-01-22T17:00Z,2022,0,BANES Motor České Budějovice,HC Oceláři Třinec,3,2,0
+extrach_h2901788,2022-01-22T17:00Z,2022,0,HC DYNAMO PARDUBICE,Rytíři Kladno,4,2,0
+extrach_h2901789,2022-01-22T17:00Z,2022,0,HC Olomouc,HC ŠKODA PLZEŇ,3,2,0
+extrach_h2901790,2022-01-24T17:00Z,2022,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,0,4,0
+extrach_h2901792,2022-01-24T17:00Z,2022,0,BK Mladá Boleslav,HC Olomouc,4,0,0
+extrach_h2901794,2022-01-24T17:00Z,2022,0,Rytíři Kladno,Bílí Tygři Liberec,3,2,0
+extrach_h2901795,2022-01-24T17:00Z,2022,0,HC KOMETA BRNO,BANES Motor České Budějovice,5,2,0
+extrach_h2901796,2022-01-24T17:00Z,2022,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,3,0,0
+extrach_h2901791,2022-01-25T17:00Z,2022,0,HC Sparta Praha,HC Litvínov,3,2,0
+extrach_h2901801,2022-01-26T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,4,3,0
+extrach_h2901797,2022-01-27T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,4,1,0
+extrach_h2901798,2022-01-27T17:00Z,2022,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",2,5,0
+extrach_h2901799,2022-01-27T17:00Z,2022,0,BANES Motor České Budějovice,BK Mladá Boleslav,4,4,0
+extrach_h2901800,2022-01-27T17:00Z,2022,0,Rytíři Kladno,HC KOMETA BRNO,0,3,0
+extrach_h2901802,2022-01-27T17:00Z,2022,0,Bílí Tygři Liberec,HC Litvínov,5,1,0
+extrach_h2901805,2022-01-29T17:00Z,2022,0,HC Litvínov,BANES Motor České Budějovice,0,0,0
+extrach_h2901806,2022-01-29T17:00Z,2022,0,"Mountfield HK, a.s.",Rytíři Kladno,4,2,0
+extrach_h2901807,2022-01-29T17:00Z,2022,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,3,5,0
+extrach_h2901808,2022-01-29T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Sparta Praha,3,3,0
+extrach_h2901809,2022-01-29T17:00Z,2022,0,HC KOMETA BRNO,Bílí Tygři Liberec,3,0,0
+extrach_h2901810,2022-01-29T17:00Z,2022,0,HC Olomouc,BYD Energie Karlovy Vary,3,4,0
+extrach_h2901739,2022-01-31T17:00Z,2022,0,HC Sparta Praha,BYD Energie Karlovy Vary,6,3,0
+extrach_h2901804,2022-01-31T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,1,2,0
+extrach_h2901812,2022-02-02T17:00Z,2022,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",2,3,0
+extrach_h2901811,2022-02-03T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,3,4,0
+extrach_h2901813,2022-02-03T17:00Z,2022,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,3,1,0
+extrach_h2901814,2022-02-03T17:00Z,2022,0,HC KOMETA BRNO,HC Oceláři Třinec,5,1,0
+extrach_h2901815,2022-02-03T17:00Z,2022,0,Rytíři Kladno,HC Litvínov,5,2,0
+extrach_h2901816,2022-02-03T17:00Z,2022,0,Bílí Tygři Liberec,BK Mladá Boleslav,3,3,0
+extrach_h2901817,2022-02-03T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Olomouc,4,1,0
+extrach_h2901818,2022-02-05T17:00Z,2022,0,HC Oceláři Třinec,Rytíři Kladno,5,4,0
+extrach_h2901819,2022-02-05T17:00Z,2022,0,HC Litvínov,BYD Energie Karlovy Vary,1,1,0
+extrach_h2901820,2022-02-05T17:00Z,2022,0,"Mountfield HK, a.s.",HC KOMETA BRNO,1,0,0
+extrach_h2901821,2022-02-05T17:00Z,2022,0,HC Sparta Praha,HC DYNAMO PARDUBICE,4,2,0
+extrach_h2901822,2022-02-05T17:00Z,2022,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2901823,2022-02-05T17:00Z,2022,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,2,4,0
+extrach_h2901824,2022-02-05T17:00Z,2022,0,HC Olomouc,BANES Motor České Budějovice,3,2,0
+extrach_h2901563,2022-02-13T17:00Z,2022,0,"Mountfield HK, a.s.",HC Oceláři Třinec,4,3,0
+extrach_h2901825,2022-02-15T17:00Z,2022,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,3,7,0
+extrach_h2901826,2022-02-15T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Sparta Praha,3,6,0
+extrach_h2901827,2022-02-15T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Olomouc,3,1,0
+extrach_h2901828,2022-02-15T17:00Z,2022,0,"Mountfield HK, a.s.",HC Litvínov,3,0,0
+extrach_h2901829,2022-02-15T17:00Z,2022,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,3,0,0
+extrach_h2901830,2022-02-15T17:00Z,2022,0,Rytíři Kladno,BK Mladá Boleslav,2,1,0
+extrach_h2901831,2022-02-15T17:00Z,2022,0,Bílí Tygři Liberec,HC Oceláři Třinec,2,2,0
+extrach_h2901832,2022-02-17T17:00Z,2022,0,HC Oceláři Třinec,"Mountfield HK, a.s.",1,2,0
+extrach_h2901833,2022-02-17T17:00Z,2022,0,HC Litvínov,HC KOMETA BRNO,2,2,0
+extrach_h2901834,2022-02-17T17:00Z,2022,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,0,2,0
+extrach_h2901835,2022-02-17T17:00Z,2022,0,HC ŠKODA PLZEŇ,Rytíři Kladno,0,3,0
+extrach_h2901836,2022-02-17T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,1,4,0
+extrach_h2901837,2022-02-17T17:00Z,2022,0,HC Olomouc,Bílí Tygři Liberec,2,3,0
+extrach_h2901838,2022-02-17T17:00Z,2022,0,BANES Motor České Budějovice,HC Sparta Praha,3,3,0
+extrach_h2901839,2022-02-19T17:00Z,2022,0,HC Litvínov,HC Oceláři Třinec,3,3,0
+extrach_h2901840,2022-02-19T17:00Z,2022,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,0,5,0
+extrach_h2901841,2022-02-19T17:00Z,2022,0,Bílí Tygři Liberec,HC Sparta Praha,2,1,0
+extrach_h2901842,2022-02-19T17:00Z,2022,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,1,4,0
+extrach_h2901843,2022-02-19T17:00Z,2022,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,2,1,0
+extrach_h2901844,2022-02-19T17:00Z,2022,0,Rytíři Kladno,HC Olomouc,4,4,0
+extrach_h2901845,2022-02-19T17:00Z,2022,0,HC KOMETA BRNO,BK Mladá Boleslav,1,4,0
+extrach_h2901846,2022-02-22T17:00Z,2022,0,BANES Motor České Budějovice,Bílí Tygři Liberec,3,4,0
+extrach_h2901847,2022-02-24T17:00Z,2022,0,BK Mladá Boleslav,HC Litvínov,1,2,0
+extrach_h2901848,2022-02-24T17:00Z,2022,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,6,1,0
+extrach_h2901849,2022-02-24T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,4,4,0
+extrach_h2901850,2022-02-24T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,1,3,0
+extrach_h2901851,2022-02-24T17:00Z,2022,0,HC Olomouc,"Mountfield HK, a.s.",0,4,0
+extrach_h2901852,2022-02-24T17:00Z,2022,0,Rytíři Kladno,HC Sparta Praha,3,4,0
+extrach_h2901853,2022-02-26T17:00Z,2022,0,HC Sparta Praha,HC Oceláři Třinec,4,2,0
+extrach_h2901854,2022-02-26T17:00Z,2022,0,HC Litvínov,HC ŠKODA PLZEŇ,2,1,0
+extrach_h2901855,2022-02-26T17:00Z,2022,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,5,1,0
+extrach_h2901856,2022-02-26T17:00Z,2022,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,1,2,0
+extrach_h2901857,2022-02-26T17:00Z,2022,0,"Mountfield HK, a.s.",BK Mladá Boleslav,3,3,0
+extrach_h2901859,2022-02-26T17:00Z,2022,0,HC KOMETA BRNO,HC Olomouc,3,0,0
+extrach_h2901803,2022-02-28T17:00Z,2022,0,HC Sparta Praha,HC Olomouc,1,1,0
+extrach_h2901858,2022-02-28T17:00Z,2022,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,5,1,0
+extrach_h2901860,2022-03-03T17:00Z,2022,0,BANES Motor České Budějovice,Rytíři Kladno,5,2,0
+extrach_h2901861,2022-03-03T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,5,2,0
+extrach_h2901862,2022-03-03T17:00Z,2022,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,3,3,0
+extrach_h2901863,2022-03-03T17:00Z,2022,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,4,2,0
+extrach_h2901864,2022-03-03T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Litvínov,2,2,0
+extrach_h2901865,2022-03-03T17:00Z,2022,0,HC Olomouc,HC Oceláři Třinec,0,5,0
+extrach_h2901866,2022-03-03T17:00Z,2022,0,HC Sparta Praha,"Mountfield HK, a.s.",3,2,0
+extrach_h2901867,2022-03-05T17:00Z,2022,0,HC Oceláři Třinec,BK Mladá Boleslav,2,3,0
+extrach_h2901868,2022-03-05T17:00Z,2022,0,HC Litvínov,HC Olomouc,5,1,0
+extrach_h2901869,2022-03-05T17:00Z,2022,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,3,1,0
+extrach_h2901870,2022-03-05T17:00Z,2022,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,1,1,0
+extrach_h2901871,2022-03-05T17:00Z,2022,0,Rytíři Kladno,BYD Energie Karlovy Vary,5,4,0
+extrach_h2901872,2022-03-05T17:00Z,2022,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,3,5,0
+extrach_h2901873,2022-03-05T17:00Z,2022,0,HC KOMETA BRNO,HC Sparta Praha,5,2,0
+extrach_h2901514,2022-09-15T17:00Z,2022,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,6,1,0
+extrach_h2901510,2022-09-16T17:00Z,2022,0,HC Oceláři Třinec,BANES Motor České Budějovice,0,2,0
+extrach_h2901511,2022-09-16T17:00Z,2022,0,HC Litvínov,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2901512,2022-09-16T17:00Z,2022,0,BK Mladá Boleslav,HC Sparta Praha,4,2,0
+extrach_h2901513,2022-09-16T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Olomouc,1,2,0
+extrach_h2901515,2022-09-16T17:00Z,2022,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,1,1,0
+extrach_h2901516,2022-09-16T17:00Z,2022,0,Rytíři Kladno,HC DYNAMO PARDUBICE,4,4,0
+extrach_h2901517,2022-09-18T17:00Z,2022,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",2,3,0
+extrach_h2901518,2022-09-18T17:00Z,2022,0,Bílí Tygři Liberec,Rytíři Kladno,3,3,0
+extrach_h2901519,2022-09-18T17:00Z,2022,0,HC Sparta Praha,HC Litvínov,3,0,0
+extrach_h2901520,2022-09-18T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,4,2,0
+extrach_h2901521,2022-09-18T17:00Z,2022,0,HC Olomouc,BK Mladá Boleslav,2,1,0
+extrach_h2901522,2022-09-18T17:00Z,2022,0,BANES Motor České Budějovice,HC KOMETA BRNO,6,2,0
+extrach_h2901523,2022-09-18T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,3,3,0
+extrach_h2901536,2022-09-20T17:00Z,2022,0,BANES Motor České Budějovice,HC Litvínov,6,3,0
+extrach_h2901530,2022-09-22T17:00Z,2022,0,HC Olomouc,HC Sparta Praha,4,0,0
+extrach_h2901524,2022-09-23T17:00Z,2022,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,1,2,0
+extrach_h2901525,2022-09-23T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2901526,2022-09-23T17:00Z,2022,0,HC Litvínov,Bílí Tygři Liberec,2,2,0
+extrach_h2901527,2022-09-23T17:00Z,2022,0,BK Mladá Boleslav,BANES Motor České Budějovice,5,1,0
+extrach_h2901528,2022-09-23T17:00Z,2022,0,HC KOMETA BRNO,Rytíři Kladno,1,3,0
+extrach_h2901529,2022-09-23T17:00Z,2022,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2901532,2022-09-25T17:00Z,2022,0,HC Sparta Praha,HC ŠKODA PLZEŇ,3,2,0
+extrach_h2901533,2022-09-25T17:00Z,2022,0,Bílí Tygři Liberec,HC KOMETA BRNO,2,2,0
+extrach_h2901534,2022-09-25T17:00Z,2022,0,Rytíři Kladno,"Mountfield HK, a.s.",2,1,0
+extrach_h2901535,2022-09-25T17:00Z,2022,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,3,5,0
+extrach_h2901537,2022-09-25T17:00Z,2022,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,2,2,0
+extrach_h2901538,2022-09-27T17:00Z,2022,0,HC KOMETA BRNO,HC Oceláři Třinec,2,4,0
+extrach_h2901539,2022-09-27T17:00Z,2022,0,HC Litvínov,Rytíři Kladno,1,1,0
+extrach_h2901540,2022-09-27T17:00Z,2022,0,BK Mladá Boleslav,Bílí Tygři Liberec,1,1,0
+extrach_h2901541,2022-09-27T17:00Z,2022,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,6,3,0
+extrach_h2901542,2022-09-27T17:00Z,2022,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,3,1,0
+extrach_h2901543,2022-09-27T17:00Z,2022,0,HC Olomouc,HC DYNAMO PARDUBICE,1,2,0
+extrach_h2901544,2022-09-27T17:00Z,2022,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,5,3,0
+extrach_h2901546,2022-09-29T17:00Z,2022,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,4,0,0
+extrach_h2901550,2022-09-29T17:00Z,2022,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2901551,2022-09-29T17:00Z,2022,0,Rytíři Kladno,HC Oceláři Třinec,1,2,0
+extrach_h2901545,2022-09-30T17:00Z,2022,0,BANES Motor České Budějovice,HC Olomouc,1,1,0
+extrach_h2901548,2022-09-30T17:00Z,2022,0,HC KOMETA BRNO,"Mountfield HK, a.s.",4,0,0
+extrach_h2901549,2022-09-30T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Sparta Praha,2,2,0
+extrach_h2901552,2022-10-02T17:00Z,2022,0,HC Sparta Praha,BYD Energie Karlovy Vary,4,4,0
+extrach_h2901553,2022-10-02T17:00Z,2022,0,BK Mladá Boleslav,Rytíři Kladno,4,0,0
+extrach_h2901554,2022-10-02T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,3,3,0
+extrach_h2901555,2022-10-02T17:00Z,2022,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,6,1,0
+extrach_h2901556,2022-10-02T17:00Z,2022,0,HC Olomouc,HC VÍTKOVICE RIDERA,4,4,0
+extrach_h2901557,2022-10-02T17:00Z,2022,0,HC Oceláři Třinec,Bílí Tygři Liberec,3,3,0
+extrach_h2901558,2022-10-02T17:00Z,2022,0,HC Litvínov,"Mountfield HK, a.s.",3,2,0
+extrach_h2901547,2022-10-04T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Litvínov,1,4,0
+extrach_h2901577,2022-10-04T17:00Z,2022,0,Bílí Tygři Liberec,BANES Motor České Budějovice,6,1,0
+extrach_h2901560,2022-10-06T17:00Z,2022,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,0,1,0
+extrach_h2901561,2022-10-06T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2901559,2022-10-07T17:00Z,2022,0,BANES Motor České Budějovice,HC Sparta Praha,2,2,0
+extrach_h2901562,2022-10-07T17:00Z,2022,0,Rytíři Kladno,HC ŠKODA PLZEŇ,0,4,0
+extrach_h2901564,2022-10-07T17:00Z,2022,0,HC KOMETA BRNO,HC Litvínov,5,4,0
+extrach_h2901565,2022-10-07T17:00Z,2022,0,Bílí Tygři Liberec,HC Olomouc,6,2,0
+extrach_h2901567,2022-10-09T17:00Z,2022,0,BK Mladá Boleslav,HC KOMETA BRNO,3,2,0
+extrach_h2901568,2022-10-09T17:00Z,2022,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",2,5,0
+extrach_h2901569,2022-10-09T17:00Z,2022,0,HC Oceláři Třinec,HC Litvínov,4,1,0
+extrach_h2901570,2022-10-09T17:00Z,2022,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,2,4,0
+extrach_h2901571,2022-10-09T17:00Z,2022,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2901572,2022-10-09T17:00Z,2022,0,HC Olomouc,Rytíři Kladno,3,0,0
+extrach_h2901576,2022-10-13T17:00Z,2022,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,3,3,0
+extrach_h2901573,2022-10-14T17:00Z,2022,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,3,2,0
+extrach_h2901574,2022-10-14T17:00Z,2022,0,HC Litvínov,BK Mladá Boleslav,3,4,0
+extrach_h2901575,2022-10-14T17:00Z,2022,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,4,5,0
+extrach_h2901578,2022-10-14T17:00Z,2022,0,"Mountfield HK, a.s.",HC Olomouc,0,3,0
+extrach_h2901579,2022-10-14T17:00Z,2022,0,Rytíři Kladno,HC Sparta Praha,2,5,0
+extrach_h2901580,2022-10-16T17:00Z,2022,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,2,0,0
+extrach_h2901581,2022-10-16T17:00Z,2022,0,BK Mladá Boleslav,"Mountfield HK, a.s.",0,2,0
+extrach_h2901582,2022-10-16T17:00Z,2022,0,HC Oceláři Třinec,HC Sparta Praha,4,2,0
+extrach_h2901583,2022-10-16T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Litvínov,4,3,0
+extrach_h2901584,2022-10-16T17:00Z,2022,0,HC Olomouc,HC KOMETA BRNO,2,3,0
+extrach_h2901585,2022-10-16T17:00Z,2022,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,4,3,0
+extrach_h2901586,2022-10-16T17:00Z,2022,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,0,0,0
+extrach_h2901588,2022-10-18T17:00Z,2022,0,HC Litvínov,HC DYNAMO PARDUBICE,0,0,0
+extrach_h2901589,2022-10-18T17:00Z,2022,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,1,1,0
+extrach_h2901590,2022-10-18T17:00Z,2022,0,Rytíři Kladno,BANES Motor České Budějovice,2,1,0
+extrach_h2901591,2022-10-18T17:00Z,2022,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2901592,2022-10-18T17:00Z,2022,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,3,3,0
+extrach_h2901593,2022-10-18T17:00Z,2022,0,"Mountfield HK, a.s.",HC Sparta Praha,3,2,0
+extrach_h2901594,2022-10-20T17:00Z,2022,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2901595,2022-10-21T17:00Z,2022,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,6,3,0
+extrach_h2901596,2022-10-21T17:00Z,2022,0,BYD Energie Karlovy Vary,Rytíři Kladno,4,3,0
+extrach_h2901597,2022-10-21T17:00Z,2022,0,BK Mladá Boleslav,HC Oceláři Třinec,2,2,0
+extrach_h2901598,2022-10-21T17:00Z,2022,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",5,2,0
+extrach_h2901599,2022-10-21T17:00Z,2022,0,HC Olomouc,HC Litvínov,5,3,0
+extrach_h2901600,2022-10-21T17:00Z,2022,0,HC Sparta Praha,HC KOMETA BRNO,2,3,0
+extrach_h2901601,2022-10-23T17:00Z,2022,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,2,2,0
+extrach_h2901602,2022-10-23T17:00Z,2022,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",3,6,0
+extrach_h2901603,2022-10-23T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Litvínov,5,3,0
+extrach_h2901604,2022-10-23T17:00Z,2022,0,HC Sparta Praha,BK Mladá Boleslav,2,2,0
+extrach_h2901605,2022-10-23T17:00Z,2022,0,BANES Motor České Budějovice,HC Oceláři Třinec,2,2,0
+extrach_h2901606,2022-10-23T17:00Z,2022,0,HC DYNAMO PARDUBICE,Rytíři Kladno,6,2,0
+extrach_h2901607,2022-10-23T17:00Z,2022,0,HC Olomouc,HC ŠKODA PLZEŇ,1,4,0
+extrach_h2901721,2022-10-26T17:00Z,2022,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2901613,2022-10-27T17:00Z,2022,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,2,3,0
+extrach_h2901608,2022-10-28T17:00Z,2022,0,Rytíři Kladno,Bílí Tygři Liberec,3,2,0
+extrach_h2901609,2022-10-28T17:00Z,2022,0,BK Mladá Boleslav,HC Olomouc,2,2,0
+extrach_h2901610,2022-10-28T17:00Z,2022,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,1,2,0
+extrach_h2901611,2022-10-28T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,3,3,0
+extrach_h2901612,2022-10-28T17:00Z,2022,0,HC KOMETA BRNO,BANES Motor České Budějovice,3,0,0
+extrach_h2901614,2022-10-28T17:00Z,2022,0,HC Litvínov,HC Sparta Praha,4,0,0
+extrach_h2901615,2022-10-30T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,2,6,0
+extrach_h2901616,2022-10-30T17:00Z,2022,0,Rytíři Kladno,HC KOMETA BRNO,3,5,0
+extrach_h2901617,2022-10-30T17:00Z,2022,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",5,2,0
+extrach_h2901618,2022-10-30T17:00Z,2022,0,Bílí Tygři Liberec,HC Litvínov,2,2,0
+extrach_h2901619,2022-10-30T17:00Z,2022,0,HC Sparta Praha,HC Olomouc,2,5,0
+extrach_h2901620,2022-10-30T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,7,2,0
+extrach_h2901621,2022-10-30T17:00Z,2022,0,BANES Motor České Budějovice,BK Mladá Boleslav,3,0,0
+extrach_h2901624,2022-11-01T17:00Z,2022,0,HC Litvínov,BANES Motor České Budějovice,6,4,0
+extrach_h2901625,2022-11-01T17:00Z,2022,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,0,1,0
+extrach_h2901627,2022-11-01T17:00Z,2022,0,HC Olomouc,BYD Energie Karlovy Vary,2,0,0
+extrach_h2901628,2022-11-01T17:00Z,2022,0,"Mountfield HK, a.s.",Rytíři Kladno,7,7,0
+extrach_h2901622,2022-11-02T17:00Z,2022,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,1,1,0
+extrach_h2901623,2022-11-02T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Sparta Praha,4,0,0
+extrach_h2901635,2022-11-03T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Olomouc,3,0,0
+extrach_h2901629,2022-11-04T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,3,2,0
+extrach_h2901630,2022-11-04T17:00Z,2022,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",2,1,0
+extrach_h2901631,2022-11-04T17:00Z,2022,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,4,4,0
+extrach_h2901633,2022-11-04T17:00Z,2022,0,Rytíři Kladno,HC Litvínov,2,2,0
+extrach_h2901634,2022-11-04T17:00Z,2022,0,Bílí Tygři Liberec,BK Mladá Boleslav,6,2,0
+extrach_h2901636,2022-11-06T17:00Z,2022,0,HC Oceláři Třinec,Rytíři Kladno,8,0,0
+extrach_h2901637,2022-11-06T17:00Z,2022,0,HC Litvínov,BYD Energie Karlovy Vary,5,3,0
+extrach_h2901638,2022-11-06T17:00Z,2022,0,"Mountfield HK, a.s.",HC KOMETA BRNO,5,1,0
+extrach_h2901639,2022-11-06T17:00Z,2022,0,HC Sparta Praha,HC DYNAMO PARDUBICE,2,3,0
+extrach_h2901641,2022-11-06T17:00Z,2022,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,3,3,0
+extrach_h2901642,2022-11-06T17:00Z,2022,0,HC Olomouc,BANES Motor České Budějovice,3,1,0
+extrach_h2901531,2022-11-15T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Olomouc,3,2,0
+extrach_h2901768,2022-11-16T17:00Z,2022,0,HC Oceláři Třinec,HC Sparta Praha,2,1,0
+extrach_h2901643,2022-11-17T17:00Z,2022,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,2,4,0
+extrach_h2901644,2022-11-18T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Sparta Praha,1,5,0
+extrach_h2901645,2022-11-18T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Olomouc,3,0,0
+extrach_h2901646,2022-11-18T17:00Z,2022,0,"Mountfield HK, a.s.",HC Litvínov,3,0,0
+extrach_h2901647,2022-11-18T17:00Z,2022,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,3,1,0
+extrach_h2901648,2022-11-18T17:00Z,2022,0,Rytíři Kladno,BK Mladá Boleslav,1,1,0
+extrach_h2901649,2022-11-18T17:00Z,2022,0,Bílí Tygři Liberec,HC Oceláři Třinec,1,4,0
+extrach_h2901650,2022-11-20T17:00Z,2022,0,HC Oceláři Třinec,"Mountfield HK, a.s.",4,1,0
+extrach_h2901651,2022-11-20T17:00Z,2022,0,HC Litvínov,HC KOMETA BRNO,5,1,0
+extrach_h2901653,2022-11-20T17:00Z,2022,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,3,3,0
+extrach_h2901654,2022-11-20T17:00Z,2022,0,HC ŠKODA PLZEŇ,Rytíři Kladno,1,1,0
+extrach_h2901656,2022-11-20T17:00Z,2022,0,HC Olomouc,Bílí Tygři Liberec,4,1,0
+extrach_h2901587,2022-11-22T17:00Z,2022,0,HC Oceláři Třinec,HC Olomouc,2,3,0
+extrach_h2901626,2022-11-22T17:00Z,2022,0,HC KOMETA BRNO,Bílí Tygři Liberec,0,5,0
+extrach_h2901655,2022-11-22T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,4,4,0
+extrach_h2901657,2022-11-25T17:00Z,2022,0,HC Litvínov,HC Oceláři Třinec,1,1,0
+extrach_h2901658,2022-11-25T17:00Z,2022,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,1,3,0
+extrach_h2901659,2022-11-25T17:00Z,2022,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,4,3,0
+extrach_h2901660,2022-11-25T17:00Z,2022,0,HC Sparta Praha,Bílí Tygři Liberec,3,1,0
+extrach_h2901661,2022-11-25T17:00Z,2022,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,1,4,0
+extrach_h2901662,2022-11-25T17:00Z,2022,0,HC KOMETA BRNO,BK Mladá Boleslav,1,3,0
+extrach_h2901663,2022-11-25T17:00Z,2022,0,Rytíři Kladno,HC Olomouc,5,2,0
+extrach_h2901664,2022-11-27T17:00Z,2022,0,BK Mladá Boleslav,HC Litvínov,6,4,0
+extrach_h2901665,2022-11-27T17:00Z,2022,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,4,2,0
+extrach_h2901666,2022-11-27T17:00Z,2022,0,HC Sparta Praha,Rytíři Kladno,5,1,0
+extrach_h2901667,2022-11-27T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,2,1,0
+extrach_h2901668,2022-11-27T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,3,3,0
+extrach_h2901669,2022-11-27T17:00Z,2022,0,BANES Motor České Budějovice,Bílí Tygři Liberec,4,1,0
+extrach_h2901670,2022-11-27T17:00Z,2022,0,HC Olomouc,"Mountfield HK, a.s.",5,0,0
+extrach_h2901671,2022-11-29T17:00Z,2022,0,HC Sparta Praha,HC Oceláři Třinec,1,0,0
+extrach_h2901672,2022-11-29T17:00Z,2022,0,HC Litvínov,HC ŠKODA PLZEŇ,2,4,0
+extrach_h2901673,2022-11-29T17:00Z,2022,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,0,3,0
+extrach_h2901674,2022-11-29T17:00Z,2022,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2901675,2022-11-29T17:00Z,2022,0,"Mountfield HK, a.s.",BK Mladá Boleslav,0,2,0
+extrach_h2901676,2022-11-29T17:00Z,2022,0,HC KOMETA BRNO,HC Olomouc,0,0,0
+extrach_h2901677,2022-11-29T17:00Z,2022,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,1,3,0
+extrach_h2901681,2022-12-01T17:00Z,2022,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,0,1,0
+extrach_h2901678,2022-12-02T17:00Z,2022,0,Rytíři Kladno,BANES Motor České Budějovice,1,6,0
+extrach_h2901679,2022-12-02T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,4,1,0
+extrach_h2901680,2022-12-02T17:00Z,2022,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,0,2,0
+extrach_h2901683,2022-12-02T17:00Z,2022,0,HC Olomouc,HC Oceláři Třinec,4,2,0
+extrach_h2901684,2022-12-02T17:00Z,2022,0,HC Sparta Praha,"Mountfield HK, a.s.",2,1,0
+extrach_h2901685,2022-12-04T17:00Z,2022,0,HC Oceláři Třinec,BK Mladá Boleslav,3,0,0
+extrach_h2901686,2022-12-04T17:00Z,2022,0,HC Litvínov,HC Olomouc,5,3,0
+extrach_h2901687,2022-12-04T17:00Z,2022,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,4,0,0
+extrach_h2901688,2022-12-04T17:00Z,2022,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2901689,2022-12-04T17:00Z,2022,0,Rytíři Kladno,BYD Energie Karlovy Vary,4,1,0
+extrach_h2901690,2022-12-04T17:00Z,2022,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,4,1,0
+extrach_h2901691,2022-12-04T17:00Z,2022,0,HC KOMETA BRNO,HC Sparta Praha,2,6,0
+extrach_h2901566,2022-12-06T17:00Z,2022,0,Bílí Tygři Liberec,HC Sparta Praha,0,1,0
+extrach_h2901682,2022-12-06T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Litvínov,1,0,0
+extrach_h2901692,2022-12-09T17:00Z,2022,0,HC Oceláři Třinec,BANES Motor České Budějovice,2,2,0
+extrach_h2901693,2022-12-09T17:00Z,2022,0,HC Litvínov,HC VÍTKOVICE RIDERA,5,3,0
+extrach_h2901694,2022-12-09T17:00Z,2022,0,BK Mladá Boleslav,HC Sparta Praha,1,2,0
+extrach_h2901695,2022-12-09T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC Olomouc,5,4,0
+extrach_h2901696,2022-12-09T17:00Z,2022,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,2,3,0
+extrach_h2901699,2022-12-11T17:00Z,2022,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",1,4,0
+extrach_h2901700,2022-12-11T17:00Z,2022,0,Bílí Tygři Liberec,Rytíři Kladno,7,3,0
+extrach_h2901701,2022-12-11T17:00Z,2022,0,HC Litvínov,HC Sparta Praha,5,2,0
+extrach_h2901702,2022-12-11T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2901703,2022-12-11T17:00Z,2022,0,HC Olomouc,BK Mladá Boleslav,2,0,0
+extrach_h2901704,2022-12-11T17:00Z,2022,0,BANES Motor České Budějovice,HC KOMETA BRNO,3,1,0
+extrach_h2901705,2022-12-11T17:00Z,2022,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,0,3,0
+extrach_h2901706,2022-12-20T17:00Z,2022,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,4,2,0
+extrach_h2901707,2022-12-20T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,0,2,0
+extrach_h2901708,2022-12-20T17:00Z,2022,0,HC Litvínov,Bílí Tygři Liberec,2,2,0
+extrach_h2901709,2022-12-20T17:00Z,2022,0,BK Mladá Boleslav,BANES Motor České Budějovice,2,1,0
+extrach_h2901710,2022-12-20T17:00Z,2022,0,HC KOMETA BRNO,Rytíři Kladno,2,2,0
+extrach_h2901711,2022-12-20T17:00Z,2022,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,3,3,0
+extrach_h2901712,2022-12-20T17:00Z,2022,0,HC Olomouc,HC Sparta Praha,0,1,0
+extrach_h2901713,2022-12-22T17:00Z,2022,0,BANES Motor České Budějovice,HC Litvínov,2,5,0
+extrach_h2901714,2022-12-22T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Olomouc,0,3,0
+extrach_h2901715,2022-12-22T17:00Z,2022,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,1,2,0
+extrach_h2901716,2022-12-22T17:00Z,2022,0,Bílí Tygři Liberec,HC KOMETA BRNO,2,1,0
+extrach_h2901717,2022-12-22T17:00Z,2022,0,Rytíři Kladno,"Mountfield HK, a.s.",3,6,0
+extrach_h2901718,2022-12-22T17:00Z,2022,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,1,1,0
+extrach_h2901719,2022-12-22T17:00Z,2022,0,HC Sparta Praha,HC ŠKODA PLZEŇ,3,0,0
+extrach_h2901720,2022-12-26T17:00Z,2022,0,HC Litvínov,Rytíři Kladno,2,3,0
+extrach_h2901722,2022-12-26T17:00Z,2022,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,1,4,0
+extrach_h2901723,2022-12-26T17:00Z,2022,0,BK Mladá Boleslav,Bílí Tygři Liberec,3,7,0
+extrach_h2901724,2022-12-26T17:00Z,2022,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,1,0,0
+extrach_h2901725,2022-12-26T17:00Z,2022,0,HC Oceláři Třinec,HC KOMETA BRNO,7,2,0
+extrach_h2901726,2022-12-26T17:00Z,2022,0,HC Olomouc,HC DYNAMO PARDUBICE,2,2,0
+extrach_h2901727,2022-12-28T17:00Z,2022,0,BANES Motor České Budějovice,HC Olomouc,4,2,0
+extrach_h2901728,2022-12-28T17:00Z,2022,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,5,2,0
+extrach_h2901729,2022-12-28T17:00Z,2022,0,BYD Energie Karlovy Vary,HC Litvínov,3,0,0
+extrach_h2901730,2022-12-28T17:00Z,2022,0,HC KOMETA BRNO,"Mountfield HK, a.s.",2,2,0
+extrach_h2901731,2022-12-28T17:00Z,2022,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,1,1,0
+extrach_h2901732,2022-12-28T17:00Z,2022,0,Rytíři Kladno,HC Oceláři Třinec,4,3,0
+extrach_h2901733,2022-12-30T17:00Z,2022,0,HC Oceláři Třinec,Bílí Tygři Liberec,6,3,0
+extrach_h2901734,2022-12-30T17:00Z,2022,0,HC Litvínov,"Mountfield HK, a.s.",2,2,0
+extrach_h2901735,2022-12-30T17:00Z,2022,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,5,2,0
+extrach_h2901736,2022-12-30T17:00Z,2022,0,BK Mladá Boleslav,Rytíři Kladno,1,2,0
+extrach_h2901737,2022-12-30T17:00Z,2022,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,4,1,0
+extrach_h2901738,2022-12-30T17:00Z,2022,0,HC Olomouc,HC VÍTKOVICE RIDERA,2,4,0
+extrach_h2908816,2023-01-03T17:00Z,2023,0,HC Litvínov,BYD Energie Karlovy Vary,1,6,0
+extrach_h2908817,2023-01-03T17:00Z,2023,0,BK Mladá Boleslav,HC Oceláři Třinec,2,2,0
+extrach_h2908818,2023-01-03T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Olomouc,8,0,0
+extrach_h2908819,2023-01-03T17:00Z,2023,0,"Mountfield HK, a.s.",Rytíři Kladno,4,2,0
+extrach_h2908820,2023-01-03T17:00Z,2023,0,Bílí Tygři Liberec,BANES Motor České Budějovice,4,1,0
+extrach_h2908822,2023-01-03T17:00Z,2023,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2908823,2023-01-05T17:00Z,2023,0,HC Litvínov,HC Oceláři Třinec,5,2,0
+extrach_h2908824,2023-01-05T17:00Z,2023,0,BK Mladá Boleslav,BANES Motor České Budějovice,2,4,0
+extrach_h2908825,2023-01-05T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Olomouc,2,2,0
+extrach_h2908826,2023-01-05T17:00Z,2023,0,HC ŠKODA PLZEŇ,Rytíři Kladno,7,2,0
+extrach_h2908827,2023-01-05T17:00Z,2023,0,HC KOMETA BRNO,HC Sparta Praha,2,3,0
+extrach_h2908828,2023-01-05T17:00Z,2023,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2908829,2023-01-05T17:00Z,2023,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,2,2,0
+extrach_h2908830,2023-01-07T17:00Z,2023,0,HC Oceláři Třinec,BK Mladá Boleslav,1,1,0
+extrach_h2908831,2023-01-07T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Litvínov,1,1,0
+extrach_h2908832,2023-01-07T17:00Z,2023,0,Rytíři Kladno,"Mountfield HK, a.s.",1,1,0
+extrach_h2908833,2023-01-07T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,2,4,0
+extrach_h2908834,2023-01-07T17:00Z,2023,0,BANES Motor České Budějovice,Bílí Tygři Liberec,1,8,0
+extrach_h2908835,2023-01-07T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,3,3,0
+extrach_h2908836,2023-01-07T17:00Z,2023,0,HC Olomouc,HC ŠKODA PLZEŇ,7,3,0
+extrach_h2908794,2023-01-10T17:00Z,2023,0,Bílí Tygři Liberec,HC Oceláři Třinec,4,1,0
+extrach_h2908821,2023-01-10T17:00Z,2023,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,6,6,0
+extrach_h2908837,2023-01-12T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,0,3,0
+extrach_h2908838,2023-01-12T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2908839,2023-01-12T17:00Z,2023,0,BK Mladá Boleslav,Rytíři Kladno,3,3,0
+extrach_h2908840,2023-01-12T17:00Z,2023,0,HC Litvínov,BANES Motor České Budějovice,3,3,0
+extrach_h2908841,2023-01-12T17:00Z,2023,0,HC KOMETA BRNO,HC Olomouc,4,3,0
+extrach_h2908842,2023-01-12T17:00Z,2023,0,Bílí Tygři Liberec,HC Sparta Praha,3,4,0
+extrach_h2908843,2023-01-12T17:00Z,2023,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,2,3,0
+extrach_h2908844,2023-01-14T17:00Z,2023,0,HC Sparta Praha,HC Litvínov,6,3,0
+extrach_h2908845,2023-01-14T17:00Z,2023,0,Rytíři Kladno,HC Oceláři Třinec,3,5,0
+extrach_h2908846,2023-01-14T17:00Z,2023,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,2,0,0
+extrach_h2908847,2023-01-14T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,2,3,0
+extrach_h2908848,2023-01-14T17:00Z,2023,0,HC Olomouc,"Mountfield HK, a.s.",2,2,0
+extrach_h2908849,2023-01-14T17:00Z,2023,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,3,0,0
+extrach_h2908850,2023-01-14T17:00Z,2023,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,3,3,0
+extrach_h2908789,2023-01-17T17:00Z,2023,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,4,3,0
+extrach_h2908791,2023-01-17T17:00Z,2023,0,HC KOMETA BRNO,HC Litvínov,3,1,0
+extrach_h2908792,2023-01-17T17:00Z,2023,0,HC Olomouc,BYD Energie Karlovy Vary,3,1,0
+extrach_h2908793,2023-01-17T17:00Z,2023,0,"Mountfield HK, a.s.",BK Mladá Boleslav,2,2,0
+extrach_h2908795,2023-01-17T17:00Z,2023,0,HC Sparta Praha,HC DYNAMO PARDUBICE,1,1,0
+extrach_h2908851,2023-01-19T17:00Z,2023,0,HC Oceláři Třinec,BANES Motor České Budějovice,3,3,0
+extrach_h2908852,2023-01-19T17:00Z,2023,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,3,3,0
+extrach_h2908853,2023-01-19T17:00Z,2023,0,HC Litvínov,Rytíři Kladno,4,3,0
+extrach_h2908854,2023-01-19T17:00Z,2023,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,1,1,0
+extrach_h2908855,2023-01-19T17:00Z,2023,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,7,1,0
+extrach_h2908856,2023-01-19T17:00Z,2023,0,Bílí Tygři Liberec,HC Olomouc,5,2,0
+extrach_h2908857,2023-01-19T17:00Z,2023,0,"Mountfield HK, a.s.",HC Sparta Praha,2,2,0
+extrach_h2908858,2023-01-21T17:00Z,2023,0,HC Sparta Praha,BYD Energie Karlovy Vary,1,4,0
+extrach_h2908859,2023-01-21T17:00Z,2023,0,Rytíři Kladno,BANES Motor České Budějovice,0,3,0
+extrach_h2908860,2023-01-21T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Litvínov,5,1,0
+extrach_h2908861,2023-01-21T17:00Z,2023,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",2,2,0
+extrach_h2908862,2023-01-21T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,5,3,0
+extrach_h2908863,2023-01-21T17:00Z,2023,0,HC KOMETA BRNO,Bílí Tygři Liberec,4,1,0
+extrach_h2908864,2023-01-21T17:00Z,2023,0,HC Olomouc,BK Mladá Boleslav,7,1,0
+extrach_h2908865,2023-01-23T17:00Z,2023,0,HC Oceláři Třinec,HC KOMETA BRNO,5,1,0
+extrach_h2908866,2023-01-23T17:00Z,2023,0,HC Litvínov,HC Olomouc,4,1,0
+extrach_h2908867,2023-01-23T17:00Z,2023,0,BK Mladá Boleslav,HC Sparta Praha,3,2,0
+extrach_h2908868,2023-01-23T17:00Z,2023,0,BYD Energie Karlovy Vary,Rytíři Kladno,4,1,0
+extrach_h2908869,2023-01-23T17:00Z,2023,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,3,4,0
+extrach_h2908870,2023-01-23T17:00Z,2023,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,3,3,0
+extrach_h2908871,2023-01-23T17:00Z,2023,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,2,1,0
+extrach_h2908873,2023-01-25T17:00Z,2023,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,0,3,0
+extrach_h2908872,2023-01-26T17:00Z,2023,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,3,0,0
+extrach_h2908874,2023-01-26T17:00Z,2023,0,BANES Motor České Budějovice,HC Sparta Praha,5,3,0
+extrach_h2908875,2023-01-26T17:00Z,2023,0,BK Mladá Boleslav,Bílí Tygři Liberec,1,4,0
+extrach_h2908876,2023-01-26T17:00Z,2023,0,HC Litvínov,HC DYNAMO PARDUBICE,1,3,0
+extrach_h2908877,2023-01-26T17:00Z,2023,0,Rytíři Kladno,HC Olomouc,2,3,0
+extrach_h2908878,2023-01-26T17:00Z,2023,0,HC KOMETA BRNO,"Mountfield HK, a.s.",2,2,0
+extrach_h2908879,2023-01-28T17:00Z,2023,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,0,0,0
+extrach_h2908880,2023-01-28T17:00Z,2023,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",3,3,0
+extrach_h2908881,2023-01-28T17:00Z,2023,0,HC DYNAMO PARDUBICE,Rytíři Kladno,3,1,0
+extrach_h2908882,2023-01-28T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Litvínov,3,5,0
+extrach_h2908883,2023-01-28T17:00Z,2023,0,HC Sparta Praha,HC Oceláři Třinec,5,1,0
+extrach_h2908884,2023-01-28T17:00Z,2023,0,HC Olomouc,BANES Motor České Budějovice,2,2,0
+extrach_h2908885,2023-01-28T17:00Z,2023,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,5,1,0
+extrach_h2908721,2023-01-30T17:00Z,2023,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,1,2,0
+extrach_h2908814,2023-01-30T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,3,1,0
+extrach_h2908659,2023-01-31T17:00Z,2023,0,HC Oceláři Třinec,Rytíři Kladno,5,0,0
+extrach_h2908927,2023-01-31T17:00Z,2023,0,HC Sparta Praha,Bílí Tygři Liberec,4,1,0
+extrach_h2908888,2023-02-01T17:00Z,2023,0,HC Litvínov,HC KOMETA BRNO,2,3,0
+extrach_h2908886,2023-02-02T17:00Z,2023,0,HC Oceláři Třinec,Bílí Tygři Liberec,5,1,0
+extrach_h2908887,2023-02-02T17:00Z,2023,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,4,3,0
+extrach_h2908889,2023-02-02T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Olomouc,1,3,0
+extrach_h2908890,2023-02-02T17:00Z,2023,0,BK Mladá Boleslav,"Mountfield HK, a.s.",2,1,0
+extrach_h2908891,2023-02-02T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Sparta Praha,1,3,0
+extrach_h2908892,2023-02-02T17:00Z,2023,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,4,2,0
+extrach_h2908893,2023-02-04T17:00Z,2023,0,HC Sparta Praha,Rytíři Kladno,5,3,0
+extrach_h2908894,2023-02-04T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,2,6,0
+extrach_h2908895,2023-02-04T17:00Z,2023,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,4,0,0
+extrach_h2908896,2023-02-04T17:00Z,2023,0,Bílí Tygři Liberec,HC Litvínov,6,2,0
+extrach_h2908897,2023-02-04T17:00Z,2023,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,4,3,0
+extrach_h2908898,2023-02-04T17:00Z,2023,0,HC KOMETA BRNO,BK Mladá Boleslav,2,2,0
+extrach_h2908899,2023-02-04T17:00Z,2023,0,HC Olomouc,HC DYNAMO PARDUBICE,2,1,0
+extrach_h2908790,2023-02-10T17:00Z,2023,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2908702,2023-02-12T17:00Z,2023,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,0,4,0
+extrach_h2908908,2023-02-12T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,1,3,0
+extrach_h2908900,2023-02-14T17:00Z,2023,0,HC Oceláři Třinec,HC Olomouc,6,1,0
+extrach_h2908901,2023-02-14T17:00Z,2023,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,4,1,0
+extrach_h2908902,2023-02-14T17:00Z,2023,0,HC Litvínov,"Mountfield HK, a.s.",5,5,0
+extrach_h2908903,2023-02-14T17:00Z,2023,0,BANES Motor České Budějovice,HC KOMETA BRNO,1,2,0
+extrach_h2908904,2023-02-14T17:00Z,2023,0,Rytíři Kladno,Bílí Tygři Liberec,2,7,0
+extrach_h2908905,2023-02-14T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,5,3,0
+extrach_h2908906,2023-02-14T17:00Z,2023,0,HC Sparta Praha,HC ŠKODA PLZEŇ,4,2,0
+extrach_h2908907,2023-02-16T17:00Z,2023,0,BK Mladá Boleslav,HC Litvínov,2,3,0
+extrach_h2908909,2023-02-16T17:00Z,2023,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,5,7,0
+extrach_h2908910,2023-02-16T17:00Z,2023,0,HC Olomouc,HC Sparta Praha,2,4,0
+extrach_h2908911,2023-02-16T17:00Z,2023,0,"Mountfield HK, a.s.",HC Oceláři Třinec,2,3,0
+extrach_h2908913,2023-02-16T17:00Z,2023,0,HC KOMETA BRNO,Rytíři Kladno,2,2,0
+extrach_h2908613,2023-02-17T17:00Z,2023,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,2,5,0
+extrach_h2908914,2023-02-18T17:00Z,2023,0,HC Oceláři Třinec,HC Litvínov,5,2,0
+extrach_h2908915,2023-02-18T17:00Z,2023,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",0,3,0
+extrach_h2908916,2023-02-18T17:00Z,2023,0,HC Sparta Praha,HC KOMETA BRNO,4,4,0
+extrach_h2908917,2023-02-18T17:00Z,2023,0,Rytíři Kladno,HC ŠKODA PLZEŇ,3,3,0
+extrach_h2908918,2023-02-18T17:00Z,2023,0,BANES Motor České Budějovice,BK Mladá Boleslav,0,1,0
+extrach_h2908919,2023-02-18T17:00Z,2023,0,HC Olomouc,HC VÍTKOVICE RIDERA,1,2,0
+extrach_h2908920,2023-02-18T17:00Z,2023,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,7,1,0
+extrach_h2908753,2023-02-21T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,4,0,0
+extrach_h2908756,2023-02-21T17:00Z,2023,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,5,2,0
+extrach_h2908922,2023-02-22T17:00Z,2023,0,BANES Motor České Budějovice,HC Litvínov,4,7,0
+extrach_h2908921,2023-02-23T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,4,5,0
+extrach_h2908923,2023-02-23T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,1,0,0
+extrach_h2908924,2023-02-23T17:00Z,2023,0,Rytíři Kladno,BK Mladá Boleslav,0,5,0
+extrach_h2908925,2023-02-23T17:00Z,2023,0,HC Olomouc,HC KOMETA BRNO,3,3,0
+extrach_h2908926,2023-02-23T17:00Z,2023,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",2,2,0
+extrach_h2908928,2023-02-25T17:00Z,2023,0,Rytíři Kladno,HC Oceláři Třinec,5,2,0
+extrach_h2908929,2023-02-25T17:00Z,2023,0,HC Litvínov,HC Sparta Praha,3,8,0
+extrach_h2908930,2023-02-25T17:00Z,2023,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,0,3,0
+extrach_h2908931,2023-02-25T17:00Z,2023,0,"Mountfield HK, a.s.",HC Olomouc,2,4,0
+extrach_h2908932,2023-02-25T17:00Z,2023,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,3,3,0
+extrach_h2908933,2023-02-25T17:00Z,2023,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2908934,2023-02-25T17:00Z,2023,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,5,1,0
+extrach_h2908935,2023-02-27T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,2,0,0
+extrach_h2908936,2023-02-27T17:00Z,2023,0,BANES Motor České Budějovice,HC Oceláři Třinec,5,2,0
+extrach_h2908937,2023-02-27T17:00Z,2023,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,3,5,0
+extrach_h2908938,2023-02-27T17:00Z,2023,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,6,2,0
+extrach_h2908939,2023-02-27T17:00Z,2023,0,HC Olomouc,Bílí Tygři Liberec,2,5,0
+extrach_h2908940,2023-02-27T17:00Z,2023,0,Rytíři Kladno,HC Litvínov,2,0,0
+extrach_h2908941,2023-02-27T17:00Z,2023,0,HC Sparta Praha,"Mountfield HK, a.s.",4,1,0
+extrach_h2908942,2023-03-01T17:00Z,2023,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,3,3,0
+extrach_h2908943,2023-03-01T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Sparta Praha,5,1,0
+extrach_h2908944,2023-03-01T17:00Z,2023,0,BANES Motor České Budějovice,Rytíři Kladno,5,3,0
+extrach_h2908945,2023-03-01T17:00Z,2023,0,BK Mladá Boleslav,HC Olomouc,2,0,0
+extrach_h2908946,2023-03-01T17:00Z,2023,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,3,1,0
+extrach_h2908947,2023-03-01T17:00Z,2023,0,HC Litvínov,HC VÍTKOVICE RIDERA,5,4,0
+extrach_h2908948,2023-03-01T17:00Z,2023,0,Bílí Tygři Liberec,HC KOMETA BRNO,4,6,0
+extrach_h2908949,2023-03-03T17:00Z,2023,0,HC Olomouc,HC Litvínov,3,3,0
+extrach_h2908950,2023-03-03T17:00Z,2023,0,HC Sparta Praha,BK Mladá Boleslav,2,1,0
+extrach_h2908951,2023-03-03T17:00Z,2023,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",1,1,0
+extrach_h2908952,2023-03-03T17:00Z,2023,0,HC KOMETA BRNO,HC Oceláři Třinec,2,2,0
+extrach_h2908953,2023-03-03T17:00Z,2023,0,Rytíři Kladno,BYD Energie Karlovy Vary,1,4,0
+extrach_h2908954,2023-03-03T17:00Z,2023,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,7,2,0
+extrach_h2908955,2023-03-03T17:00Z,2023,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,3,6,0
+extrach_h2907815,2023-09-14T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,3,1,0
+extrach_h2907814,2023-09-15T17:00Z,2023,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,2,6,0
+extrach_h2907816,2023-09-15T17:00Z,2023,0,HC Olomouc,Rytíři Kladno,1,0,0
+extrach_h2907817,2023-09-15T17:00Z,2023,0,Bílí Tygři Liberec,BK Mladá Boleslav,4,3,0
+extrach_h2907818,2023-09-15T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Litvínov,5,1,0
+extrach_h2907819,2023-09-15T17:00Z,2023,0,HC KOMETA BRNO,"Mountfield HK, a.s.",0,4,0
+extrach_h2907820,2023-09-15T17:00Z,2023,0,HC Sparta Praha,BANES Motor České Budějovice,5,2,0
+extrach_h2907821,2023-09-17T17:00Z,2023,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,4,0,0
+extrach_h2907822,2023-09-17T17:00Z,2023,0,Rytíři Kladno,HC DYNAMO PARDUBICE,1,3,0
+extrach_h2907823,2023-09-17T17:00Z,2023,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,2,4,0
+extrach_h2907824,2023-09-17T17:00Z,2023,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,5,3,0
+extrach_h2907825,2023-09-17T17:00Z,2023,0,HC Oceláři Třinec,HC Sparta Praha,2,2,0
+extrach_h2907826,2023-09-17T17:00Z,2023,0,BANES Motor České Budějovice,HC Olomouc,3,1,0
+extrach_h2907827,2023-09-17T17:00Z,2023,0,HC Litvínov,HC ŠKODA PLZEŇ,4,2,0
+extrach_h2908606,2023-09-20T17:00Z,2023,0,HC Sparta Praha,HC DYNAMO PARDUBICE,3,3,0
+extrach_h2908612,2023-09-21T17:00Z,2023,0,HC Oceláři Třinec,Bílí Tygři Liberec,4,1,0
+extrach_h2908607,2023-09-22T17:00Z,2023,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,0,1,0
+extrach_h2908608,2023-09-22T17:00Z,2023,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,2,2,0
+extrach_h2908609,2023-09-22T17:00Z,2023,0,HC KOMETA BRNO,HC Litvínov,2,3,0
+extrach_h2908610,2023-09-22T17:00Z,2023,0,HC Olomouc,BYD Energie Karlovy Vary,4,3,0
+extrach_h2908611,2023-09-22T17:00Z,2023,0,"Mountfield HK, a.s.",BK Mladá Boleslav,1,1,0
+extrach_h2908614,2023-09-24T17:00Z,2023,0,BK Mladá Boleslav,HC KOMETA BRNO,6,3,0
+extrach_h2908615,2023-09-24T17:00Z,2023,0,Rytíři Kladno,HC Sparta Praha,1,7,0
+extrach_h2908616,2023-09-24T17:00Z,2023,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,3,3,0
+extrach_h2908617,2023-09-24T17:00Z,2023,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",1,1,0
+extrach_h2908618,2023-09-24T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Olomouc,3,1,0
+extrach_h2908619,2023-09-24T17:00Z,2023,0,HC Litvínov,Bílí Tygři Liberec,4,1,0
+extrach_h2908620,2023-09-27T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Sparta Praha,2,3,0
+extrach_h2908621,2023-09-27T17:00Z,2023,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,1,0,0
+extrach_h2908622,2023-09-27T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,3,7,0
+extrach_h2908623,2023-09-27T17:00Z,2023,0,HC Olomouc,HC Oceláři Třinec,3,4,0
+extrach_h2908624,2023-09-27T17:00Z,2023,0,Bílí Tygři Liberec,Rytíři Kladno,3,2,0
+extrach_h2908625,2023-09-27T17:00Z,2023,0,"Mountfield HK, a.s.",HC Litvínov,2,2,0
+extrach_h2908626,2023-09-27T17:00Z,2023,0,HC KOMETA BRNO,BANES Motor České Budějovice,4,0,0
+extrach_h2908627,2023-09-29T17:00Z,2023,0,HC Oceláři Třinec,"Mountfield HK, a.s.",0,5,0
+extrach_h2908628,2023-09-29T17:00Z,2023,0,HC Litvínov,BK Mladá Boleslav,5,2,0
+extrach_h2908629,2023-09-29T17:00Z,2023,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,5,2,0
+extrach_h2908630,2023-09-29T17:00Z,2023,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2908631,2023-09-29T17:00Z,2023,0,Rytíři Kladno,HC KOMETA BRNO,1,4,0
+extrach_h2908632,2023-09-29T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,4,1,0
+extrach_h2908633,2023-09-29T17:00Z,2023,0,HC Sparta Praha,HC Olomouc,4,0,0
+extrach_h2908634,2023-10-01T17:00Z,2023,0,BK Mladá Boleslav,BANES Motor České Budějovice,2,5,0
+extrach_h2908635,2023-10-01T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Olomouc,3,3,0
+extrach_h2908636,2023-10-01T17:00Z,2023,0,HC Sparta Praha,HC KOMETA BRNO,0,2,0
+extrach_h2908637,2023-10-01T17:00Z,2023,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,3,3,0
+extrach_h2908638,2023-10-01T17:00Z,2023,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,2,4,0
+extrach_h2908639,2023-10-01T17:00Z,2023,0,HC ŠKODA PLZEŇ,Rytíři Kladno,4,4,0
+extrach_h2908640,2023-10-01T17:00Z,2023,0,HC Litvínov,HC Oceláři Třinec,6,4,0
+extrach_h2908647,2023-10-03T17:00Z,2023,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,3,2,0
+extrach_h2908643,2023-10-05T17:00Z,2023,0,BANES Motor České Budějovice,Bílí Tygři Liberec,3,3,0
+extrach_h2908641,2023-10-06T17:00Z,2023,0,HC Oceláři Třinec,BK Mladá Boleslav,4,1,0
+extrach_h2908642,2023-10-06T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Litvínov,1,4,0
+extrach_h2908644,2023-10-06T17:00Z,2023,0,Rytíři Kladno,"Mountfield HK, a.s.",3,3,0
+extrach_h2908645,2023-10-06T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,5,3,0
+extrach_h2908646,2023-10-06T17:00Z,2023,0,HC Olomouc,HC ŠKODA PLZEŇ,3,2,0
+extrach_h2908648,2023-10-08T17:00Z,2023,0,BK Mladá Boleslav,Rytíři Kladno,3,4,0
+extrach_h2908649,2023-10-08T17:00Z,2023,0,HC Sparta Praha,Bílí Tygři Liberec,1,4,0
+extrach_h2908650,2023-10-08T17:00Z,2023,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,2,4,0
+extrach_h2908651,2023-10-08T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,1,0,0
+extrach_h2908652,2023-10-08T17:00Z,2023,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,5,1,0
+extrach_h2908653,2023-10-08T17:00Z,2023,0,HC KOMETA BRNO,HC Olomouc,2,2,0
+extrach_h2908654,2023-10-08T17:00Z,2023,0,HC Litvínov,BANES Motor České Budějovice,4,3,0
+extrach_h2908656,2023-10-12T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,1,2,0
+extrach_h2908655,2023-10-13T17:00Z,2023,0,HC Litvínov,HC Sparta Praha,4,2,0
+extrach_h2908657,2023-10-13T17:00Z,2023,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,2,2,0
+extrach_h2908658,2023-10-13T17:00Z,2023,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,3,1,0
+extrach_h2908660,2023-10-13T17:00Z,2023,0,HC Olomouc,"Mountfield HK, a.s.",1,1,0
+extrach_h2908661,2023-10-13T17:00Z,2023,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,5,2,0
+extrach_h2908662,2023-10-15T17:00Z,2023,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,0,3,0
+extrach_h2908663,2023-10-15T17:00Z,2023,0,HC Litvínov,Rytíři Kladno,4,4,0
+extrach_h2908664,2023-10-15T17:00Z,2023,0,HC Sparta Praha,"Mountfield HK, a.s.",3,1,0
+extrach_h2908665,2023-10-15T17:00Z,2023,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,3,4,0
+extrach_h2908666,2023-10-15T17:00Z,2023,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,3,5,0
+extrach_h2908667,2023-10-15T17:00Z,2023,0,BANES Motor České Budějovice,HC Oceláři Třinec,1,1,0
+extrach_h2908668,2023-10-16T17:00Z,2023,0,Bílí Tygři Liberec,HC Olomouc,4,1,0
+extrach_h2908675,2023-10-18T17:00Z,2023,0,HC Sparta Praha,BYD Energie Karlovy Vary,2,5,0
+extrach_h2908669,2023-10-20T17:00Z,2023,0,HC Litvínov,HC VÍTKOVICE RIDERA,6,3,0
+extrach_h2908670,2023-10-20T17:00Z,2023,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",3,2,0
+extrach_h2908671,2023-10-20T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,3,3,0
+extrach_h2908672,2023-10-20T17:00Z,2023,0,Rytíři Kladno,BANES Motor České Budějovice,2,2,0
+extrach_h2908673,2023-10-20T17:00Z,2023,0,HC Olomouc,BK Mladá Boleslav,2,3,0
+extrach_h2908674,2023-10-20T17:00Z,2023,0,HC KOMETA BRNO,Bílí Tygři Liberec,5,2,0
+extrach_h2908676,2023-10-22T17:00Z,2023,0,BYD Energie Karlovy Vary,Rytíři Kladno,1,2,0
+extrach_h2908677,2023-10-22T17:00Z,2023,0,HC Sparta Praha,BK Mladá Boleslav,4,1,0
+extrach_h2908678,2023-10-22T17:00Z,2023,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,2,0,0
+extrach_h2908679,2023-10-22T17:00Z,2023,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,3,3,0
+extrach_h2908680,2023-10-22T17:00Z,2023,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,3,3,0
+extrach_h2908681,2023-10-22T17:00Z,2023,0,HC KOMETA BRNO,HC Oceláři Třinec,2,2,0
+extrach_h2908682,2023-10-22T17:00Z,2023,0,HC Olomouc,HC Litvínov,2,1,0
+extrach_h2908912,2023-10-24T17:00Z,2023,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,1,1,0
+extrach_h2908683,2023-10-27T17:00Z,2023,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,4,1,0
+extrach_h2908684,2023-10-27T17:00Z,2023,0,BANES Motor České Budějovice,HC Sparta Praha,1,4,0
+extrach_h2908685,2023-10-27T17:00Z,2023,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,3,1,0
+extrach_h2908686,2023-10-27T17:00Z,2023,0,BK Mladá Boleslav,Bílí Tygři Liberec,0,8,0
+extrach_h2908687,2023-10-27T17:00Z,2023,0,HC Litvínov,HC DYNAMO PARDUBICE,4,1,0
+extrach_h2908688,2023-10-27T17:00Z,2023,0,Rytíři Kladno,HC Olomouc,3,2,0
+extrach_h2908689,2023-10-27T17:00Z,2023,0,"Mountfield HK, a.s.",HC KOMETA BRNO,1,5,0
+extrach_h2908690,2023-10-29T17:00Z,2023,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2908691,2023-10-29T17:00Z,2023,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",5,4,0
+extrach_h2908692,2023-10-29T17:00Z,2023,0,HC Sparta Praha,HC Oceláři Třinec,2,2,0
+extrach_h2908693,2023-10-29T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Litvínov,5,2,0
+extrach_h2908694,2023-10-29T17:00Z,2023,0,Rytíři Kladno,HC DYNAMO PARDUBICE,2,6,0
+extrach_h2908695,2023-10-29T17:00Z,2023,0,HC Olomouc,BANES Motor České Budějovice,5,2,0
+extrach_h2908696,2023-10-29T17:00Z,2023,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,3,0,0
+extrach_h2908697,2023-10-31T17:00Z,2023,0,Bílí Tygři Liberec,HC Oceláři Třinec,1,3,0
+extrach_h2908698,2023-10-31T17:00Z,2023,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,4,1,0
+extrach_h2908699,2023-10-31T17:00Z,2023,0,HC Litvínov,HC KOMETA BRNO,6,3,0
+extrach_h2908701,2023-10-31T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Sparta Praha,4,3,0
+extrach_h2908703,2023-11-01T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Olomouc,4,4,0
+extrach_h2908704,2023-11-03T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,3,6,0
+extrach_h2908705,2023-11-03T17:00Z,2023,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,2,2,0
+extrach_h2908706,2023-11-03T17:00Z,2023,0,HC KOMETA BRNO,BK Mladá Boleslav,2,1,0
+extrach_h2908707,2023-11-03T17:00Z,2023,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,4,1,0
+extrach_h2908708,2023-11-03T17:00Z,2023,0,HC Olomouc,HC DYNAMO PARDUBICE,1,5,0
+extrach_h2908709,2023-11-03T17:00Z,2023,0,Bílí Tygři Liberec,HC Litvínov,5,2,0
+extrach_h2908710,2023-11-03T17:00Z,2023,0,Rytíři Kladno,HC Sparta Praha,2,3,0
+extrach_h2908711,2023-11-05T17:00Z,2023,0,HC Oceláři Třinec,HC Olomouc,5,0,0
+extrach_h2908712,2023-11-05T17:00Z,2023,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,1,1,0
+extrach_h2908713,2023-11-05T17:00Z,2023,0,HC Litvínov,"Mountfield HK, a.s.",0,2,0
+extrach_h2908714,2023-11-05T17:00Z,2023,0,HC Sparta Praha,HC ŠKODA PLZEŇ,5,3,0
+extrach_h2908715,2023-11-05T17:00Z,2023,0,Rytíři Kladno,Bílí Tygři Liberec,3,6,0
+extrach_h2908716,2023-11-05T17:00Z,2023,0,BANES Motor České Budějovice,HC KOMETA BRNO,5,2,0
+extrach_h2908717,2023-11-05T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,0,2,0
+extrach_h2908700,2023-11-15T17:00Z,2023,0,BK Mladá Boleslav,"Mountfield HK, a.s.",0,3,0
+extrach_h2908723,2023-11-16T17:00Z,2023,0,HC Olomouc,HC Sparta Praha,1,3,0
+extrach_h2908718,2023-11-17T17:00Z,2023,0,BK Mladá Boleslav,HC Litvínov,5,0,0
+extrach_h2908719,2023-11-17T17:00Z,2023,0,"Mountfield HK, a.s.",HC Oceláři Třinec,3,5,0
+extrach_h2908720,2023-11-17T17:00Z,2023,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,4,4,0
+extrach_h2908722,2023-11-17T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,1,6,0
+extrach_h2908724,2023-11-17T17:00Z,2023,0,HC KOMETA BRNO,Rytíři Kladno,8,1,0
+extrach_h2908725,2023-11-19T17:00Z,2023,0,HC Oceláři Třinec,HC Litvínov,2,2,0
+extrach_h2908726,2023-11-19T17:00Z,2023,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",3,4,0
+extrach_h2908727,2023-11-19T17:00Z,2023,0,Rytíři Kladno,HC ŠKODA PLZEŇ,2,4,0
+extrach_h2908728,2023-11-19T17:00Z,2023,0,BANES Motor České Budějovice,BK Mladá Boleslav,3,2,0
+extrach_h2908729,2023-11-19T17:00Z,2023,0,HC Olomouc,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2908730,2023-11-19T17:00Z,2023,0,HC KOMETA BRNO,HC Sparta Praha,1,1,0
+extrach_h2908731,2023-11-19T17:00Z,2023,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,2,3,0
+extrach_h2908749,2023-11-22T17:00Z,2023,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,4,2,0
+extrach_h2908732,2023-11-24T17:00Z,2023,0,HC Litvínov,BYD Energie Karlovy Vary,6,4,0
+extrach_h2908733,2023-11-24T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,1,3,0
+extrach_h2908734,2023-11-24T17:00Z,2023,0,BK Mladá Boleslav,HC Oceláři Třinec,2,2,0
+extrach_h2908735,2023-11-24T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Olomouc,1,1,0
+extrach_h2908736,2023-11-24T17:00Z,2023,0,"Mountfield HK, a.s.",Rytíři Kladno,2,1,0
+extrach_h2908737,2023-11-24T17:00Z,2023,0,Bílí Tygři Liberec,BANES Motor České Budějovice,2,5,0
+extrach_h2908738,2023-11-24T17:00Z,2023,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,3,3,0
+extrach_h2908739,2023-11-26T17:00Z,2023,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,3,1,0
+extrach_h2908740,2023-11-26T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2908741,2023-11-26T17:00Z,2023,0,Rytíři Kladno,BK Mladá Boleslav,2,2,0
+extrach_h2908742,2023-11-26T17:00Z,2023,0,Bílí Tygři Liberec,HC Sparta Praha,4,5,0
+extrach_h2908743,2023-11-26T17:00Z,2023,0,BANES Motor České Budějovice,HC Litvínov,1,0,0
+extrach_h2908744,2023-11-26T17:00Z,2023,0,HC Olomouc,HC KOMETA BRNO,3,1,0
+extrach_h2908745,2023-11-26T17:00Z,2023,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",5,2,0
+extrach_h2908746,2023-11-28T17:00Z,2023,0,HC Oceláři Třinec,Rytíři Kladno,3,3,0
+extrach_h2908747,2023-11-28T17:00Z,2023,0,"Mountfield HK, a.s.",HC Olomouc,5,3,0
+extrach_h2908748,2023-11-28T17:00Z,2023,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2908750,2023-11-28T17:00Z,2023,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2908751,2023-11-28T17:00Z,2023,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,4,1,0
+extrach_h2908752,2023-11-28T17:00Z,2023,0,HC Sparta Praha,HC Litvínov,3,1,0
+extrach_h2908759,2023-11-30T17:00Z,2023,0,"Mountfield HK, a.s.",HC Sparta Praha,2,1,0
+extrach_h2908804,2023-11-30T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,1,1,0
+extrach_h2908754,2023-12-01T17:00Z,2023,0,HC Oceláři Třinec,BANES Motor České Budějovice,3,2,0
+extrach_h2908755,2023-12-01T17:00Z,2023,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,5,0,0
+extrach_h2908757,2023-12-01T17:00Z,2023,0,HC Olomouc,Bílí Tygři Liberec,3,2,0
+extrach_h2908758,2023-12-01T17:00Z,2023,0,Rytíři Kladno,HC Litvínov,3,0,0
+extrach_h2908760,2023-12-03T17:00Z,2023,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,1,5,0
+extrach_h2908761,2023-12-03T17:00Z,2023,0,BYD Energie Karlovy Vary,HC Sparta Praha,0,3,0
+extrach_h2908762,2023-12-03T17:00Z,2023,0,HC VÍTKOVICE RIDERA,HC Litvínov,6,2,0
+extrach_h2908763,2023-12-03T17:00Z,2023,0,BK Mladá Boleslav,HC Olomouc,2,4,0
+extrach_h2908764,2023-12-03T17:00Z,2023,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,1,1,0
+extrach_h2908765,2023-12-03T17:00Z,2023,0,Bílí Tygři Liberec,HC KOMETA BRNO,1,6,0
+extrach_h2908766,2023-12-03T17:00Z,2023,0,BANES Motor České Budějovice,Rytíři Kladno,6,3,0
+extrach_h2908769,2023-12-07T17:00Z,2023,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,1,3,0
+extrach_h2908767,2023-12-08T17:00Z,2023,0,BK Mladá Boleslav,HC Sparta Praha,3,6,0
+extrach_h2908768,2023-12-08T17:00Z,2023,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",2,2,0
+extrach_h2908770,2023-12-08T17:00Z,2023,0,HC Litvínov,HC Olomouc,1,1,0
+extrach_h2908771,2023-12-08T17:00Z,2023,0,HC Oceláři Třinec,HC KOMETA BRNO,2,1,0
+extrach_h2908772,2023-12-08T17:00Z,2023,0,Rytíři Kladno,BYD Energie Karlovy Vary,2,2,0
+extrach_h2908773,2023-12-08T17:00Z,2023,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,3,3,0
+extrach_h2908774,2023-12-10T17:00Z,2023,0,HC Sparta Praha,BANES Motor České Budějovice,2,2,0
+extrach_h2908775,2023-12-10T17:00Z,2023,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,4,1,0
+extrach_h2908776,2023-12-10T17:00Z,2023,0,Bílí Tygři Liberec,BK Mladá Boleslav,4,1,0
+extrach_h2908777,2023-12-10T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,5,4,0
+extrach_h2908778,2023-12-10T17:00Z,2023,0,HC Olomouc,Rytíři Kladno,2,2,0
+extrach_h2908779,2023-12-10T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Litvínov,2,4,0
+extrach_h2908780,2023-12-10T17:00Z,2023,0,"Mountfield HK, a.s.",HC KOMETA BRNO,5,2,0
+extrach_h2908781,2023-12-18T17:00Z,2023,0,HC DYNAMO PARDUBICE,HC Olomouc,8,2,0
+extrach_h2908783,2023-12-19T17:00Z,2023,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,2,0,0
+extrach_h2908782,2023-12-20T17:00Z,2023,0,HC Oceláři Třinec,HC Sparta Praha,1,1,0
+extrach_h2908784,2023-12-20T17:00Z,2023,0,BANES Motor České Budějovice,HC Olomouc,4,0,0
+extrach_h2908785,2023-12-20T17:00Z,2023,0,HC Litvínov,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2908786,2023-12-20T17:00Z,2023,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,2,2,0
+extrach_h2908787,2023-12-20T17:00Z,2023,0,HC DYNAMO PARDUBICE,Rytíři Kladno,4,3,0
+extrach_h2908788,2023-12-20T17:00Z,2023,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,2,5,0
+extrach_h2908796,2023-12-26T17:00Z,2023,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,4,1,0
+extrach_h2908797,2023-12-26T17:00Z,2023,0,HC Litvínov,Bílí Tygři Liberec,6,3,0
+extrach_h2908798,2023-12-26T17:00Z,2023,0,BK Mladá Boleslav,HC KOMETA BRNO,3,1,0
+extrach_h2908799,2023-12-26T17:00Z,2023,0,HC Sparta Praha,Rytíři Kladno,5,3,0
+extrach_h2908800,2023-12-26T17:00Z,2023,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,2,4,0
+extrach_h2908801,2023-12-26T17:00Z,2023,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",4,2,0
+extrach_h2908802,2023-12-28T17:00Z,2023,0,HC ŠKODA PLZEŇ,HC Sparta Praha,2,4,0
+extrach_h2908803,2023-12-28T17:00Z,2023,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,4,1,0
+extrach_h2908805,2023-12-28T17:00Z,2023,0,HC Olomouc,HC Oceláři Třinec,1,2,0
+extrach_h2908806,2023-12-28T17:00Z,2023,0,Bílí Tygři Liberec,Rytíři Kladno,4,8,0
+extrach_h2908807,2023-12-28T17:00Z,2023,0,"Mountfield HK, a.s.",HC Litvínov,1,5,0
+extrach_h2908808,2023-12-28T17:00Z,2023,0,HC KOMETA BRNO,BANES Motor České Budějovice,2,5,0
+extrach_h2908809,2023-12-30T17:00Z,2023,0,HC Litvínov,BK Mladá Boleslav,6,1,0
+extrach_h2908810,2023-12-30T17:00Z,2023,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,2,4,0
+extrach_h2908811,2023-12-30T17:00Z,2023,0,HC Sparta Praha,HC Olomouc,1,4,0
+extrach_h2908812,2023-12-30T17:00Z,2023,0,Rytíři Kladno,HC KOMETA BRNO,4,4,0
+extrach_h2908813,2023-12-30T17:00Z,2023,0,HC Oceláři Třinec,"Mountfield HK, a.s.",7,2,0
+extrach_h2908815,2023-12-30T17:00Z,2023,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,3,3,0
+extrach_h2915310,2024-01-03T17:00Z,2024,0,HC Oceláři Třinec,"Mountfield HK, a.s.",0,0,0
+extrach_h2915311,2024-01-03T17:00Z,2024,0,BANES Motor České Budějovice,BK Mladá Boleslav,3,3,0
+extrach_h2915312,2024-01-03T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,3,1,0
+extrach_h2915313,2024-01-03T17:00Z,2024,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,6,3,0
+extrach_h2915314,2024-01-03T17:00Z,2024,0,Rytíři Kladno,Bílí Tygři Liberec,3,2,0
+extrach_h2915315,2024-01-03T17:00Z,2024,0,HC Olomouc,HC Litvínov,3,1,0
+extrach_h2915316,2024-01-03T17:00Z,2024,0,HC Sparta Praha,HC DYNAMO PARDUBICE,6,2,0
+extrach_h2915317,2024-01-05T17:00Z,2024,0,HC Litvínov,BANES Motor České Budějovice,1,3,0
+extrach_h2915318,2024-01-05T17:00Z,2024,0,HC Oceláři Třinec,Rytíři Kladno,1,2,0
+extrach_h2915319,2024-01-05T17:00Z,2024,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,1,3,0
+extrach_h2915320,2024-01-05T17:00Z,2024,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,3,4,0
+extrach_h2915321,2024-01-05T17:00Z,2024,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,2,2,0
+extrach_h2915322,2024-01-05T17:00Z,2024,0,HC Sparta Praha,HC Olomouc,4,4,0
+extrach_h2915323,2024-01-05T17:00Z,2024,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,2,2,0
+extrach_h2915324,2024-01-07T17:00Z,2024,0,HC Oceláři Třinec,Bílí Tygři Liberec,6,6,0
+extrach_h2915325,2024-01-07T17:00Z,2024,0,HC ŠKODA PLZEŇ,Rytíři Kladno,2,2,0
+extrach_h2915326,2024-01-07T17:00Z,2024,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,3,2,0
+extrach_h2915327,2024-01-07T17:00Z,2024,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,2,2,0
+extrach_h2915328,2024-01-07T17:00Z,2024,0,HC Sparta Praha,BK Mladá Boleslav,1,1,0
+extrach_h2915329,2024-01-07T17:00Z,2024,0,HC Olomouc,"Mountfield HK, a.s.",6,2,0
+extrach_h2915336,2024-01-09T17:00Z,2024,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,3,2,0
+extrach_h2915331,2024-01-10T17:00Z,2024,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,5,4,0
+extrach_h2915332,2024-01-10T17:00Z,2024,0,HC Litvínov,BK Mladá Boleslav,1,2,0
+extrach_h2915333,2024-01-10T17:00Z,2024,0,Bílí Tygři Liberec,HC Olomouc,4,1,0
+extrach_h2915334,2024-01-10T17:00Z,2024,0,Rytíři Kladno,BYD Energie Karlovy Vary,0,4,0
+extrach_h2915335,2024-01-10T17:00Z,2024,0,HC KOMETA BRNO,BANES Motor České Budějovice,2,2,0
+extrach_h2915337,2024-01-10T17:00Z,2024,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,5,1,0
+extrach_h2915339,2024-01-12T17:00Z,2024,0,BK Mladá Boleslav,"Mountfield HK, a.s.",1,1,0
+extrach_h2915340,2024-01-12T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,2,5,0
+extrach_h2915341,2024-01-12T17:00Z,2024,0,HC Sparta Praha,HC Litvínov,5,3,0
+extrach_h2915342,2024-01-12T17:00Z,2024,0,BANES Motor České Budějovice,Rytíři Kladno,3,6,0
+extrach_h2915343,2024-01-12T17:00Z,2024,0,HC Olomouc,HC Oceláři Třinec,2,2,0
+extrach_h2915344,2024-01-12T17:00Z,2024,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,2,3,0
+extrach_h2915330,2024-01-16T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Litvínov,3,1,0
+extrach_h2915348,2024-01-16T17:00Z,2024,0,HC KOMETA BRNO,BK Mladá Boleslav,4,0,0
+extrach_h2915346,2024-01-17T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,2,1,0
+extrach_h2915347,2024-01-17T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Litvínov,2,3,0
+extrach_h2915349,2024-01-17T17:00Z,2024,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,5,1,0
+extrach_h2915350,2024-01-17T17:00Z,2024,0,Rytíři Kladno,HC Olomouc,7,3,0
+extrach_h2915351,2024-01-17T17:00Z,2024,0,Bílí Tygři Liberec,HC Sparta Praha,4,1,0
+extrach_h2915352,2024-01-19T17:00Z,2024,0,HC Litvínov,HC KOMETA BRNO,3,2,0
+extrach_h2915353,2024-01-19T17:00Z,2024,0,BK Mladá Boleslav,Bílí Tygři Liberec,2,2,0
+extrach_h2915354,2024-01-19T17:00Z,2024,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,2,5,0
+extrach_h2915355,2024-01-19T17:00Z,2024,0,HC Sparta Praha,"Mountfield HK, a.s.",5,4,0
+extrach_h2915356,2024-01-19T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,1,0,0
+extrach_h2915357,2024-01-19T17:00Z,2024,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,4,4,0
+extrach_h2915358,2024-01-19T17:00Z,2024,0,HC Olomouc,BYD Energie Karlovy Vary,2,0,0
+extrach_h2915338,2024-01-22T17:00Z,2024,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,2,5,0
+extrach_h2915359,2024-01-24T17:00Z,2024,0,HC Litvínov,HC Oceláři Třinec,1,3,0
+extrach_h2915360,2024-01-24T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Olomouc,1,1,0
+extrach_h2915361,2024-01-24T17:00Z,2024,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,4,4,0
+extrach_h2915362,2024-01-24T17:00Z,2024,0,Rytíři Kladno,BK Mladá Boleslav,1,5,0
+extrach_h2915363,2024-01-24T17:00Z,2024,0,Bílí Tygři Liberec,BANES Motor České Budějovice,7,4,0
+extrach_h2915364,2024-01-24T17:00Z,2024,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,3,2,0
+extrach_h2915365,2024-01-24T17:00Z,2024,0,HC KOMETA BRNO,HC Sparta Praha,1,4,0
+extrach_h2915367,2024-01-26T17:00Z,2024,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,1,1,0
+extrach_h2915368,2024-01-26T17:00Z,2024,0,Bílí Tygři Liberec,HC KOMETA BRNO,5,3,0
+extrach_h2915369,2024-01-26T17:00Z,2024,0,Rytíři Kladno,HC DYNAMO PARDUBICE,2,5,0
+extrach_h2915370,2024-01-26T17:00Z,2024,0,"Mountfield HK, a.s.",HC Litvínov,2,2,0
+extrach_h2915371,2024-01-26T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,4,1,0
+extrach_h2915372,2024-01-26T17:00Z,2024,0,HC Olomouc,BK Mladá Boleslav,2,2,0
+extrach_h2915373,2024-01-28T17:00Z,2024,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,4,3,0
+extrach_h2915374,2024-01-28T17:00Z,2024,0,BANES Motor České Budějovice,HC Oceláři Třinec,2,2,0
+extrach_h2915375,2024-01-28T17:00Z,2024,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,2,2,0
+extrach_h2915376,2024-01-28T17:00Z,2024,0,HC Litvínov,HC ŠKODA PLZEŇ,2,5,0
+extrach_h2915379,2024-01-28T17:00Z,2024,0,HC Sparta Praha,Rytíři Kladno,5,2,0
+extrach_h2915377,2024-01-29T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Olomouc,1,0,0
+extrach_h2915386,2024-01-30T17:00Z,2024,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",4,1,0
+extrach_h2915380,2024-01-31T17:00Z,2024,0,HC Oceláři Třinec,HC KOMETA BRNO,1,3,0
+extrach_h2915381,2024-01-31T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Sparta Praha,0,6,0
+extrach_h2915382,2024-01-31T17:00Z,2024,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,0,5,0
+extrach_h2915383,2024-01-31T17:00Z,2024,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,5,1,0
+extrach_h2915384,2024-01-31T17:00Z,2024,0,Rytíři Kladno,HC Litvínov,3,0,0
+extrach_h2915385,2024-01-31T17:00Z,2024,0,HC Olomouc,HC VÍTKOVICE RIDERA,1,2,0
+extrach_h2915387,2024-02-02T17:00Z,2024,0,HC Litvínov,Bílí Tygři Liberec,4,3,0
+extrach_h2915388,2024-02-02T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,4,1,0
+extrach_h2915389,2024-02-02T17:00Z,2024,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,2,6,0
+extrach_h2915390,2024-02-02T17:00Z,2024,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,4,4,0
+extrach_h2915391,2024-02-02T17:00Z,2024,0,HC Sparta Praha,HC ŠKODA PLZEŇ,4,0,0
+extrach_h2915392,2024-02-02T17:00Z,2024,0,BANES Motor České Budějovice,HC Olomouc,1,1,0
+extrach_h2915393,2024-02-02T17:00Z,2024,0,HC KOMETA BRNO,Rytíři Kladno,2,3,0
+extrach_h2915345,2024-02-09T17:00Z,2024,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,2,1,0
+extrach_h2915394,2024-02-12T17:00Z,2024,0,HC Oceláři Třinec,BK Mladá Boleslav,5,1,0
+extrach_h2915395,2024-02-12T17:00Z,2024,0,BANES Motor České Budějovice,HC Sparta Praha,1,5,0
+extrach_h2915396,2024-02-12T17:00Z,2024,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,2,2,0
+extrach_h2915397,2024-02-12T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Litvínov,6,4,0
+extrach_h2915398,2024-02-12T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,3,1,0
+extrach_h2915399,2024-02-12T17:00Z,2024,0,HC Olomouc,HC KOMETA BRNO,3,6,0
+extrach_h2915400,2024-02-12T17:00Z,2024,0,Rytíři Kladno,"Mountfield HK, a.s.",1,2,0
+extrach_h2915401,2024-02-14T17:00Z,2024,0,BK Mladá Boleslav,BANES Motor České Budějovice,3,5,0
+extrach_h2915402,2024-02-14T17:00Z,2024,0,HC Litvínov,HC Olomouc,0,2,0
+extrach_h2915403,2024-02-14T17:00Z,2024,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,1,3,0
+extrach_h2915404,2024-02-14T17:00Z,2024,0,Bílí Tygři Liberec,Rytíři Kladno,3,5,0
+extrach_h2915405,2024-02-14T17:00Z,2024,0,"Mountfield HK, a.s.",HC Oceláři Třinec,1,2,0
+extrach_h2915406,2024-02-14T17:00Z,2024,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,3,3,0
+extrach_h2915407,2024-02-14T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Sparta Praha,3,5,0
+extrach_h2915408,2024-02-16T17:00Z,2024,0,Rytíři Kladno,HC Oceláři Třinec,1,2,0
+extrach_h2915409,2024-02-16T17:00Z,2024,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,3,3,0
+extrach_h2915410,2024-02-16T17:00Z,2024,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,1,3,0
+extrach_h2915411,2024-02-16T17:00Z,2024,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",2,2,0
+extrach_h2915412,2024-02-16T17:00Z,2024,0,BANES Motor České Budějovice,HC Litvínov,5,1,0
+extrach_h2915413,2024-02-16T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,3,4,0
+extrach_h2915414,2024-02-16T17:00Z,2024,0,HC Olomouc,HC Sparta Praha,2,3,0
+extrach_h2915419,2024-02-17T17:00Z,2024,0,Bílí Tygři Liberec,HC Oceláři Třinec,3,1,0
+extrach_h2915294,2024-02-19T17:00Z,2024,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,2,3,0
+extrach_h2915378,2024-02-19T17:00Z,2024,0,HC KOMETA BRNO,"Mountfield HK, a.s.",3,0,0
+extrach_h2915417,2024-02-20T17:00Z,2024,0,Rytíři Kladno,HC ŠKODA PLZEŇ,1,4,0
+extrach_h2915415,2024-02-21T17:00Z,2024,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,1,3,0
+extrach_h2915416,2024-02-21T17:00Z,2024,0,HC Litvínov,HC DYNAMO PARDUBICE,2,5,0
+extrach_h2915418,2024-02-21T17:00Z,2024,0,"Mountfield HK, a.s.",HC Olomouc,3,2,0
+extrach_h2915420,2024-02-21T17:00Z,2024,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,3,2,0
+extrach_h2915421,2024-02-21T17:00Z,2024,0,HC Sparta Praha,BK Mladá Boleslav,4,4,0
+extrach_h2915422,2024-02-23T17:00Z,2024,0,BYD Energie Karlovy Vary,Rytíři Kladno,2,1,0
+extrach_h2915423,2024-02-23T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,6,2,0
+extrach_h2915424,2024-02-23T17:00Z,2024,0,HC Litvínov,BK Mladá Boleslav,1,0,0
+extrach_h2915425,2024-02-23T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,1,1,0
+extrach_h2915426,2024-02-23T17:00Z,2024,0,HC Olomouc,Bílí Tygři Liberec,1,6,0
+extrach_h2915427,2024-02-23T17:00Z,2024,0,BANES Motor České Budějovice,HC KOMETA BRNO,5,5,0
+extrach_h2915428,2024-02-23T17:00Z,2024,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",1,2,0
+extrach_h2915429,2024-02-25T17:00Z,2024,0,HC Oceláři Třinec,HC Olomouc,6,3,0
+extrach_h2915430,2024-02-25T17:00Z,2024,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,2,2,0
+extrach_h2915431,2024-02-25T17:00Z,2024,0,HC Sparta Praha,HC Litvínov,5,1,0
+extrach_h2915432,2024-02-25T17:00Z,2024,0,Rytíři Kladno,BANES Motor České Budějovice,2,3,0
+extrach_h2915433,2024-02-25T17:00Z,2024,0,"Mountfield HK, a.s.",BK Mladá Boleslav,2,1,0
+extrach_h2915434,2024-02-25T17:00Z,2024,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,5,1,0
+extrach_h2915435,2024-02-25T17:00Z,2024,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,3,2,0
+extrach_h2915440,2024-02-27T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,0,2,0
+extrach_h2915436,2024-02-28T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Litvínov,2,2,0
+extrach_h2915437,2024-02-28T17:00Z,2024,0,BK Mladá Boleslav,HC KOMETA BRNO,3,0,0
+extrach_h2915438,2024-02-28T17:00Z,2024,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",1,3,0
+extrach_h2915439,2024-02-28T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,2,0,0
+extrach_h2915441,2024-02-28T17:00Z,2024,0,HC Olomouc,Rytíři Kladno,2,4,0
+extrach_h2915442,2024-02-28T17:00Z,2024,0,HC Sparta Praha,Bílí Tygři Liberec,1,0,0
+extrach_h2915443,2024-03-02T17:00Z,2024,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,3,0,0
+extrach_h2915444,2024-03-02T17:00Z,2024,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,1,1,0
+extrach_h2915445,2024-03-02T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Olomouc,4,1,0
+extrach_h2915446,2024-03-02T17:00Z,2024,0,Bílí Tygři Liberec,BK Mladá Boleslav,4,3,0
+extrach_h2915447,2024-03-02T17:00Z,2024,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,0,5,0
+extrach_h2915448,2024-03-02T17:00Z,2024,0,"Mountfield HK, a.s.",HC Sparta Praha,4,1,0
+extrach_h2915449,2024-03-02T17:00Z,2024,0,HC KOMETA BRNO,HC Litvínov,4,1,0
+extrach_h2915450,2024-03-04T17:00Z,2024,0,BK Mladá Boleslav,Rytíři Kladno,5,8,0
+extrach_h2915451,2024-03-04T17:00Z,2024,0,BANES Motor České Budějovice,Bílí Tygři Liberec,5,2,0
+extrach_h2915452,2024-03-04T17:00Z,2024,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",2,4,0
+extrach_h2915453,2024-03-04T17:00Z,2024,0,HC Litvínov,HC Oceláři Třinec,1,3,0
+extrach_h2915454,2024-03-04T17:00Z,2024,0,HC Olomouc,HC ŠKODA PLZEŇ,2,5,0
+extrach_h2915455,2024-03-04T17:00Z,2024,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,4,0,0
+extrach_h2915456,2024-03-04T17:00Z,2024,0,HC Sparta Praha,HC KOMETA BRNO,1,1,0
+extrach_h2915099,2024-09-17T17:00Z,2024,0,HC Sparta Praha,HC Oceláři Třinec,3,0,0
+extrach_h2915093,2024-09-18T17:00Z,2024,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,3,0,0
+extrach_h2915094,2024-09-18T17:00Z,2024,0,BK Mladá Boleslav,HC Olomouc,4,2,0
+extrach_h2915095,2024-09-18T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2915096,2024-09-18T17:00Z,2024,0,HC Litvínov,"Mountfield HK, a.s.",4,2,0
+extrach_h2915097,2024-09-18T17:00Z,2024,0,HC KOMETA BRNO,Bílí Tygři Liberec,1,2,0
+extrach_h2915098,2024-09-18T17:00Z,2024,0,HC DYNAMO PARDUBICE,Rytíři Kladno,5,1,0
+extrach_h2915100,2024-09-20T17:00Z,2024,0,HC Oceláři Třinec,BANES Motor České Budějovice,4,0,0
+extrach_h2915101,2024-09-20T17:00Z,2024,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,0,2,0
+extrach_h2915102,2024-09-20T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Litvínov,1,3,0
+extrach_h2915103,2024-09-20T17:00Z,2024,0,HC Olomouc,HC DYNAMO PARDUBICE,2,4,0
+extrach_h2915104,2024-09-20T17:00Z,2024,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,2,4,0
+extrach_h2915105,2024-09-20T17:00Z,2024,0,"Mountfield HK, a.s.",HC KOMETA BRNO,1,2,0
+extrach_h2915106,2024-09-20T17:00Z,2024,0,Rytíři Kladno,HC Sparta Praha,4,2,0
+extrach_h2915107,2024-09-22T17:00Z,2024,0,HC Sparta Praha,BYD Energie Karlovy Vary,1,2,0
+extrach_h2915108,2024-09-22T17:00Z,2024,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,1,1,0
+extrach_h2915109,2024-09-22T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Olomouc,7,1,0
+extrach_h2915110,2024-09-22T17:00Z,2024,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,3,3,0
+extrach_h2915111,2024-09-22T17:00Z,2024,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,6,1,0
+extrach_h2915112,2024-09-22T17:00Z,2024,0,HC Oceláři Třinec,HC KOMETA BRNO,1,1,0
+extrach_h2915113,2024-09-22T17:00Z,2024,0,HC Litvínov,Rytíři Kladno,3,2,0
+extrach_h2915114,2024-09-24T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,1,1,0
+extrach_h2915115,2024-09-24T17:00Z,2024,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",6,3,0
+extrach_h2915116,2024-09-24T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Sparta Praha,0,5,0
+extrach_h2915117,2024-09-24T17:00Z,2024,0,Bílí Tygři Liberec,HC Litvínov,2,4,0
+extrach_h2915118,2024-09-24T17:00Z,2024,0,HC Olomouc,BANES Motor České Budějovice,3,1,0
+extrach_h2915119,2024-09-24T17:00Z,2024,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,5,2,0
+extrach_h2915120,2024-09-24T17:00Z,2024,0,Rytíři Kladno,HC KOMETA BRNO,4,1,0
+extrach_h2915127,2024-09-26T17:00Z,2024,0,BANES Motor České Budějovice,HC Sparta Praha,0,4,0
+extrach_h2915121,2024-09-27T17:00Z,2024,0,BK Mladá Boleslav,HC Oceláři Třinec,3,3,0
+extrach_h2915122,2024-09-27T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,3,4,0
+extrach_h2915123,2024-09-27T17:00Z,2024,0,HC Litvínov,BYD Energie Karlovy Vary,5,2,0
+extrach_h2915124,2024-09-27T17:00Z,2024,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,1,1,0
+extrach_h2915125,2024-09-27T17:00Z,2024,0,HC KOMETA BRNO,HC Olomouc,1,4,0
+extrach_h2915126,2024-09-27T17:00Z,2024,0,"Mountfield HK, a.s.",Rytíři Kladno,4,2,0
+extrach_h2915128,2024-09-29T17:00Z,2024,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,2,4,0
+extrach_h2915129,2024-09-29T17:00Z,2024,0,Bílí Tygři Liberec,Rytíři Kladno,2,2,0
+extrach_h2915130,2024-09-29T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,3,1,0
+extrach_h2915131,2024-09-29T17:00Z,2024,0,BANES Motor České Budějovice,BK Mladá Boleslav,2,3,0
+extrach_h2915132,2024-09-29T17:00Z,2024,0,HC Oceláři Třinec,"Mountfield HK, a.s.",4,1,0
+extrach_h2915133,2024-09-29T17:00Z,2024,0,HC Olomouc,HC Litvínov,1,2,0
+extrach_h2915134,2024-09-29T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Sparta Praha,0,4,0
+extrach_h2915136,2024-10-01T17:00Z,2024,0,HC Litvínov,BANES Motor České Budějovice,5,1,0
+extrach_h2915137,2024-10-01T17:00Z,2024,0,Rytíři Kladno,HC Oceláři Třinec,3,2,0
+extrach_h2915138,2024-10-01T17:00Z,2024,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,4,2,0
+extrach_h2915139,2024-10-01T17:00Z,2024,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,2,2,0
+extrach_h2915140,2024-10-01T17:00Z,2024,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,4,0,0
+extrach_h2915141,2024-10-02T17:00Z,2024,0,HC Olomouc,HC Sparta Praha,3,2,0
+extrach_h2915142,2024-10-04T17:00Z,2024,0,HC Oceláři Třinec,Bílí Tygři Liberec,6,3,0
+extrach_h2915145,2024-10-04T17:00Z,2024,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,4,4,0
+extrach_h2915146,2024-10-04T17:00Z,2024,0,BK Mladá Boleslav,HC Sparta Praha,1,2,0
+extrach_h2915147,2024-10-04T17:00Z,2024,0,HC Olomouc,"Mountfield HK, a.s.",4,1,0
+extrach_h2915148,2024-10-04T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Litvínov,3,1,0
+extrach_h2915151,2024-10-06T17:00Z,2024,0,Rytíři Kladno,BYD Energie Karlovy Vary,2,2,0
+extrach_h2915152,2024-10-06T17:00Z,2024,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,1,1,0
+extrach_h2915153,2024-10-06T17:00Z,2024,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,3,3,0
+extrach_h2915155,2024-10-06T17:00Z,2024,0,BK Mladá Boleslav,HC Litvínov,2,2,0
+extrach_h2915143,2024-10-09T17:00Z,2024,0,HC ŠKODA PLZEŇ,Rytíři Kladno,3,4,0
+extrach_h2915154,2024-10-09T17:00Z,2024,0,HC KOMETA BRNO,BANES Motor České Budějovice,3,0,0
+extrach_h2915157,2024-10-10T17:00Z,2024,0,BK Mladá Boleslav,"Mountfield HK, a.s.",2,1,0
+extrach_h2915156,2024-10-11T17:00Z,2024,0,BANES Motor České Budějovice,Rytíři Kladno,3,0,0
+extrach_h2915158,2024-10-11T17:00Z,2024,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,5,3,0
+extrach_h2915159,2024-10-11T17:00Z,2024,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,6,1,0
+extrach_h2915160,2024-10-11T17:00Z,2024,0,HC Olomouc,HC Oceláři Třinec,2,0,0
+extrach_h2915161,2024-10-11T17:00Z,2024,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,1,1,0
+extrach_h2915162,2024-10-11T17:00Z,2024,0,HC Litvínov,HC Sparta Praha,2,4,0
+extrach_h2915163,2024-10-13T17:00Z,2024,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,4,1,0
+extrach_h2915164,2024-10-13T17:00Z,2024,0,Rytíři Kladno,HC Olomouc,7,3,0
+extrach_h2915165,2024-10-13T17:00Z,2024,0,HC Sparta Praha,Bílí Tygři Liberec,2,2,0
+extrach_h2915166,2024-10-13T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,5,0,0
+extrach_h2915168,2024-10-13T17:00Z,2024,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,2,4,0
+extrach_h2915169,2024-10-13T17:00Z,2024,0,HC Litvínov,HC VÍTKOVICE RIDERA,1,4,0
+extrach_h2915167,2024-10-14T17:00Z,2024,0,HC KOMETA BRNO,BK Mladá Boleslav,4,2,0
+extrach_h2915172,2024-10-16T17:00Z,2024,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,5,5,0
+extrach_h2915209,2024-10-16T17:00Z,2024,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,5,1,0
+extrach_h2915170,2024-10-18T17:00Z,2024,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,2,1,0
+extrach_h2915171,2024-10-18T17:00Z,2024,0,BK Mladá Boleslav,Bílí Tygři Liberec,4,3,0
+extrach_h2915173,2024-10-18T17:00Z,2024,0,HC Litvínov,HC KOMETA BRNO,5,2,0
+extrach_h2915174,2024-10-18T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,4,2,0
+extrach_h2915175,2024-10-18T17:00Z,2024,0,HC Olomouc,BYD Energie Karlovy Vary,3,1,0
+extrach_h2915176,2024-10-18T17:00Z,2024,0,"Mountfield HK, a.s.",HC Sparta Praha,5,0,0
+extrach_h2915177,2024-10-20T17:00Z,2024,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,1,1,0
+extrach_h2915178,2024-10-20T17:00Z,2024,0,Rytíři Kladno,BK Mladá Boleslav,2,4,0
+extrach_h2915179,2024-10-20T17:00Z,2024,0,Bílí Tygři Liberec,BANES Motor České Budějovice,2,1,0
+extrach_h2915180,2024-10-20T17:00Z,2024,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,9,7,0
+extrach_h2915181,2024-10-20T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Olomouc,3,2,0
+extrach_h2915182,2024-10-20T17:00Z,2024,0,HC Oceláři Třinec,HC Litvínov,2,2,0
+extrach_h2915183,2024-10-20T17:00Z,2024,0,HC KOMETA BRNO,HC Sparta Praha,1,1,0
+extrach_h2915149,2024-10-22T17:00Z,2024,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,5,1,0
+extrach_h2915302,2024-10-22T17:00Z,2024,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,2,0,0
+extrach_h2915184,2024-10-25T17:00Z,2024,0,HC Oceláři Třinec,HC Sparta Praha,2,2,0
+extrach_h2915185,2024-10-25T17:00Z,2024,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,1,1,0
+extrach_h2915186,2024-10-25T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,4,2,0
+extrach_h2915187,2024-10-25T17:00Z,2024,0,HC Olomouc,BK Mladá Boleslav,3,1,0
+extrach_h2915188,2024-10-25T17:00Z,2024,0,Bílí Tygři Liberec,HC KOMETA BRNO,3,4,0
+extrach_h2915189,2024-10-25T17:00Z,2024,0,Rytíři Kladno,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2915190,2024-10-25T17:00Z,2024,0,"Mountfield HK, a.s.",HC Litvínov,2,0,0
+extrach_h2915191,2024-10-27T17:00Z,2024,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,7,0,0
+extrach_h2915192,2024-10-27T17:00Z,2024,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,4,4,0
+extrach_h2915193,2024-10-27T17:00Z,2024,0,HC Sparta Praha,Rytíři Kladno,5,2,0
+extrach_h2915194,2024-10-27T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC Olomouc,2,1,0
+extrach_h2915195,2024-10-27T17:00Z,2024,0,HC KOMETA BRNO,"Mountfield HK, a.s.",2,3,0
+extrach_h2915196,2024-10-27T17:00Z,2024,0,BANES Motor České Budějovice,HC Oceláři Třinec,5,2,0
+extrach_h2915197,2024-10-27T17:00Z,2024,0,HC Litvínov,HC ŠKODA PLZEŇ,6,0,0
+extrach_h2915198,2024-10-29T17:00Z,2024,0,HC KOMETA BRNO,HC Oceláři Třinec,3,2,0
+extrach_h2915199,2024-10-29T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Sparta Praha,6,3,0
+extrach_h2915200,2024-10-29T17:00Z,2024,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,1,3,0
+extrach_h2915201,2024-10-29T17:00Z,2024,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,2,2,0
+extrach_h2915202,2024-10-29T17:00Z,2024,0,Rytíři Kladno,HC Litvínov,3,4,0
+extrach_h2915203,2024-10-29T17:00Z,2024,0,HC Olomouc,HC VÍTKOVICE RIDERA,5,3,0
+extrach_h2915204,2024-10-29T17:00Z,2024,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",3,4,0
+extrach_h2915205,2024-11-01T17:00Z,2024,0,HC Litvínov,Bílí Tygři Liberec,4,1,0
+extrach_h2915206,2024-11-01T17:00Z,2024,0,BANES Motor České Budějovice,HC Olomouc,2,1,0
+extrach_h2915207,2024-11-01T17:00Z,2024,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2915208,2024-11-01T17:00Z,2024,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,5,1,0
+extrach_h2915210,2024-11-01T17:00Z,2024,0,HC KOMETA BRNO,Rytíři Kladno,3,2,0
+extrach_h2915211,2024-11-01T17:00Z,2024,0,HC Sparta Praha,HC ŠKODA PLZEŇ,1,1,0
+extrach_h2915212,2024-11-03T17:00Z,2024,0,HC Oceláři Třinec,BK Mladá Boleslav,2,3,0
+extrach_h2915213,2024-11-03T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Litvínov,2,0,0
+extrach_h2915214,2024-11-03T17:00Z,2024,0,Rytíři Kladno,"Mountfield HK, a.s.",4,4,0
+extrach_h2915215,2024-11-03T17:00Z,2024,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,1,0,0
+extrach_h2915216,2024-11-03T17:00Z,2024,0,HC Sparta Praha,BANES Motor České Budějovice,8,1,0
+extrach_h2915217,2024-11-03T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,6,2,0
+extrach_h2915218,2024-11-03T17:00Z,2024,0,HC Olomouc,HC KOMETA BRNO,2,2,0
+extrach_h2915135,2024-11-13T17:00Z,2024,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,0,2,0
+extrach_h2915235,2024-11-13T17:00Z,2024,0,Rytíři Kladno,HC ŠKODA PLZEŇ,3,4,0
+extrach_h2915219,2024-11-15T17:00Z,2024,0,BK Mladá Boleslav,BANES Motor České Budějovice,2,4,0
+extrach_h2915220,2024-11-15T17:00Z,2024,0,HC Litvínov,HC Olomouc,4,0,0
+extrach_h2915221,2024-11-15T17:00Z,2024,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,2,5,0
+extrach_h2915222,2024-11-15T17:00Z,2024,0,Rytíři Kladno,Bílí Tygři Liberec,1,4,0
+extrach_h2915223,2024-11-15T17:00Z,2024,0,"Mountfield HK, a.s.",HC Oceláři Třinec,2,1,0
+extrach_h2915224,2024-11-15T17:00Z,2024,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2915225,2024-11-15T17:00Z,2024,0,HC Sparta Praha,HC DYNAMO PARDUBICE,8,1,0
+extrach_h2915232,2024-11-16T17:00Z,2024,0,HC Sparta Praha,HC Olomouc,3,2,0
+extrach_h2915226,2024-11-17T17:00Z,2024,0,HC Oceláři Třinec,Rytíři Kladno,1,4,0
+extrach_h2915227,2024-11-17T17:00Z,2024,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,3,3,0
+extrach_h2915228,2024-11-17T17:00Z,2024,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2915229,2024-11-17T17:00Z,2024,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",1,1,0
+extrach_h2915231,2024-11-17T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,3,2,0
+extrach_h2915230,2024-11-20T17:00Z,2024,0,BANES Motor České Budějovice,HC Litvínov,3,4,0
+extrach_h2915238,2024-11-20T17:00Z,2024,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,4,2,0
+extrach_h2915236,2024-11-21T17:00Z,2024,0,"Mountfield HK, a.s.",HC Olomouc,2,1,0
+extrach_h2915233,2024-11-22T17:00Z,2024,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,1,5,0
+extrach_h2915234,2024-11-22T17:00Z,2024,0,HC Litvínov,HC DYNAMO PARDUBICE,4,1,0
+extrach_h2915237,2024-11-22T17:00Z,2024,0,Bílí Tygři Liberec,HC Oceláři Třinec,1,1,0
+extrach_h2915239,2024-11-22T17:00Z,2024,0,BK Mladá Boleslav,HC Sparta Praha,2,2,0
+extrach_h2915240,2024-11-24T17:00Z,2024,0,BYD Energie Karlovy Vary,Rytíři Kladno,4,3,0
+extrach_h2915241,2024-11-24T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,4,1,0
+extrach_h2915242,2024-11-24T17:00Z,2024,0,BK Mladá Boleslav,HC Litvínov,4,1,0
+extrach_h2915243,2024-11-24T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,3,3,0
+extrach_h2915244,2024-11-24T17:00Z,2024,0,HC Olomouc,Bílí Tygři Liberec,5,3,0
+extrach_h2915245,2024-11-24T17:00Z,2024,0,BANES Motor České Budějovice,HC KOMETA BRNO,5,5,0
+extrach_h2915246,2024-11-24T17:00Z,2024,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",7,1,0
+extrach_h2915304,2024-11-26T17:00Z,2024,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,6,1,0
+extrach_h2915366,2024-11-26T17:00Z,2024,0,HC Oceláři Třinec,HC Sparta Praha,2,1,0
+extrach_h2915150,2024-11-27T17:00Z,2024,0,Bílí Tygři Liberec,HC Olomouc,5,2,0
+extrach_h2915247,2024-11-29T17:00Z,2024,0,HC Oceláři Třinec,HC Olomouc,3,2,0
+extrach_h2915248,2024-11-29T17:00Z,2024,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,0,3,0
+extrach_h2915249,2024-11-29T17:00Z,2024,0,HC Litvínov,HC Sparta Praha,0,4,0
+extrach_h2915250,2024-11-29T17:00Z,2024,0,Rytíři Kladno,BANES Motor České Budějovice,1,4,0
+extrach_h2915251,2024-11-29T17:00Z,2024,0,"Mountfield HK, a.s.",BK Mladá Boleslav,2,1,0
+extrach_h2915252,2024-11-29T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,5,2,0
+extrach_h2915253,2024-11-29T17:00Z,2024,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2915254,2024-12-01T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,2,2,0
+extrach_h2915255,2024-12-01T17:00Z,2024,0,HC Litvínov,HC VÍTKOVICE RIDERA,3,2,0
+extrach_h2915256,2024-12-01T17:00Z,2024,0,BK Mladá Boleslav,HC KOMETA BRNO,4,2,0
+extrach_h2915257,2024-12-01T17:00Z,2024,0,Bílí Tygři Liberec,HC Sparta Praha,3,1,0
+extrach_h2915258,2024-12-01T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,5,2,0
+extrach_h2915259,2024-12-01T17:00Z,2024,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",4,2,0
+extrach_h2915260,2024-12-01T17:00Z,2024,0,HC Olomouc,Rytíři Kladno,4,1,0
+extrach_h2915144,2024-12-04T17:00Z,2024,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,3,4,0
+extrach_h2915266,2024-12-05T17:00Z,2024,0,HC Sparta Praha,"Mountfield HK, a.s.",3,0,0
+extrach_h2915261,2024-12-06T17:00Z,2024,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,3,5,0
+extrach_h2915262,2024-12-06T17:00Z,2024,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,0,1,0
+extrach_h2915263,2024-12-06T17:00Z,2024,0,BYD Energie Karlovy Vary,HC Olomouc,4,1,0
+extrach_h2915264,2024-12-06T17:00Z,2024,0,Bílí Tygři Liberec,BK Mladá Boleslav,2,2,0
+extrach_h2915265,2024-12-06T17:00Z,2024,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,1,4,0
+extrach_h2915267,2024-12-06T17:00Z,2024,0,HC KOMETA BRNO,HC Litvínov,0,3,0
+extrach_h2915268,2024-12-08T17:00Z,2024,0,HC Oceláři Třinec,HC Litvínov,0,1,0
+extrach_h2915269,2024-12-08T17:00Z,2024,0,BK Mladá Boleslav,Rytíři Kladno,2,6,0
+extrach_h2915270,2024-12-08T17:00Z,2024,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",1,4,0
+extrach_h2915271,2024-12-08T17:00Z,2024,0,HC Sparta Praha,HC KOMETA BRNO,3,4,0
+extrach_h2915272,2024-12-08T17:00Z,2024,0,BANES Motor České Budějovice,Bílí Tygři Liberec,1,1,0
+extrach_h2915273,2024-12-08T17:00Z,2024,0,HC Olomouc,HC ŠKODA PLZEŇ,3,4,0
+extrach_h2915274,2024-12-08T17:00Z,2024,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,5,1,0
+extrach_h2915276,2024-12-19T17:00Z,2024,0,BK Mladá Boleslav,HC Olomouc,3,3,0
+extrach_h2915275,2024-12-20T17:00Z,2024,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,4,4,0
+extrach_h2915277,2024-12-20T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,2,0,0
+extrach_h2915278,2024-12-20T17:00Z,2024,0,HC Litvínov,"Mountfield HK, a.s.",4,5,0
+extrach_h2915279,2024-12-20T17:00Z,2024,0,HC KOMETA BRNO,Bílí Tygři Liberec,4,2,0
+extrach_h2915280,2024-12-20T17:00Z,2024,0,HC DYNAMO PARDUBICE,Rytíři Kladno,3,3,0
+extrach_h2915281,2024-12-20T17:00Z,2024,0,HC Sparta Praha,HC Oceláři Třinec,2,3,0
+extrach_h2915282,2024-12-22T17:00Z,2024,0,HC Oceláři Třinec,BANES Motor České Budějovice,3,1,0
+extrach_h2915283,2024-12-22T17:00Z,2024,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,3,2,0
+extrach_h2915284,2024-12-22T17:00Z,2024,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,1,3,0
+extrach_h2915285,2024-12-22T17:00Z,2024,0,"Mountfield HK, a.s.",HC KOMETA BRNO,4,2,0
+extrach_h2915286,2024-12-22T17:00Z,2024,0,Rytíři Kladno,HC Sparta Praha,2,4,0
+extrach_h2915287,2024-12-22T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Litvínov,1,2,0
+extrach_h2915288,2024-12-22T17:00Z,2024,0,HC Olomouc,HC DYNAMO PARDUBICE,0,2,0
+extrach_h2915289,2024-12-26T17:00Z,2024,0,HC Litvínov,Rytíři Kladno,1,0,0
+extrach_h2915290,2024-12-26T17:00Z,2024,0,HC Sparta Praha,BYD Energie Karlovy Vary,1,1,0
+extrach_h2915291,2024-12-26T17:00Z,2024,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,2,3,0
+extrach_h2915292,2024-12-26T17:00Z,2024,0,HC VÍTKOVICE RIDERA,HC Olomouc,2,2,0
+extrach_h2915293,2024-12-26T17:00Z,2024,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,0,2,0
+extrach_h2915295,2024-12-26T17:00Z,2024,0,HC KOMETA BRNO,HC Oceláři Třinec,4,2,0
+extrach_h2915296,2024-12-28T17:00Z,2024,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",1,3,0
+extrach_h2915297,2024-12-28T17:00Z,2024,0,Bílí Tygři Liberec,HC Litvínov,0,3,0
+extrach_h2915298,2024-12-28T17:00Z,2024,0,Rytíři Kladno,HC KOMETA BRNO,1,1,0
+extrach_h2915299,2024-12-28T17:00Z,2024,0,HC ŠKODA PLZEŇ,HC Sparta Praha,1,3,0
+extrach_h2915300,2024-12-28T17:00Z,2024,0,HC Olomouc,BANES Motor České Budějovice,1,1,0
+extrach_h2915301,2024-12-28T17:00Z,2024,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,4,0,0
+extrach_h2915303,2024-12-30T17:00Z,2024,0,BK Mladá Boleslav,HC Oceláři Třinec,2,2,0
+extrach_h2915305,2024-12-30T17:00Z,2024,0,HC Litvínov,BYD Energie Karlovy Vary,4,1,0
+extrach_h2915306,2024-12-30T17:00Z,2024,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,3,3,0
+extrach_h2915307,2024-12-30T17:00Z,2024,0,HC KOMETA BRNO,HC Olomouc,5,3,0
+extrach_h2915308,2024-12-30T17:00Z,2024,0,"Mountfield HK, a.s.",Rytíři Kladno,2,4,0
+extrach_h2915309,2024-12-30T17:00Z,2024,0,HC Sparta Praha,BANES Motor České Budějovice,7,5,0
+extrach_h2922015,2025-01-02T17:00Z,2025,0,BK Mladá Boleslav,BANES Motor České Budějovice,4,2,0
+extrach_h2922016,2025-01-02T17:00Z,2025,0,HC KOMETA BRNO,Rytíři Kladno,2,4,0
+extrach_h2922017,2025-01-02T17:00Z,2025,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,2,2,0
+extrach_h2922018,2025-01-02T17:00Z,2025,0,HC Litvínov,HC ŠKODA PLZEŇ,1,8,0
+extrach_h2922019,2025-01-02T17:00Z,2025,0,HC Olomouc,Bílí Tygři Liberec,5,3,0
+extrach_h2922021,2025-01-02T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,0,2,0
+extrach_h2922022,2025-01-04T17:00Z,2025,0,BANES Motor České Budějovice,HC Olomouc,2,1,0
+extrach_h2922023,2025-01-04T17:00Z,2025,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,6,2,0
+extrach_h2922024,2025-01-04T17:00Z,2025,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,0,2,0
+extrach_h2922025,2025-01-04T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,4,1,0
+extrach_h2922026,2025-01-04T17:00Z,2025,0,HC Sparta Praha,Rytíři Kladno,4,4,0
+extrach_h2922027,2025-01-04T17:00Z,2025,0,HC Oceláři Třinec,HC Litvínov,2,2,0
+extrach_h2922028,2025-01-04T17:00Z,2025,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,2,3,0
+extrach_h2922029,2025-01-06T17:00Z,2025,0,HC Sparta Praha,HC DYNAMO PARDUBICE,2,2,0
+extrach_h2922030,2025-01-06T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,4,6,0
+extrach_h2922031,2025-01-06T17:00Z,2025,0,HC Litvínov,Rytíři Kladno,4,1,0
+extrach_h2922032,2025-01-06T17:00Z,2025,0,HC Olomouc,HC KOMETA BRNO,3,2,0
+extrach_h2922035,2025-01-07T17:00Z,2025,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,6,3,0
+extrach_h2922036,2025-01-09T17:00Z,2025,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2922037,2025-01-09T17:00Z,2025,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,3,3,0
+extrach_h2922038,2025-01-09T17:00Z,2025,0,BK Mladá Boleslav,Rytíři Kladno,1,5,0
+extrach_h2922039,2025-01-09T17:00Z,2025,0,HC Olomouc,HC Oceláři Třinec,4,1,0
+extrach_h2922040,2025-01-09T17:00Z,2025,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,3,3,0
+extrach_h2922042,2025-01-09T17:00Z,2025,0,HC KOMETA BRNO,HC Litvínov,7,2,0
+extrach_h2922043,2025-01-11T17:00Z,2025,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",5,1,0
+extrach_h2922044,2025-01-11T17:00Z,2025,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,8,1,0
+extrach_h2922045,2025-01-11T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Litvínov,3,3,0
+extrach_h2922047,2025-01-11T17:00Z,2025,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,1,1,0
+extrach_h2922048,2025-01-11T17:00Z,2025,0,HC Oceláři Třinec,HC Sparta Praha,5,3,0
+extrach_h2922049,2025-01-11T17:00Z,2025,0,HC KOMETA BRNO,BK Mladá Boleslav,2,2,0
+extrach_h2922046,2025-01-12T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Olomouc,3,2,0
+extrach_h2922033,2025-01-13T17:00Z,2025,0,BK Mladá Boleslav,"Mountfield HK, a.s.",2,0,0
+extrach_h2922034,2025-01-13T17:00Z,2025,0,Bílí Tygři Liberec,BANES Motor České Budějovice,6,3,0
+extrach_h2922069,2025-01-13T17:00Z,2025,0,HC Sparta Praha,HC Litvínov,5,1,0
+extrach_h2922052,2025-01-15T17:00Z,2025,0,HC Sparta Praha,HC KOMETA BRNO,1,3,0
+extrach_h2922050,2025-01-16T17:00Z,2025,0,Bílí Tygři Liberec,HC Oceláři Třinec,5,3,0
+extrach_h2922051,2025-01-16T17:00Z,2025,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,5,1,0
+extrach_h2922053,2025-01-16T17:00Z,2025,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,4,2,0
+extrach_h2922054,2025-01-16T17:00Z,2025,0,"Mountfield HK, a.s.",Rytíři Kladno,1,0,0
+extrach_h2922055,2025-01-16T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Litvínov,4,1,0
+extrach_h2922056,2025-01-16T17:00Z,2025,0,HC Olomouc,BYD Energie Karlovy Vary,1,5,0
+extrach_h2922057,2025-01-18T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,2,2,0
+extrach_h2922058,2025-01-18T17:00Z,2025,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",2,2,0
+extrach_h2922059,2025-01-18T17:00Z,2025,0,Rytíři Kladno,HC Olomouc,2,0,0
+extrach_h2922060,2025-01-18T17:00Z,2025,0,Bílí Tygři Liberec,HC Litvínov,4,1,0
+extrach_h2922061,2025-01-18T17:00Z,2025,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,5,1,0
+extrach_h2922062,2025-01-18T17:00Z,2025,0,BK Mladá Boleslav,HC Oceláři Třinec,3,3,0
+extrach_h2922063,2025-01-18T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Sparta Praha,3,3,0
+extrach_h2922020,2025-01-20T17:00Z,2025,0,HC Sparta Praha,"Mountfield HK, a.s.",1,1,0
+extrach_h2922064,2025-01-20T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,1,1,0
+extrach_h2921914,2025-01-21T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,7,1,0
+extrach_h2922065,2025-01-23T17:00Z,2025,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,1,1,0
+extrach_h2922066,2025-01-23T17:00Z,2025,0,HC Olomouc,HC DYNAMO PARDUBICE,2,3,0
+extrach_h2922067,2025-01-23T17:00Z,2025,0,BANES Motor České Budějovice,Rytíři Kladno,2,2,0
+extrach_h2922068,2025-01-23T17:00Z,2025,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,2,2,0
+extrach_h2922070,2025-01-23T17:00Z,2025,0,Bílí Tygři Liberec,HC KOMETA BRNO,4,0,0
+extrach_h2922071,2025-01-25T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,3,3,0
+extrach_h2922073,2025-01-25T17:00Z,2025,0,HC Litvínov,HC Olomouc,3,5,0
+extrach_h2922074,2025-01-25T17:00Z,2025,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,4,0,0
+extrach_h2922075,2025-01-25T17:00Z,2025,0,HC KOMETA BRNO,"Mountfield HK, a.s.",4,3,0
+extrach_h2922076,2025-01-25T17:00Z,2025,0,HC Oceláři Třinec,BANES Motor České Budějovice,2,1,0
+extrach_h2922077,2025-01-25T17:00Z,2025,0,Rytíři Kladno,Bílí Tygři Liberec,0,2,0
+extrach_h2922078,2025-01-26T17:00Z,2025,0,HC Sparta Praha,HC Olomouc,6,3,0
+extrach_h2922079,2025-01-27T17:00Z,2025,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,6,2,0
+extrach_h2922080,2025-01-27T17:00Z,2025,0,HC DYNAMO PARDUBICE,Rytíři Kladno,1,1,0
+extrach_h2922081,2025-01-27T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,4,0,0
+extrach_h2922082,2025-01-27T17:00Z,2025,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,3,6,0
+extrach_h2922083,2025-01-27T17:00Z,2025,0,BK Mladá Boleslav,HC Litvínov,1,0,0
+extrach_h2922084,2025-01-27T17:00Z,2025,0,"Mountfield HK, a.s.",HC Oceláři Třinec,3,0,0
+extrach_h2922085,2025-01-29T17:00Z,2025,0,HC Sparta Praha,BK Mladá Boleslav,4,1,0
+extrach_h2922086,2025-01-29T17:00Z,2025,0,Rytíři Kladno,HC ŠKODA PLZEŇ,4,1,0
+extrach_h2922087,2025-01-29T17:00Z,2025,0,HC Litvínov,"Mountfield HK, a.s.",3,6,0
+extrach_h2922089,2025-01-29T17:00Z,2025,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,2,2,0
+extrach_h2922091,2025-01-29T17:00Z,2025,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,3,2,0
+extrach_h2921907,2025-01-30T17:00Z,2025,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,2,2,0
+extrach_h2922090,2025-01-30T17:00Z,2025,0,HC KOMETA BRNO,BANES Motor České Budějovice,3,3,0
+extrach_h2922041,2025-02-01T17:00Z,2025,0,HC Sparta Praha,BANES Motor České Budějovice,4,3,0
+extrach_h2922008,2025-02-02T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Sparta Praha,4,1,0
+extrach_h2921994,2025-02-22T17:00Z,2025,0,BK Mladá Boleslav,HC Sparta Praha,2,3,0
+extrach_h2922095,2025-02-24T17:00Z,2025,0,BK Mladá Boleslav,HC Olomouc,2,2,0
+extrach_h2922092,2025-02-25T17:00Z,2025,0,Rytíři Kladno,HC Oceláři Třinec,1,3,0
+extrach_h2922093,2025-02-25T17:00Z,2025,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,4,0,0
+extrach_h2922094,2025-02-25T17:00Z,2025,0,Bílí Tygři Liberec,HC Sparta Praha,1,1,0
+extrach_h2922096,2025-02-25T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,4,2,0
+extrach_h2922097,2025-02-25T17:00Z,2025,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,2,0,0
+extrach_h2922098,2025-02-25T17:00Z,2025,0,BANES Motor České Budějovice,HC Litvínov,4,2,0
+extrach_h2922099,2025-02-27T17:00Z,2025,0,HC Sparta Praha,HC ŠKODA PLZEŇ,3,0,0
+extrach_h2922100,2025-02-27T17:00Z,2025,0,HC Olomouc,"Mountfield HK, a.s.",2,4,0
+extrach_h2922101,2025-02-27T17:00Z,2025,0,HC Litvínov,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2922102,2025-02-27T17:00Z,2025,0,BYD Energie Karlovy Vary,Rytíři Kladno,2,4,0
+extrach_h2922103,2025-02-27T17:00Z,2025,0,BK Mladá Boleslav,Bílí Tygři Liberec,4,4,0
+extrach_h2922104,2025-02-27T17:00Z,2025,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,4,4,0
+extrach_h2922105,2025-02-27T17:00Z,2025,0,HC KOMETA BRNO,HC Oceláři Třinec,5,1,0
+extrach_h2922106,2025-03-01T17:00Z,2025,0,BANES Motor České Budějovice,BK Mladá Boleslav,3,0,0
+extrach_h2922107,2025-03-01T17:00Z,2025,0,Rytíři Kladno,HC KOMETA BRNO,4,2,0
+extrach_h2922108,2025-03-01T17:00Z,2025,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,3,3,0
+extrach_h2922109,2025-03-01T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Litvínov,3,2,0
+extrach_h2922110,2025-03-01T17:00Z,2025,0,Bílí Tygři Liberec,HC Olomouc,6,3,0
+extrach_h2922111,2025-03-01T17:00Z,2025,0,"Mountfield HK, a.s.",HC Sparta Praha,6,3,0
+extrach_h2922112,2025-03-01T17:00Z,2025,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2922113,2025-03-04T17:00Z,2025,0,HC Olomouc,BANES Motor České Budějovice,3,2,0
+extrach_h2922114,2025-03-04T17:00Z,2025,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,0,2,0
+extrach_h2922115,2025-03-04T17:00Z,2025,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",4,0,0
+extrach_h2922116,2025-03-04T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,4,2,0
+extrach_h2922117,2025-03-04T17:00Z,2025,0,HC Sparta Praha,Rytíři Kladno,6,3,0
+extrach_h2922118,2025-03-04T17:00Z,2025,0,HC Litvínov,HC Oceláři Třinec,1,4,0
+extrach_h2922119,2025-03-04T17:00Z,2025,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,2,2,0
+extrach_h2922120,2025-03-06T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Sparta Praha,1,1,0
+extrach_h2922121,2025-03-06T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,5,2,0
+extrach_h2922122,2025-03-06T17:00Z,2025,0,Rytíři Kladno,HC Litvínov,3,1,0
+extrach_h2922123,2025-03-06T17:00Z,2025,0,HC KOMETA BRNO,HC Olomouc,5,4,0
+extrach_h2922124,2025-03-06T17:00Z,2025,0,"Mountfield HK, a.s.",BK Mladá Boleslav,3,1,0
+extrach_h2922125,2025-03-06T17:00Z,2025,0,BANES Motor České Budějovice,Bílí Tygři Liberec,3,3,0
+extrach_h2922126,2025-03-06T17:00Z,2025,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,1,1,0
+extrach_h2921768,2025-09-09T17:00Z,2025,0,BANES Motor České Budějovice,HC Sparta Praha,2,3,0
+extrach_h2921763,2025-09-10T17:00Z,2025,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,1,3,0
+extrach_h2921764,2025-09-10T17:00Z,2025,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",7,1,0
+extrach_h2921765,2025-09-10T17:00Z,2025,0,Rytíři Kladno,BK Mladá Boleslav,1,2,0
+extrach_h2921766,2025-09-10T17:00Z,2025,0,HC Oceláři Třinec,HC Olomouc,8,2,0
+extrach_h2921767,2025-09-10T17:00Z,2025,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,4,7,0
+extrach_h2921769,2025-09-10T17:00Z,2025,0,HC KOMETA BRNO,HC Litvínov,4,2,0
+extrach_h2921770,2025-09-12T17:00Z,2025,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,3,4,0
+extrach_h2921771,2025-09-12T17:00Z,2025,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,0,0,0
+extrach_h2921772,2025-09-12T17:00Z,2025,0,HC Litvínov,BYD Energie Karlovy Vary,0,4,0
+extrach_h2921773,2025-09-12T17:00Z,2025,0,HC Olomouc,HC ŠKODA PLZEŇ,1,4,0
+extrach_h2921774,2025-09-12T17:00Z,2025,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,4,2,0
+extrach_h2921775,2025-09-12T17:00Z,2025,0,HC Sparta Praha,HC Oceláři Třinec,5,2,0
+extrach_h2921776,2025-09-12T17:00Z,2025,0,BK Mladá Boleslav,HC KOMETA BRNO,1,3,0
+extrach_h2921777,2025-09-14T17:00Z,2025,0,HC Oceláři Třinec,Bílí Tygři Liberec,4,2,0
+extrach_h2921778,2025-09-14T17:00Z,2025,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,1,4,0
+extrach_h2921779,2025-09-14T17:00Z,2025,0,HC KOMETA BRNO,HC Sparta Praha,2,0,0
+extrach_h2921780,2025-09-14T17:00Z,2025,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,4,1,0
+extrach_h2921781,2025-09-14T17:00Z,2025,0,Rytíři Kladno,"Mountfield HK, a.s.",4,2,0
+extrach_h2921782,2025-09-14T17:00Z,2025,0,HC Litvínov,HC VÍTKOVICE RIDERA,0,3,0
+extrach_h2921783,2025-09-14T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Olomouc,2,4,0
+extrach_h2921784,2025-09-16T17:00Z,2025,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,5,2,0
+extrach_h2921785,2025-09-16T17:00Z,2025,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,3,3,0
+extrach_h2921787,2025-09-16T17:00Z,2025,0,Bílí Tygři Liberec,HC Litvínov,2,4,0
+extrach_h2921788,2025-09-16T17:00Z,2025,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,4,1,0
+extrach_h2921789,2025-09-16T17:00Z,2025,0,BK Mladá Boleslav,HC Oceláři Třinec,2,1,0
+extrach_h2921790,2025-09-16T17:00Z,2025,0,HC Sparta Praha,BYD Energie Karlovy Vary,1,2,0
+extrach_h2921786,2025-09-17T17:00Z,2025,0,HC Olomouc,Rytíři Kladno,4,1,0
+extrach_h2921791,2025-09-19T17:00Z,2025,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,1,1,0
+extrach_h2921792,2025-09-19T17:00Z,2025,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,2,4,0
+extrach_h2921793,2025-09-19T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Olomouc,3,1,0
+extrach_h2921794,2025-09-19T17:00Z,2025,0,Rytíři Kladno,BANES Motor České Budějovice,1,4,0
+extrach_h2921795,2025-09-19T17:00Z,2025,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",3,1,0
+extrach_h2921796,2025-09-19T17:00Z,2025,0,HC Litvínov,HC Sparta Praha,1,5,0
+extrach_h2921797,2025-09-19T17:00Z,2025,0,HC KOMETA BRNO,Bílí Tygři Liberec,4,5,0
+extrach_h2921798,2025-09-21T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,2,1,0
+extrach_h2921799,2025-09-21T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,2,2,0
+extrach_h2921801,2025-09-21T17:00Z,2025,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,2,3,0
+extrach_h2921802,2025-09-21T17:00Z,2025,0,"Mountfield HK, a.s.",HC KOMETA BRNO,3,5,0
+extrach_h2921803,2025-09-21T17:00Z,2025,0,BANES Motor České Budějovice,HC Oceláři Třinec,2,3,0
+extrach_h2921804,2025-09-21T17:00Z,2025,0,Bílí Tygři Liberec,Rytíři Kladno,4,1,0
+extrach_h2921805,2025-09-23T17:00Z,2025,0,HC Olomouc,HC Sparta Praha,4,2,0
+extrach_h2921806,2025-09-23T17:00Z,2025,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,4,2,0
+extrach_h2921807,2025-09-23T17:00Z,2025,0,Rytíři Kladno,HC DYNAMO PARDUBICE,4,5,0
+extrach_h2921808,2025-09-23T17:00Z,2025,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,4,2,0
+extrach_h2921809,2025-09-23T17:00Z,2025,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,3,1,0
+extrach_h2921810,2025-09-23T17:00Z,2025,0,HC Litvínov,BK Mladá Boleslav,4,2,0
+extrach_h2921818,2025-09-25T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,4,5,0
+extrach_h2921812,2025-09-26T17:00Z,2025,0,BK Mladá Boleslav,HC Sparta Praha,2,7,0
+extrach_h2921813,2025-09-26T17:00Z,2025,0,HC ŠKODA PLZEŇ,Rytíři Kladno,3,1,0
+extrach_h2921814,2025-09-26T17:00Z,2025,0,"Mountfield HK, a.s.",HC Litvínov,2,0,0
+extrach_h2921815,2025-09-26T17:00Z,2025,0,HC Olomouc,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2921816,2025-09-26T17:00Z,2025,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,2,1,0
+extrach_h2921817,2025-09-26T17:00Z,2025,0,BANES Motor České Budějovice,HC KOMETA BRNO,8,0,0
+extrach_h2921819,2025-09-28T17:00Z,2025,0,HC Oceláři Třinec,Rytíři Kladno,2,2,0
+extrach_h2921820,2025-09-28T17:00Z,2025,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",0,4,0
+extrach_h2921821,2025-09-28T17:00Z,2025,0,HC Sparta Praha,Bílí Tygři Liberec,1,3,0
+extrach_h2921822,2025-09-28T17:00Z,2025,0,HC Olomouc,BK Mladá Boleslav,3,1,0
+extrach_h2921823,2025-09-28T17:00Z,2025,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,1,1,0
+extrach_h2921824,2025-09-28T17:00Z,2025,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,2,2,0
+extrach_h2921825,2025-09-28T17:00Z,2025,0,HC Litvínov,BANES Motor České Budějovice,3,6,0
+extrach_h2921826,2025-09-30T17:00Z,2025,0,HC Sparta Praha,HC ŠKODA PLZEŇ,0,2,0
+extrach_h2921827,2025-09-30T17:00Z,2025,0,"Mountfield HK, a.s.",HC Olomouc,0,1,0
+extrach_h2921828,2025-09-30T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Litvínov,1,1,0
+extrach_h2921829,2025-09-30T17:00Z,2025,0,Rytíři Kladno,BYD Energie Karlovy Vary,1,3,0
+extrach_h2921830,2025-09-30T17:00Z,2025,0,Bílí Tygři Liberec,BK Mladá Boleslav,0,3,0
+extrach_h2921831,2025-09-30T17:00Z,2025,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,2,1,0
+extrach_h2921832,2025-09-30T17:00Z,2025,0,HC Oceláři Třinec,HC KOMETA BRNO,1,0,0
+extrach_h2921833,2025-10-03T17:00Z,2025,0,BK Mladá Boleslav,BANES Motor České Budějovice,3,4,0
+extrach_h2921834,2025-10-03T17:00Z,2025,0,HC KOMETA BRNO,Rytíři Kladno,3,3,0
+extrach_h2921835,2025-10-03T17:00Z,2025,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,0,3,0
+extrach_h2921836,2025-10-03T17:00Z,2025,0,HC Litvínov,HC ŠKODA PLZEŇ,1,2,0
+extrach_h2921837,2025-10-03T17:00Z,2025,0,HC Olomouc,Bílí Tygři Liberec,0,1,0
+extrach_h2921838,2025-10-03T17:00Z,2025,0,HC Sparta Praha,"Mountfield HK, a.s.",0,2,0
+extrach_h2921839,2025-10-03T17:00Z,2025,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,4,4,0
+extrach_h2921840,2025-10-05T17:00Z,2025,0,BANES Motor České Budějovice,HC Olomouc,1,3,0
+extrach_h2921842,2025-10-05T17:00Z,2025,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,3,3,0
+extrach_h2921843,2025-10-05T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,3,4,0
+extrach_h2921844,2025-10-05T17:00Z,2025,0,Rytíři Kladno,HC Sparta Praha,5,4,0
+extrach_h2921845,2025-10-05T17:00Z,2025,0,HC Oceláři Třinec,HC Litvínov,3,1,0
+extrach_h2921846,2025-10-05T17:00Z,2025,0,HC KOMETA BRNO,BYD Energie Karlovy Vary,3,1,0
+extrach_h2921841,2025-10-08T17:00Z,2025,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,2,0,0
+extrach_h2921847,2025-10-10T17:00Z,2025,0,HC Sparta Praha,HC DYNAMO PARDUBICE,3,6,0
+extrach_h2921849,2025-10-10T17:00Z,2025,0,HC Litvínov,Rytíři Kladno,1,3,0
+extrach_h2921850,2025-10-10T17:00Z,2025,0,HC Olomouc,HC KOMETA BRNO,1,2,0
+extrach_h2921851,2025-10-10T17:00Z,2025,0,BK Mladá Boleslav,"Mountfield HK, a.s.",2,2,0
+extrach_h2921852,2025-10-10T17:00Z,2025,0,BANES Motor České Budějovice,Bílí Tygři Liberec,4,2,0
+extrach_h2921853,2025-10-10T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,1,3,0
+extrach_h2921854,2025-10-12T17:00Z,2025,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,0,1,0
+extrach_h2921855,2025-10-12T17:00Z,2025,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,1,1,0
+extrach_h2921856,2025-10-12T17:00Z,2025,0,BK Mladá Boleslav,Rytíři Kladno,1,1,0
+extrach_h2921857,2025-10-12T17:00Z,2025,0,HC Olomouc,HC Oceláři Třinec,3,5,0
+extrach_h2921858,2025-10-12T17:00Z,2025,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,3,0,0
+extrach_h2921859,2025-10-12T17:00Z,2025,0,HC Sparta Praha,BANES Motor České Budějovice,4,2,0
+extrach_h2921860,2025-10-12T17:00Z,2025,0,HC Litvínov,HC KOMETA BRNO,2,5,0
+extrach_h2921873,2025-10-15T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Litvínov,8,2,0
+extrach_h2921864,2025-10-16T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Olomouc,2,3,0
+extrach_h2921862,2025-10-17T17:00Z,2025,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,3,1,0
+extrach_h2921863,2025-10-17T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Litvínov,3,0,0
+extrach_h2921865,2025-10-17T17:00Z,2025,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,0,5,0
+extrach_h2921867,2025-10-17T17:00Z,2025,0,HC KOMETA BRNO,BK Mladá Boleslav,1,4,0
+extrach_h2921868,2025-10-19T17:00Z,2025,0,Bílí Tygři Liberec,HC Oceláři Třinec,0,1,0
+extrach_h2921869,2025-10-19T17:00Z,2025,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,0,3,0
+extrach_h2921870,2025-10-19T17:00Z,2025,0,HC Sparta Praha,HC KOMETA BRNO,4,1,0
+extrach_h2921871,2025-10-19T17:00Z,2025,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,0,2,0
+extrach_h2921872,2025-10-19T17:00Z,2025,0,"Mountfield HK, a.s.",Rytíři Kladno,4,1,0
+extrach_h2921874,2025-10-19T17:00Z,2025,0,HC Olomouc,BYD Energie Karlovy Vary,5,3,0
+extrach_h2921800,2025-10-21T17:00Z,2025,0,HC Olomouc,HC Litvínov,3,2,0
+extrach_h2921861,2025-10-21T17:00Z,2025,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",0,3,0
+extrach_h2921866,2025-10-21T17:00Z,2025,0,HC Sparta Praha,HC Oceláři Třinec,1,4,0
+extrach_h2922072,2025-10-22T17:00Z,2025,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,4,4,0
+extrach_h2921879,2025-10-23T17:00Z,2025,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,5,2,0
+extrach_h2921875,2025-10-24T17:00Z,2025,0,HC KOMETA BRNO,HC VÍTKOVICE RIDERA,4,1,0
+extrach_h2921876,2025-10-24T17:00Z,2025,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",2,3,0
+extrach_h2921877,2025-10-24T17:00Z,2025,0,Rytíři Kladno,HC Olomouc,3,2,0
+extrach_h2921878,2025-10-24T17:00Z,2025,0,HC Litvínov,Bílí Tygři Liberec,3,3,0
+extrach_h2921880,2025-10-24T17:00Z,2025,0,HC Oceláři Třinec,BK Mladá Boleslav,2,1,0
+extrach_h2921881,2025-10-24T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Sparta Praha,3,3,0
+extrach_h2921882,2025-10-26T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,1,1,0
+extrach_h2921883,2025-10-26T17:00Z,2025,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,1,2,0
+extrach_h2921884,2025-10-26T17:00Z,2025,0,HC Olomouc,HC DYNAMO PARDUBICE,1,1,0
+extrach_h2921885,2025-10-26T17:00Z,2025,0,BANES Motor České Budějovice,Rytíři Kladno,3,3,0
+extrach_h2921886,2025-10-26T17:00Z,2025,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,4,5,0
+extrach_h2921887,2025-10-26T17:00Z,2025,0,HC Sparta Praha,HC Litvínov,2,1,0
+extrach_h2921888,2025-10-26T17:00Z,2025,0,Bílí Tygři Liberec,HC KOMETA BRNO,4,3,0
+extrach_h2921889,2025-10-28T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,1,3,0
+extrach_h2921891,2025-10-28T17:00Z,2025,0,HC Litvínov,HC Olomouc,1,0,0
+extrach_h2921892,2025-10-28T17:00Z,2025,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,4,4,0
+extrach_h2921893,2025-10-28T17:00Z,2025,0,HC KOMETA BRNO,"Mountfield HK, a.s.",1,2,0
+extrach_h2921894,2025-10-28T17:00Z,2025,0,HC Oceláři Třinec,BANES Motor České Budějovice,6,3,0
+extrach_h2921895,2025-10-28T17:00Z,2025,0,Rytíři Kladno,Bílí Tygři Liberec,3,3,0
+extrach_h2921890,2025-10-29T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Sparta Praha,1,4,0
+extrach_h2921896,2025-10-31T17:00Z,2025,0,HC Olomouc,HC Sparta Praha,1,4,0
+extrach_h2921897,2025-10-31T17:00Z,2025,0,Bílí Tygři Liberec,HC VÍTKOVICE RIDERA,2,3,0
+extrach_h2921898,2025-10-31T17:00Z,2025,0,HC DYNAMO PARDUBICE,Rytíři Kladno,8,3,0
+extrach_h2921899,2025-10-31T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC KOMETA BRNO,3,3,0
+extrach_h2921900,2025-10-31T17:00Z,2025,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,3,2,0
+extrach_h2921901,2025-10-31T17:00Z,2025,0,BK Mladá Boleslav,HC Litvínov,3,2,0
+extrach_h2921902,2025-10-31T17:00Z,2025,0,"Mountfield HK, a.s.",HC Oceláři Třinec,4,1,0
+extrach_h2921903,2025-11-02T17:00Z,2025,0,HC Sparta Praha,BK Mladá Boleslav,2,0,0
+extrach_h2921904,2025-11-02T17:00Z,2025,0,Rytíři Kladno,HC ŠKODA PLZEŇ,1,2,0
+extrach_h2921905,2025-11-02T17:00Z,2025,0,HC Litvínov,"Mountfield HK, a.s.",1,3,0
+extrach_h2921906,2025-11-02T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Olomouc,2,3,0
+extrach_h2921908,2025-11-02T17:00Z,2025,0,HC KOMETA BRNO,BANES Motor České Budějovice,3,3,0
+extrach_h2921909,2025-11-02T17:00Z,2025,0,HC Oceláři Třinec,HC DYNAMO PARDUBICE,2,4,0
+extrach_h2922003,2025-11-09T17:00Z,2025,0,HC Sparta Praha,Bílí Tygři Liberec,3,3,0
+extrach_h2921922,2025-11-12T17:00Z,2025,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,4,2,0
+extrach_h2921928,2025-11-12T17:00Z,2025,0,Bílí Tygři Liberec,HC Olomouc,4,2,0
+extrach_h2921910,2025-11-14T17:00Z,2025,0,Rytíři Kladno,HC Oceláři Třinec,5,3,0
+extrach_h2921911,2025-11-14T17:00Z,2025,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,3,0,0
+extrach_h2921912,2025-11-14T17:00Z,2025,0,Bílí Tygři Liberec,HC Sparta Praha,3,0,0
+extrach_h2921913,2025-11-14T17:00Z,2025,0,BK Mladá Boleslav,HC Olomouc,4,1,0
+extrach_h2921915,2025-11-14T17:00Z,2025,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,4,2,0
+extrach_h2921916,2025-11-14T17:00Z,2025,0,BANES Motor České Budějovice,HC Litvínov,2,2,0
+extrach_h2921917,2025-11-16T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Sparta Praha,5,6,0
+extrach_h2921919,2025-11-16T17:00Z,2025,0,HC Litvínov,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2921920,2025-11-16T17:00Z,2025,0,BYD Energie Karlovy Vary,Rytíři Kladno,1,5,0
+extrach_h2921921,2025-11-16T17:00Z,2025,0,BK Mladá Boleslav,Bílí Tygři Liberec,2,0,0
+extrach_h2921923,2025-11-16T17:00Z,2025,0,HC KOMETA BRNO,HC Oceláři Třinec,4,3,0
+extrach_h2921918,2025-11-17T17:00Z,2025,0,HC Olomouc,"Mountfield HK, a.s.",1,7,0
+extrach_h2921926,2025-11-20T17:00Z,2025,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,4,1,0
+extrach_h2921927,2025-11-20T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC Litvínov,7,2,0
+extrach_h2921930,2025-11-20T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,3,2,0
+extrach_h2921924,2025-11-21T17:00Z,2025,0,BANES Motor České Budějovice,BK Mladá Boleslav,3,3,0
+extrach_h2921925,2025-11-21T17:00Z,2025,0,Rytíři Kladno,HC KOMETA BRNO,1,4,0
+extrach_h2921929,2025-11-21T17:00Z,2025,0,"Mountfield HK, a.s.",HC Sparta Praha,1,4,0
+extrach_h2921931,2025-11-23T17:00Z,2025,0,HC Olomouc,BANES Motor České Budějovice,1,1,0
+extrach_h2921932,2025-11-23T17:00Z,2025,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,2,1,0
+extrach_h2921933,2025-11-23T17:00Z,2025,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",3,2,0
+extrach_h2921934,2025-11-23T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,3,2,0
+extrach_h2921935,2025-11-23T17:00Z,2025,0,Rytíři Kladno,HC Sparta Praha,3,7,0
+extrach_h2921936,2025-11-23T17:00Z,2025,0,HC Litvínov,HC Oceláři Třinec,5,2,0
+extrach_h2921937,2025-11-23T17:00Z,2025,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,3,2,0
+extrach_h2921938,2025-11-25T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Sparta Praha,1,1,0
+extrach_h2921940,2025-11-25T17:00Z,2025,0,Rytíři Kladno,HC Litvínov,1,1,0
+extrach_h2921941,2025-11-25T17:00Z,2025,0,HC KOMETA BRNO,HC Olomouc,1,2,0
+extrach_h2921942,2025-11-25T17:00Z,2025,0,"Mountfield HK, a.s.",BK Mladá Boleslav,0,0,0
+extrach_h2921943,2025-11-25T17:00Z,2025,0,Bílí Tygři Liberec,BANES Motor České Budějovice,5,2,0
+extrach_h2921944,2025-11-25T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,2,1,0
+extrach_h2921939,2025-11-26T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,7,0,0
+extrach_h2921945,2025-11-28T17:00Z,2025,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,1,1,0
+extrach_h2921946,2025-11-28T17:00Z,2025,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",3,1,0
+extrach_h2921947,2025-11-28T17:00Z,2025,0,Rytíři Kladno,BK Mladá Boleslav,5,0,0
+extrach_h2921948,2025-11-28T17:00Z,2025,0,HC Oceláři Třinec,HC Olomouc,5,2,0
+extrach_h2921949,2025-11-28T17:00Z,2025,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,4,1,0
+extrach_h2921950,2025-11-28T17:00Z,2025,0,BANES Motor České Budějovice,HC Sparta Praha,3,1,0
+extrach_h2921951,2025-11-28T17:00Z,2025,0,HC Litvínov,HC KOMETA BRNO,6,2,0
+extrach_h2921952,2025-11-30T17:00Z,2025,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,4,2,0
+extrach_h2921953,2025-11-30T17:00Z,2025,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,0,3,0
+extrach_h2921954,2025-11-30T17:00Z,2025,0,HC Litvínov,BYD Energie Karlovy Vary,1,2,0
+extrach_h2921955,2025-11-30T17:00Z,2025,0,HC Olomouc,HC ŠKODA PLZEŇ,1,0,0
+extrach_h2921956,2025-11-30T17:00Z,2025,0,Bílí Tygři Liberec,HC DYNAMO PARDUBICE,4,2,0
+extrach_h2921957,2025-11-30T17:00Z,2025,0,HC Oceláři Třinec,HC Sparta Praha,1,2,0
+extrach_h2921958,2025-11-30T17:00Z,2025,0,BK Mladá Boleslav,HC KOMETA BRNO,3,4,0
+extrach_h2921811,2025-12-03T17:00Z,2025,0,HC Oceláři Třinec,"Mountfield HK, a.s.",6,1,0
+extrach_h2922088,2025-12-03T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC Olomouc,1,5,0
+extrach_h2921960,2025-12-05T17:00Z,2025,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,2,2,0
+extrach_h2921961,2025-12-05T17:00Z,2025,0,HC KOMETA BRNO,HC Sparta Praha,3,1,0
+extrach_h2921962,2025-12-05T17:00Z,2025,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,5,2,0
+extrach_h2921963,2025-12-05T17:00Z,2025,0,Rytíři Kladno,"Mountfield HK, a.s.",2,2,0
+extrach_h2921964,2025-12-05T17:00Z,2025,0,HC Litvínov,HC VÍTKOVICE RIDERA,2,5,0
+extrach_h2921965,2025-12-05T17:00Z,2025,0,BYD Energie Karlovy Vary,HC Olomouc,4,2,0
+extrach_h2921971,2025-12-05T17:00Z,2025,0,HC Oceláři Třinec,Bílí Tygři Liberec,3,5,0
+extrach_h2921959,2025-12-07T17:00Z,2025,0,HC Oceláři Třinec,BK Mladá Boleslav,5,2,0
+extrach_h2921966,2025-12-07T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,4,3,0
+extrach_h2921967,2025-12-07T17:00Z,2025,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,5,4,0
+extrach_h2921968,2025-12-07T17:00Z,2025,0,HC Olomouc,Rytíři Kladno,4,1,0
+extrach_h2921969,2025-12-07T17:00Z,2025,0,HC Litvínov,Bílí Tygři Liberec,3,2,0
+extrach_h2921970,2025-12-07T17:00Z,2025,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,3,6,0
+extrach_h2921972,2025-12-07T17:00Z,2025,0,HC Sparta Praha,BYD Energie Karlovy Vary,6,1,0
+extrach_h2921848,2025-12-17T17:00Z,2025,0,HC VÍTKOVICE RIDERA,HC ŠKODA PLZEŇ,1,3,0
+extrach_h2921975,2025-12-17T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Olomouc,4,4,0
+extrach_h2921993,2025-12-17T17:00Z,2025,0,HC Oceláři Třinec,"Mountfield HK, a.s.",2,5,0
+extrach_h2921973,2025-12-19T17:00Z,2025,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,1,1,0
+extrach_h2921974,2025-12-19T17:00Z,2025,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,1,2,0
+extrach_h2921976,2025-12-19T17:00Z,2025,0,Rytíři Kladno,BANES Motor České Budějovice,2,3,0
+extrach_h2921977,2025-12-19T17:00Z,2025,0,BYD Energie Karlovy Vary,"Mountfield HK, a.s.",4,1,0
+extrach_h2921978,2025-12-19T17:00Z,2025,0,HC Litvínov,HC Sparta Praha,3,2,0
+extrach_h2921979,2025-12-19T17:00Z,2025,0,HC KOMETA BRNO,Bílí Tygři Liberec,3,1,0
+extrach_h2921980,2025-12-21T17:00Z,2025,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,1,2,0
+extrach_h2921981,2025-12-21T17:00Z,2025,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,3,6,0
+extrach_h2921982,2025-12-21T17:00Z,2025,0,HC Olomouc,HC Litvínov,3,3,0
+extrach_h2921983,2025-12-21T17:00Z,2025,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,0,3,0
+extrach_h2921984,2025-12-21T17:00Z,2025,0,"Mountfield HK, a.s.",HC KOMETA BRNO,2,1,0
+extrach_h2921985,2025-12-21T17:00Z,2025,0,BANES Motor České Budějovice,HC Oceláři Třinec,1,0,0
+extrach_h2921986,2025-12-21T17:00Z,2025,0,Bílí Tygři Liberec,Rytíři Kladno,4,1,0
+extrach_h2921987,2025-12-23T17:00Z,2025,0,HC Sparta Praha,HC Olomouc,7,2,0
+extrach_h2921988,2025-12-23T17:00Z,2025,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,4,1,0
+extrach_h2921989,2025-12-23T17:00Z,2025,0,Rytíři Kladno,HC DYNAMO PARDUBICE,0,1,0
+extrach_h2921990,2025-12-23T17:00Z,2025,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,2,2,0
+extrach_h2921991,2025-12-23T17:00Z,2025,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,1,0,0
+extrach_h2921992,2025-12-23T17:00Z,2025,0,HC Litvínov,BK Mladá Boleslav,6,1,0
+extrach_h2921995,2025-12-26T17:00Z,2025,0,HC ŠKODA PLZEŇ,Rytíři Kladno,3,0,0
+extrach_h2921996,2025-12-26T17:00Z,2025,0,"Mountfield HK, a.s.",HC Litvínov,2,3,0
+extrach_h2921997,2025-12-26T17:00Z,2025,0,HC Olomouc,HC VÍTKOVICE RIDERA,0,6,0
+extrach_h2921998,2025-12-26T17:00Z,2025,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,2,3,0
+extrach_h2921999,2025-12-26T17:00Z,2025,0,BANES Motor České Budějovice,HC KOMETA BRNO,2,2,0
+extrach_h2922000,2025-12-26T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,5,3,0
+extrach_h2922001,2025-12-28T17:00Z,2025,0,HC Oceláři Třinec,Rytíři Kladno,3,1,0
+extrach_h2922002,2025-12-28T17:00Z,2025,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",3,5,0
+extrach_h2922004,2025-12-28T17:00Z,2025,0,HC Olomouc,BK Mladá Boleslav,2,5,0
+extrach_h2922005,2025-12-28T17:00Z,2025,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,1,4,0
+extrach_h2922006,2025-12-28T17:00Z,2025,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,1,2,0
+extrach_h2922007,2025-12-28T17:00Z,2025,0,HC Litvínov,BANES Motor České Budějovice,4,1,0
+extrach_h2922009,2025-12-30T17:00Z,2025,0,"Mountfield HK, a.s.",HC Olomouc,3,2,0
+extrach_h2922010,2025-12-30T17:00Z,2025,0,HC DYNAMO PARDUBICE,HC Litvínov,3,2,0
+extrach_h2922011,2025-12-30T17:00Z,2025,0,Rytíři Kladno,BYD Energie Karlovy Vary,3,1,0
+extrach_h2922012,2025-12-30T17:00Z,2025,0,Bílí Tygři Liberec,BK Mladá Boleslav,1,1,0
+extrach_h2922013,2025-12-30T17:00Z,2025,0,BANES Motor České Budějovice,HC VÍTKOVICE RIDERA,2,2,0
+extrach_h2922014,2025-12-30T17:00Z,2025,0,HC Oceláři Třinec,HC KOMETA BRNO,3,3,0
+extrach_179803,2026-09-15T16:00Z,2026,0,BYD Energie Karlovy Vary,HC Oceláři Třinec,0,2,0
+extrach_179799,2026-09-16T15:30Z,2026,0,BANES Motor České Budějovice,BK Mladá Boleslav,2,2,0
+extrach_179801,2026-09-16T15:30Z,2026,0,HC Litvínov,HC KOMETA BRNO,2,1,0
+extrach_179802,2026-09-16T15:30Z,2026,0,HC VÍTKOVICE RIDERA,Rytíři Kladno,3,4,0
+extrach_179804,2026-09-16T15:30Z,2026,0,HC ŠKODA PLZEŇ,Bílí Tygři Liberec,1,1,0
+extrach_179798,2026-09-16T16:00Z,2026,0,HC DYNAMO PARDUBICE,"Mountfield HK, a.s.",3,5,0
+extrach_179800,2026-09-16T16:00Z,2026,0,HC Olomouc,HC Sparta Praha,2,5,0
+extrach_179810,2026-09-18T15:00Z,2026,0,HC Oceláři Třinec,HC KOMETA BRNO,6,5,0
+extrach_179805,2026-09-18T15:30Z,2026,0,BK Mladá Boleslav,BYD Energie Karlovy Vary,1,4,0
+extrach_179808,2026-09-18T15:30Z,2026,0,HC Litvínov,HC DYNAMO PARDUBICE,1,3,0
+extrach_179806,2026-09-18T16:00Z,2026,0,Rytíři Kladno,HC Sparta Praha,2,2,0
+extrach_179809,2026-09-18T16:00Z,2026,0,"Mountfield HK, a.s.",BANES Motor České Budějovice,0,2,0
+extrach_179811,2026-09-18T16:00Z,2026,0,HC Olomouc,HC ŠKODA PLZEŇ,2,2,0
+extrach_179814,2026-09-19T16:00Z,2026,0,HC Oceláři Třinec,HC ŠKODA PLZEŇ,3,2,0
+extrach_179812,2026-09-20T15:00Z,2026,0,HC KOMETA BRNO,"Mountfield HK, a.s.",3,1,0
+extrach_179813,2026-09-20T15:00Z,2026,0,HC DYNAMO PARDUBICE,BYD Energie Karlovy Vary,5,2,0
+extrach_179815,2026-09-20T15:00Z,2026,0,BANES Motor České Budějovice,HC Olomouc,3,2,0
+extrach_179817,2026-09-20T15:00Z,2026,0,Bílí Tygři Liberec,Rytíři Kladno,1,3,0
+extrach_179818,2026-09-20T15:00Z,2026,0,HC VÍTKOVICE RIDERA,HC Litvínov,2,3,0
+extrach_179871,2026-09-22T16:00Z,2026,0,HC DYNAMO PARDUBICE,Bílí Tygři Liberec,4,5,0
+extrach_179816,2026-09-22T16:30Z,2026,0,HC Sparta Praha,BK Mladá Boleslav,3,5,0
+extrach_179822,2026-09-24T16:00Z,2026,0,"Mountfield HK, a.s.",Bílí Tygři Liberec,5,2,0
+extrach_179825,2026-09-25T15:00Z,2026,0,HC Oceláři Třinec,HC VÍTKOVICE RIDERA,8,2,0
+extrach_179820,2026-09-25T15:30Z,2026,0,BK Mladá Boleslav,HC DYNAMO PARDUBICE,1,4,0
+extrach_179821,2026-09-25T15:30Z,2026,0,HC Litvínov,HC Sparta Praha,1,4,0
+extrach_179819,2026-09-25T16:00Z,2026,0,Rytíři Kladno,HC ŠKODA PLZEŇ,3,3,0
+extrach_179823,2026-09-25T16:00Z,2026,0,BYD Energie Karlovy Vary,BANES Motor České Budějovice,5,1,0
+extrach_179824,2026-09-25T16:00Z,2026,0,HC Olomouc,HC KOMETA BRNO,2,4,0
+extrach_179827,2026-09-27T14:00Z,2026,0,Rytíři Kladno,HC Olomouc,1,4,0
+extrach_179828,2026-09-27T14:00Z,2026,0,BANES Motor České Budějovice,HC Litvínov,5,4,0
+extrach_179830,2026-09-27T14:30Z,2026,0,HC VÍTKOVICE RIDERA,BK Mladá Boleslav,6,2,0
+extrach_179831,2026-09-27T14:30Z,2026,0,Bílí Tygři Liberec,HC Oceláři Třinec,1,3,0
+extrach_179832,2026-09-27T14:30Z,2026,0,HC ŠKODA PLZEŇ,"Mountfield HK, a.s.",2,1,0
+extrach_179826,2026-09-27T15:00Z,2026,0,HC KOMETA BRNO,HC DYNAMO PARDUBICE,3,5,0
+extrach_179829,2026-09-28T14:00Z,2026,0,HC Sparta Praha,BYD Energie Karlovy Vary,0,1,0
+extrach_179834,2026-09-29T15:00Z,2026,0,HC Oceláři Třinec,Rytíři Kladno,6,4,0
+extrach_179835,2026-09-29T15:30Z,2026,0,HC Litvínov,Bílí Tygři Liberec,4,4,0
+extrach_179837,2026-09-29T15:30Z,2026,0,BK Mladá Boleslav,HC ŠKODA PLZEŇ,1,4,0
+extrach_179833,2026-09-29T16:00Z,2026,0,HC DYNAMO PARDUBICE,BANES Motor České Budějovice,5,2,0
+extrach_179836,2026-09-29T16:00Z,2026,0,HC Olomouc,HC VÍTKOVICE RIDERA,3,4,0
+extrach_179839,2026-09-29T16:00Z,2026,0,"Mountfield HK, a.s.",HC Sparta Praha,4,3,0
+extrach_179842,2026-10-01T16:30Z,2026,0,HC Sparta Praha,BANES Motor České Budějovice,4,2,0
+extrach_179840,2026-10-02T15:00Z,2026,0,HC Oceláři Třinec,HC Litvínov,3,2,0
+extrach_179844,2026-10-02T15:30Z,2026,0,HC VÍTKOVICE RIDERA,BYD Energie Karlovy Vary,0,3,0
+extrach_179841,2026-10-02T16:00Z,2026,0,Rytíři Kladno,"Mountfield HK, a.s.",3,3,0
+extrach_179843,2026-10-02T16:00Z,2026,0,HC DYNAMO PARDUBICE,HC ŠKODA PLZEŇ,4,2,0
+extrach_179845,2026-10-02T16:00Z,2026,0,Bílí Tygři Liberec,HC Olomouc,2,0,0
+extrach_179846,2026-10-02T16:00Z,2026,0,HC KOMETA BRNO,BK Mladá Boleslav,2,2,0
+extrach_179849,2026-10-04T14:00Z,2026,0,BK Mladá Boleslav,Bílí Tygři Liberec,3,5,0
+extrach_179852,2026-10-04T14:00Z,2026,0,BYD Energie Karlovy Vary,HC ŠKODA PLZEŇ,4,1,0
+extrach_179847,2026-10-04T15:00Z,2026,0,HC Olomouc,HC Oceláři Třinec,0,9,0
+extrach_179851,2026-10-04T15:00Z,2026,0,"Mountfield HK, a.s.",HC VÍTKOVICE RIDERA,2,2,0
+extrach_179850,2026-10-04T15:30Z,2026,0,HC Litvínov,Rytíři Kladno,2,2,0
+extrach_179848,2026-10-04T16:30Z,2026,0,HC DYNAMO PARDUBICE,HC Sparta Praha,6,4,0
+extrach_179853,2026-10-05T15:30Z,2026,0,BANES Motor České Budějovice,HC KOMETA BRNO,5,1,0
+extrach_179858,2026-10-08T15:30Z,2026,0,HC ŠKODA PLZEŇ,BANES Motor České Budějovice,4,1,0
+extrach_179854,2026-10-08T16:30Z,2026,0,HC Sparta Praha,HC KOMETA BRNO,3,3,0
+extrach_179856,2026-10-09T15:00Z,2026,0,HC Oceláři Třinec,"Mountfield HK, a.s.",5,2,0
+extrach_179857,2026-10-09T15:30Z,2026,0,HC Litvínov,HC Olomouc,3,1,0
+extrach_179859,2026-10-09T15:30Z,2026,0,HC VÍTKOVICE RIDERA,HC DYNAMO PARDUBICE,2,3,0
+extrach_179855,2026-10-09T16:00Z,2026,0,Rytíři Kladno,BK Mladá Boleslav,4,3,0
+extrach_179860,2026-10-09T16:00Z,2026,0,Bílí Tygři Liberec,BYD Energie Karlovy Vary,5,0,0
+extrach_179864,2026-10-11T13:00Z,2026,0,HC Sparta Praha,HC VÍTKOVICE RIDERA,3,0,0
+extrach_179862,2026-10-11T14:00Z,2026,0,BK Mladá Boleslav,HC Litvínov,2,1,0
+extrach_179863,2026-10-11T15:00Z,2026,0,BANES Motor České Budějovice,Bílí Tygři Liberec,4,3,0
+extrach_179865,2026-10-11T15:00Z,2026,0,"Mountfield HK, a.s.",HC Olomouc,3,1,0
+extrach_179866,2026-10-11T15:00Z,2026,0,BYD Energie Karlovy Vary,Rytíři Kladno,3,1,0
+extrach_179867,2026-10-11T15:00Z,2026,0,HC KOMETA BRNO,HC ŠKODA PLZEŇ,1,1,0
+extrach_179861,2026-10-11T16:30Z,2026,0,HC DYNAMO PARDUBICE,HC Oceláři Třinec,4,4,0
+extrach_179872,2026-10-15T15:30Z,2026,0,HC Litvínov,"Mountfield HK, a.s.",1,4,0
+extrach_179873,2026-10-16T15:00Z,2026,0,HC Oceláři Třinec,BK Mladá Boleslav,3,0,0
+extrach_179869,2026-10-16T15:30Z,2026,0,HC ŠKODA PLZEŇ,HC Sparta Praha,0,2,0
+extrach_179870,2026-10-16T15:30Z,2026,0,HC VÍTKOVICE RIDERA,BANES Motor České Budějovice,1,3,0
+extrach_179868,2026-10-16T16:00Z,2026,0,HC Olomouc,BYD Energie Karlovy Vary,0,5,0
+extrach_179874,2026-10-16T16:00Z,2026,0,Rytíři Kladno,HC KOMETA BRNO,1,2,0
+extrach_179877,2026-10-18T14:00Z,2026,0,BK Mladá Boleslav,"Mountfield HK, a.s.",4,3,0
+extrach_179879,2026-10-18T14:00Z,2026,0,HC Sparta Praha,HC Oceláři Třinec,1,2,0
+extrach_179881,2026-10-18T14:30Z,2026,0,HC ŠKODA PLZEŇ,HC VÍTKOVICE RIDERA,5,5,0
+extrach_179876,2026-10-18T15:00Z,2026,0,HC Olomouc,HC DYNAMO PARDUBICE,1,4,0
+extrach_179878,2026-10-18T15:00Z,2026,0,BANES Motor České Budějovice,Rytíři Kladno,2,3,0
+extrach_179880,2026-10-18T15:00Z,2026,0,HC KOMETA BRNO,Bílí Tygři Liberec,2,2,0
+extrach_179875,2026-10-18T15:30Z,2026,0,HC Litvínov,BYD Energie Karlovy Vary,3,1,0
+extrach_179898,2026-10-20T15:30Z,2026,0,HC VÍTKOVICE RIDERA,Bílí Tygři Liberec,2,2,0
+extrach_179838,2026-10-20T16:00Z,2026,0,BYD Energie Karlovy Vary,HC KOMETA BRNO,1,1,0
+extrach_179886,2026-10-22T16:00Z,2026,0,HC Olomouc,BK Mladá Boleslav,4,2,0
+extrach_179882,2026-10-23T15:00Z,2026,0,HC Oceláři Třinec,BANES Motor České Budějovice,2,6,0
+extrach_179885,2026-10-23T15:30Z,2026,0,HC Litvínov,HC ŠKODA PLZEŇ,2,0,0
+extrach_179888,2026-10-23T15:30Z,2026,0,HC VÍTKOVICE RIDERA,HC KOMETA BRNO,3,2,0
+extrach_179883,2026-10-23T16:00Z,2026,0,Rytíři Kladno,HC DYNAMO PARDUBICE,3,3,0
+extrach_179884,2026-10-23T16:00Z,2026,0,Bílí Tygři Liberec,HC Sparta Praha,3,1,0
+extrach_179887,2026-10-23T16:00Z,2026,0,"Mountfield HK, a.s.",BYD Energie Karlovy Vary,3,3,0
+extrach_179891,2026-10-24T14:00Z,2026,0,HC Sparta Praha,HC Olomouc,1,1,0
+extrach_179894,2026-10-25T09:30Z,2026,0,HC Oceláři Třinec,BYD Energie Karlovy Vary,2,1,0
+extrach_179890,2026-10-25T15:00Z,2026,0,BK Mladá Boleslav,BANES Motor České Budějovice,2,2,0
+extrach_179893,2026-10-25T15:00Z,2026,0,Rytíři Kladno,HC VÍTKOVICE RIDERA,2,1,0
+extrach_179895,2026-10-25T15:00Z,2026,0,Bílí Tygři Liberec,HC ŠKODA PLZEŇ,2,0,0
+extrach_179889,2026-10-25T16:00Z,2026,0,"Mountfield HK, a.s.",HC DYNAMO PARDUBICE,2,0,0
+extrach_179892,2026-10-25T16:30Z,2026,0,HC Litvínov,HC KOMETA BRNO,1,4,0
+extrach_179900,2026-10-27T16:30Z,2026,0,BANES Motor České Budějovice,"Mountfield HK, a.s.",3,0,0
+extrach_179902,2026-10-27T16:30Z,2026,0,HC ŠKODA PLZEŇ,HC Olomouc,2,2,0
+extrach_179896,2026-10-27T17:00Z,2026,0,BYD Energie Karlovy Vary,BK Mladá Boleslav,1,2,0
+extrach_179897,2026-10-27T17:00Z,2026,0,Rytíři Kladno,HC Sparta Praha,5,1,0
+extrach_179899,2026-10-27T17:00Z,2026,0,HC DYNAMO PARDUBICE,HC Litvínov,2,3,0
+extrach_179901,2026-10-28T17:00Z,2026,0,HC KOMETA BRNO,HC Oceláři Třinec,3,3,0
+extrach_179905,2026-10-30T16:30Z,2026,0,HC ŠKODA PLZEŇ,HC Oceláři Třinec,4,2,0
+extrach_179907,2026-10-30T16:30Z,2026,0,BK Mladá Boleslav,HC Sparta Praha,1,4,0
+extrach_179909,2026-10-30T16:30Z,2026,0,HC Litvínov,HC VÍTKOVICE RIDERA,2,3,0
+extrach_179904,2026-10-30T17:00Z,2026,0,BYD Energie Karlovy Vary,HC DYNAMO PARDUBICE,2,4,0
+extrach_179906,2026-10-30T17:00Z,2026,0,HC Olomouc,BANES Motor České Budějovice,4,0,0
+extrach_179908,2026-10-30T17:00Z,2026,0,Rytíři Kladno,Bílí Tygři Liberec,4,2,0
+extrach_179911,2026-11-01T14:00Z,2026,0,HC DYNAMO PARDUBICE,BK Mladá Boleslav,4,0,0
+extrach_179912,2026-11-01T15:00Z,2026,0,HC Sparta Praha,HC Litvínov,3,0,0
+extrach_179913,2026-11-01T15:00Z,2026,0,Bílí Tygři Liberec,"Mountfield HK, a.s.",3,3,0
+extrach_179910,2026-11-01T15:30Z,2026,0,HC ŠKODA PLZEŇ,Rytíři Kladno,5,5,0
+extrach_179914,2026-11-01T16:00Z,2026,0,BANES Motor České Budějovice,BYD Energie Karlovy Vary,2,3,0
+extrach_179915,2026-11-01T16:00Z,2026,0,HC KOMETA BRNO,HC Olomouc,3,2,0
+extrach_179916,2026-11-01T16:30Z,2026,0,HC VÍTKOVICE RIDERA,HC Oceláři Třinec,1,3,0
+extrach_179922,2026-11-13T16:00Z,2026,0,HC Oceláři Třinec,Bílí Tygři Liberec,5,2,0
+extrach_179919,2026-11-13T16:30Z,2026,0,HC Litvínov,BANES Motor České Budějovice,3,4,0
+extrach_179921,2026-11-13T16:30Z,2026,0,BK Mladá Boleslav,HC VÍTKOVICE RIDERA,3,1,0
+extrach_179917,2026-11-13T17:00Z,2026,0,HC DYNAMO PARDUBICE,HC KOMETA BRNO,6,2,0
+extrach_179918,2026-11-13T17:00Z,2026,0,HC Olomouc,Rytíři Kladno,2,2,0
+extrach_179920,2026-11-13T17:00Z,2026,0,BYD Energie Karlovy Vary,HC Sparta Praha,1,3,0
+extrach_179923,2026-11-13T17:00Z,2026,0,"Mountfield HK, a.s.",HC ŠKODA PLZEŇ,1,2,0
+extrach_179925,2026-11-15T15:00Z,2026,0,Rytíři Kladno,HC Oceláři Třinec,1,4,0
+extrach_179926,2026-11-15T15:00Z,2026,0,Bílí Tygři Liberec,HC Litvínov,5,1,0
+extrach_179930,2026-11-15T15:00Z,2026,0,HC Sparta Praha,"Mountfield HK, a.s.",1,3,0
+extrach_179924,2026-11-15T16:00Z,2026,0,BANES Motor České Budějovice,HC DYNAMO PARDUBICE,2,1,0
+extrach_179927,2026-11-15T16:00Z,2026,0,HC VÍTKOVICE RIDERA,HC Olomouc,1,1,0
+extrach_179928,2026-11-15T16:30Z,2026,0,HC ŠKODA PLZEŇ,BK Mladá Boleslav,2,2,0
+extrach_179938,2026-11-18T16:00Z,2026,0,HC Oceláři Třinec,HC Olomouc,5,3,0
+extrach_179903,2026-11-18T17:00Z,2026,0,"Mountfield HK, a.s.",HC KOMETA BRNO,6,0,0
+extrach_179933,2026-11-19T16:30Z,2026,0,BANES Motor České Budějovice,HC Sparta Praha,4,6,0
+extrach_179935,2026-11-20T11:00Z,2026,0,BYD Energie Karlovy Vary,HC VÍTKOVICE RIDERA,3,2,0
+extrach_179931,2026-11-20T16:30Z,2026,0,HC Litvínov,HC Oceláři Třinec,5,2,0
+extrach_179934,2026-11-20T16:30Z,2026,0,HC ŠKODA PLZEŇ,HC DYNAMO PARDUBICE,3,4,0
+extrach_179937,2026-11-20T16:30Z,2026,0,BK Mladá Boleslav,HC KOMETA BRNO,0,4,0
+extrach_179932,2026-11-20T17:00Z,2026,0,"Mountfield HK, a.s.",Rytíři Kladno,2,4,0
+extrach_179936,2026-11-20T17:00Z,2026,0,HC Olomouc,Bílí Tygři Liberec,4,2,0
+extrach_179940,2026-11-22T15:00Z,2026,0,Bílí Tygři Liberec,BK Mladá Boleslav,5,2,0
+extrach_179941,2026-11-22T15:00Z,2026,0,Rytíři Kladno,HC Litvínov,2,2,0
+extrach_179943,2026-11-22T15:30Z,2026,0,HC ŠKODA PLZEŇ,BYD Energie Karlovy Vary,1,1,0
+extrach_179942,2026-11-22T16:00Z,2026,0,HC VÍTKOVICE RIDERA,"Mountfield HK, a.s.",4,1,0
+extrach_179944,2026-11-22T16:00Z,2026,0,HC KOMETA BRNO,BANES Motor České Budějovice,2,4,0
+extrach_179939,2026-11-22T17:00Z,2026,0,HC DYNAMO PARDUBICE,HC Sparta Praha,3,1,0
+extrach_179946,2026-11-24T16:30Z,2026,0,BK Mladá Boleslav,Rytíři Kladno,2,3,0
+extrach_179949,2026-11-24T16:30Z,2026,0,BANES Motor České Budějovice,HC ŠKODA PLZEŇ,2,3,0
+extrach_179945,2026-11-24T17:00Z,2026,0,HC KOMETA BRNO,HC Sparta Praha,3,0,0
+extrach_179947,2026-11-24T17:00Z,2026,0,"Mountfield HK, a.s.",HC Oceláři Třinec,3,3,0
+extrach_179948,2026-11-24T17:00Z,2026,0,HC Olomouc,HC Litvínov,2,2,0
+extrach_179950,2026-11-24T17:00Z,2026,0,HC DYNAMO PARDUBICE,HC VÍTKOVICE RIDERA,8,1,0
+extrach_179951,2026-11-24T17:00Z,2026,0,BYD Energie Karlovy Vary,Bílí Tygři Liberec,2,5,0
