@@ -314,6 +314,31 @@ def track_record(preds, rows, min_edge, sides=("home", "away")):
             "bets": bets, "wins": wins, "pnl": pnl}
 
 
+def confidence_table(hist, rows, sides):
+    """Uspesnost podle jistoty modelu: zapasy z walk-forward behu (predpoved vznikla PRED zapasem),
+    bez prvni sezony (model se v ni teprve uci)."""
+    seasons = sorted({r["season"] for r in rows})
+    skip = seasons[0] if len(seasons) > 1 else None
+    res = {r["event_id"]: r for r in rows}
+    pts = []
+    for e, p in hist.items():
+        g = res.get(e)
+        if not g or g["season"] == skip:
+            continue
+        won = result_side(g["home_pts"], g["away_pts"])
+        if won not in sides:
+            continue
+        top = max(sides, key=lambda k: p[k])
+        pts.append((p[top], top == won))
+    out = []
+    for name, lo, hi in (("pod 50 %", 0, .5), ("50–60 %", .5, .6), ("60–70 %", .6, .7), ("70 % a víc", .7, 1.01), ("60 % a víc", .6, 1.01)):
+        sel = [x for x in pts if lo <= x[0] < hi]
+        if sel:
+            out.append({"name": name, "n": len(sel), "acc": sum(x[1] for x in sel) / len(sel),
+                        "avg": sum(x[0] for x in sel) / len(sel)})
+    return out
+
+
 # ---------------------------------------------------------------- jadro aplikace
 class App:
     def __init__(self, cfg, lg="nba"):
@@ -477,6 +502,8 @@ table{border-collapse:collapse;width:100%;background:var(--card);border-radius:1
 th,td{padding:8px 11px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
 th{color:var(--mut);font-weight:600;font-size:12px}td.l,th.l{text-align:left}
 tr:last-child td{border-bottom:0}.num{font-variant-numeric:tabular-nums}
+.fb{background:var(--card);border:1px solid var(--line);color:var(--tx);border-radius:6px;padding:4px 12px;cursor:pointer;margin:0 6px 6px 0;font:inherit}.fb.on{outline:2px solid var(--acc)}
+.fav1{color:var(--acc);font-weight:700}.fav2{color:var(--good);font-weight:700}.fav0{color:var(--warn);font-weight:700}
 .mut{color:var(--mut)}.good{color:var(--good);font-weight:600}.bad{color:var(--bad)}
 .warn{color:var(--warn)}.live{color:var(--bad);font-weight:600}
 .bar{display:inline-block;width:90px;height:8px;background:#2a323f;border-radius:4px;
@@ -684,6 +711,29 @@ document.getElementById('ts_min').oninput=apply;apply();
 """
 
 
+JS_FILTER = """
+(function(){
+var bar=document.querySelector('.fbar');if(!bar)return;
+var tb=document.querySelector('table.games'),msg=document.getElementById('fb_msg'),on={};
+function apply(){
+  var act=Object.keys(on).filter(function(k){return on[k]}),n=0;
+  [].forEach.call(tb.querySelectorAll('tr[data-id]'),function(tr){
+    var ok=act.length===0||act.some(function(k){return k==='ob'?tr.dataset.ob==='1':tr.dataset.fc===k});
+    tr.style.display=ok?'':'none';if(ok)n++});
+  [].forEach.call(bar.querySelectorAll('.fb'),function(b){
+    b.classList.toggle('on',b.dataset.f==='all'?act.length===0:!!on[b.dataset.f])});
+  var t=act.length?' zobrazeno '+n+' zápasů':'';
+  if(on.ob)t+=bar.dataset.ob?' · outsider: '+bar.dataset.ob:' · žádný zápas nemá kurz trhu';
+  msg.textContent=t;
+  try{sessionStorage.setItem('sb_gf',JSON.stringify(on))}catch(e){}}
+bar.addEventListener('click',function(ev){var b=ev.target.closest('.fb');if(!b)return;
+  if(b.dataset.f==='all')on={};else on[b.dataset.f]=!on[b.dataset.f];apply()});
+try{on=JSON.parse(sessionStorage.getItem('sb_gf')||'{}')||{}}catch(e){on={}}
+if(typeof on!=='object')on={};apply();
+})();
+"""
+
+
 def nav_html(cfg, cur, static=False):
     st = load_settings(cfg, not static)
     items = []
@@ -693,6 +743,7 @@ def nav_html(cfg, cur, static=False):
         href = "index.html" if lg == "nba" else lg + ".html"
         c = " cur" if lg == cur else ""
         items.append(f"<a data-lg='{lg}' class='lg{c}' href='{href}'>{data.LEAGUES[lg]['name']} · {data.LEAGUES[lg]['sport']}</a>")
+    items.append(f"<a class='tool{' cur' if cur == 'favoriti' else ''}' href='favoriti.html'>★ Favoriti</a>")
     items.append(f"<a class='tool{' cur' if cur == 'denik' else ''}' href='denik.html'>Deník sázek</a>")
     items.append(f"<a class='tool{' cur' if cur == 'nastaveni' else ''}' href='nastaveni.html'>⚙ Nastavení</a>")
     return "<div class='nav'>" + "".join(items) + "</div>"
@@ -733,7 +784,27 @@ def render(app, static=False):
     three = len(sides) == 3
     lo, hi = app.info["window"]
     span = "včera, dnes, zítra" if (lo, hi) == (-1, 1) else f"poslední {-lo} dny a příštích {hi} dní"
-    out.append(f"<h2>Zápasy – {span}</h2><div class='wrap'><table class='games'><tr>"
+    ob_id, ob_val, ob_txt = None, 0.0, ""
+    for r in app.board:                                   # outsider s nejvyssim kurzem trhu (bez remizy)
+        if r["state"] != "pre" or r["p"] is None or not r["odds"]:
+            continue
+        fav_side = "home" if r["p"]["home"] >= r["p"]["away"] else "away"
+        out_side = "away" if fav_side == "home" else "home"
+        try:
+            ov = float(r["odds"][out_side])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if ov > ob_val:
+            ob_id, ob_val = r["event_id"], ov
+            ob_txt = f"{r['away_name'] or r['away'] if out_side == 'away' else r['home_name'] or r['home']} (kurz {ov:.2f})"
+    out.append(f"<h2>Zápasy – {span}</h2><div class='fbar' data-ob='{html.escape(ob_txt)}'>"
+               "<button class='fb on' data-f='all' title='Zruší výběr, zobrazí všechny zápasy'>Všechny</button>"
+               "<button class='fb' data-f='fav2'><span class='fav2'>●</span> Zelení (60 % a víc)</button>"
+               "<button class='fb' data-f='fav1'><span class='fav1'>●</span> Modří (50–60 %)</button>"
+               "<button class='fb' data-f='fav0'><span class='fav0'>●</span> Žlutí (pod 50 %)</button>"
+               "<button class='fb' data-f='ob'>Outsider s nejvyšším kurzem</button>"
+               "<span id='fb_msg' class='mut'></span></div>"
+               "<div class='wrap'><table class='games'><tr>"
                "<th class='l'>Začátek</th><th class='l'>Domácí – Hosté</th><th class='l'>Stav</th>"
                f"<th>Model: {hdr if three else 'domácí'}</th><th>Férový kurz {hdr}</th><th>Kurz trhu {hdr}</th>"
                f"<th>Trh: {hdr if three else 'domácí'}</th><th title='25 % model + 75 % kurz trhu'>Mix 25/75: {hdr if three else 'domácí'}</th><th>Výhodnost {hdr}</th><th class='l'>Tip</th>"
@@ -763,14 +834,25 @@ def render(app, static=False):
             stav = f"{e(r.get('score_txt') or str(r['home_pts']) + ':' + str(r['away_pts']))} <span class='mut'>{e(r['detail'])}</span>{mark}"
         b_a = "<span class='b2b'>B2B</span>" if r["b2b"][1] else ""
         b_h = "<span class='b2b'>B2B</span>" if r["b2b"][0] else ""
-        teams = f"<b>{e(r['home_name'] or r['home'])}</b>{b_h} <span class='mut'>–</span> {e(r['away_name'] or r['away'])}{b_a}"
+        fc = ""
+        fside = None
+        if ps is not None:
+            fside = max(sides, key=lambda k: ps[k])
+            fc = "fav2" if ps[fside] >= 0.6 else ("fav1" if ps[fside] >= 0.5 else "fav0")
+        hn, an = e(r['home_name'] or r['home']), e(r['away_name'] or r['away'])
+        if fside == "home":
+            hn = f"<span class='{fc}'>{hn}</span>"
+        elif fside == "away":
+            an = f"<span class='{fc}'>{an}</span>"
+        teams = f"<b>{hn}</b>{b_h} <span class='mut'>–</span> {an}{b_a}"
         if ps is None:
             model = fair = "<span class='mut'>–</span>"
         else:
             if three:
-                model = " / ".join(f"{ps[k] * 100:.0f}" for k in sides) + " %"
+                model = " / ".join((f"<span class='{fc}'>{ps[k] * 100:.0f}</span>" if k == fside else f"{ps[k] * 100:.0f}") for k in sides) + " %"
             else:
-                model = f"<span class='bar'><i style='width:{ps['home'] * 100:.0f}%'></i></span>{pct(ps['home'], 1)}"
+                model = (f"<span class='bar'><i style='width:{ps['home'] * 100:.0f}%'></i></span>"
+                         f"<span class='{fc}'>{pct(ps[fside], 1)}</span>" + ("" if fside == "home" else " <span class='mut'>hosté</span>"))
             fair = " / ".join(f"{1 / max(ps[k], 1e-6):.2f}" for k in sides)
         o = r["odds"]
         if o:
@@ -807,7 +889,9 @@ def render(app, static=False):
         else:
             names, bets = [], "<span class='mut'>–</span>"
         cls = " class='pick'" if (r["pick"] and st == "pre") else ""
-        pa = "" if ps is None else (" data-p='" + ",".join(f"{ps[k]:.5f}" for k in sides) + "'"
+        fcls = "" if ps is None else ("fav2" if ps[max(sides, key=lambda k: ps[k])] >= 0.6 else ("fav1" if ps[max(sides, key=lambda k: ps[k])] >= 0.5 else "fav0"))
+        pa = f" data-fc='{fcls}'" + (" data-ob='1'" if r["event_id"] == ob_id else "")
+        pa += "" if ps is None else (" data-p='" + ",".join(f"{ps[k]:.5f}" for k in sides) + "'"
                                     + " data-s='" + ",".join(LBL[k] for k in sides) + "'")
         if names:
             mo = ",".join(f"{float(r['odds'][k]):.2f}" for k in sides) if r["odds"] else ""
@@ -839,6 +923,8 @@ def render(app, static=False):
                    " proto se zápasy obnovují po 15–30 minutách a kurzy je třeba zadat ručně.")
     legend += (" <b>Mix 25/75</b> = 25 % model + 75 % kurz trhu. V NBA na datech od roku 2012 trefuje stejně jako samotný trh,"
                " takže slouží jako kontrola, ne jako doporučení k sázení.")
+    legend += (" <b>Barva favorita:</b> <span class='fav2'>zelená</span> = model dává vítězi 60 % a víc, "
+               "<span class='fav1'>modrá</span> = 50–60 %, <span class='fav0'>oranžová</span> = pod 50 % (vyrovnaný zápas).")
     out.append(f"<div class='note'>{legend} <b>Výhodnost</b> = očekávaný zisk na 1 Kč vkladu podle modelu "
                f"(pravděpodobnost × kurz − 1). Tip se zobrazí od {pct(float(cfg['min_edge']))}. "
                "Do sloupce „Můj kurz“ napiš kurz své sázkovky a výhodnost se přepočítá. "
@@ -854,6 +940,18 @@ def render(app, static=False):
     pnl = rec.get("pnl", 0.0)
     out.append(f"<div class='card'><b class='{'good' if pnl > 0 else ('bad' if pnl < 0 else '')}'>{pnl:+.2f}</b>"
                "<span>zisk tipů v jednotkách vkladu</span></div></div>")
+
+    ct = confidence_table(app.hist, app.rows, app.sides)
+    if ct:
+        out.append("<h2>Úspěšnost podle jistoty modelu</h2><div class='wrap'><table><tr>"
+                   "<th class='l'>Nejvyšší pravděpodobnost modelu</th><th>Zápasů</th><th>Skutečná úspěšnost</th>"
+                   "<th>Model sliboval</th></tr>")
+        for r in ct:
+            out.append(f"<tr><td class='l'>{r['name']}</td><td>{r['n']}</td><td><b>{pct(r['acc'], 1)}</b></td>"
+                       f"<td>{pct(r['avg'], 1)}</td></tr>")
+        out.append("</table></div><div class='note'>Počítá se ze všech zápasů, které model předpověděl jen z toho, co věděl před nimi "
+                   "(bez první sezony v historii). Když sedí „skutečná“ s „model sliboval“, je model poctivě kalibrovaný. "
+                   "Vysoká trefnost ještě neznamená zisk – závisí na kurzu. Řádek „60 % a víc“ je souhrn obou řádků nad ním.</div>")
 
     out.append(f"<h2>Síla týmů ({'góly' if u == 'g.' else 'body'} proti průměrnému týmu na neutrální půdě)</h2><div class='wrap'><table><tr>"
                "<th>#</th><th class='l'>Tým</th><th>Síla</th><th>± nejistota</th><th>Zápasů</th></tr>")
@@ -908,7 +1006,7 @@ def render(app, static=False):
         js_teams = JS_TEAMS
     else:
         js_teams = ""
-    return page_close(out, JS + JS_BET + js_teams, static, pre=f"var MIN={float(cfg['min_edge'])},REFRESH={refresh};")
+    return page_close(out, JS + JS_BET + js_teams + JS_FILTER, static, pre=f"var MIN={float(cfg['min_edge'])},REFRESH={refresh};")
 
 
 JS_DIARY = r"""
@@ -1138,6 +1236,175 @@ def upcoming_games(apps, cfg, static=False):
     return out
 
 
+def render_favorites(cfg, static=False, games=None):
+    """Favorite vsech lig v jednom rozpisu podle casu + jednoduchy kombinator (soucin pravdepodobnosti)."""
+    e = html.escape
+    out = page_open("SportBayes – favoriti", "Favoriti", cfg, "favoriti", static)
+    out.append("<div class='sub'>Všechny nadcházející zápasy ze všech lig, kde je podle modelu jasný favorit. "
+               "Seřazeno podle začátku. Zaškrtni zápasy a dole se spočítá kombinace.</div>")
+    out.append("<div class='form' style='margin:10px 0'><label>Zobrazit favority od jistoty: "
+               "<select id='fv_min'><option value='0.5'>50 %</option><option value='0.55'>55 %</option>"
+               "<option value='0.6'>60 %</option><option value='0.65'>65 %</option><option value='0.7'>70 %</option>"
+               "<option value='0.75'>75 %</option></select></label> <label style='margin-left:14px'><input type='checkbox' id='fv_near' checked> jen nejbližší zápas každého týmu</label> <span id='fv_cnt' class='mut'></span></div>")
+    out.append("<div class='wrap'><table id='fv'><tr><th></th><th class='l'>Začátek</th><th class='l'>Liga</th>"
+               "<th class='l'>Zápas</th><th class='l'>Favorit</th><th>Jistota modelu</th><th>Férový kurz</th>"
+               "<th>Kurz trhu</th><th>Můj kurz</th></tr>")
+    rows = 0
+    seen = set()                                  # (liga, tym) -> uz mel nejblizsi zapas
+    for gm in sorted(games or [], key=lambda x: x["d"]):
+        i = max(range(len(gm["p"])), key=lambda j: gm["p"][j])
+        pf = gm["p"][i]
+        near = 1
+        fav_teams = [gm["nm"][i]] if gm["nm"][i] != "Remíza" else [gm["nm"][0], gm["nm"][-1]]
+        for t in fav_teams:                       # je to nejbližší zápas favorita?
+            if (gm["lg"], t) in seen:
+                near = 0
+        for t in (gm["nm"][0], gm["nm"][-1]):
+            seen.add((gm["lg"], t))
+        if pf < 0.5:
+            continue
+        rows += 1
+        fc = "fav2" if pf >= 0.6 else "fav1"
+        nm = gm["nm"]
+        market = f"{gm['o'][i]:.2f}" if gm["o"] else "<span class='mut'>–</span>"
+        mo = f"{gm['o'][i]:.4f}" if gm["o"] else ""
+        title = f"{nm[0]} – {nm[-1]}"
+        out.append(f"<tr class='fvr' data-n='{near}' data-p='{pf:.5f}' data-o='{mo}' data-m='{e(title)}' data-f='{e(nm[i])}'>"
+                   f"<td><input type='checkbox' class='fvc'></td>"
+                   f"<td class='l'><span data-t='{e(gm['d'])}'>{e(gm['w'])}</span></td>"
+                   f"<td class='l'>{e(data.LEAGUES[gm['lg']]['name'])}</td>"
+                   f"<td class='l'>{e(title)}</td><td class='l'><span class='{fc}'>{e(nm[i])}</span></td>"
+                   f"<td class='num'><span class='{fc}'>{pf * 100:.0f} %</span></td>"
+                   f"<td class='num'>{1 / pf:.2f}</td><td class='num'>{market}</td>"
+                   f"<td><input class='o fvo' inputmode='decimal' placeholder='kurz' style='width:64px'></td></tr>")
+    if not rows:
+        out.append("<tr><td class='l mut' colspan='9'>Žádní favorité na programu.</td></tr>")
+    out.append("</table></div>")
+    out.append("<h2>Kombinace</h2><div class='cards'>"
+               "<div class='card'><b id='kc_n'>0</b><span>vybraných zápasů</span></div>"
+               "<div class='card'><b id='kc_p'>–</b><span>pravděpodobnost, že vyjdou všechny</span></div>"
+               "<div class='card'><b id='kc_f'>–</b><span>férový kurz kombinace</span></div>"
+               "<div class='card'><b id='kc_m'>–</b><span>kurz kombinace podle trhu (jen když mají kurz všechny)</span></div></div>")
+    out.append("<h2>Stejný vklad na každý zápas zvlášť</h2><div class='form' style='margin:6px 0'>"
+               "<label>Vyjde aspoň <input id='kk' type='number' min='1' max='100' value='60' style='width:56px'> % vybraných favoritů <span id='kk_n' class='mut'></span></label></div>"
+               "<div class='cards'>"
+               "<div class='card'><b id='ks_p'>–</b><span>pravděpodobnost, že vyjde aspoň tolik zápasů</span></div>"
+               "<div class='card'><b id='ks_need'>–</b><span>průměrný kurz, který by na zisk byl potřeba</span></div>"
+               "<div class='card'><b id='ks_have'>–</b><span>průměrný kurz vybraných zápasů (trh)</span></div>"
+               "<div class='card'><b id='ks_ev'>–</b><span>očekávaný zisk podle modelu (v násobcích vkladu na zápas)</span></div></div>"
+               "<div class='note' id='ks_msg'></div>"
+               "<div class='wrap'><table id='ks_tb'></table></div>")
+    out.append("<h2>Rozpis kombinací</h2><div class='note' style='margin:0 0 8px'>Z vybraných favoritů sestaví nejmenší sadu tiketů tak, "
+               "aby při požadovaném procentu výher (políčko výše) vyšel vždy aspoň jeden tiket celý. Kurzy bere z políčka „Můj kurz“, jinak z kurzu trhu. "
+               "Pro rozumnou rychlost vyber nejvýše 12 favoritů.</div>"
+               "<div class='form' style='margin:6px 0'><label>Tiket obsahuje <select id='rp_m'><option>2</option><option selected>3</option><option>4</option></select> týmy</label> "
+               "<label style='margin-left:12px'>Vklad na tiket <input id='rp_st' type='number' min='1' value='10' style='width:64px'> Kč</label> "
+               "<button id='rp_go' class='bet' style='margin-left:12px;width:auto;padding:4px 14px'>Sestavit rozpis</button></div>"
+               "<div id='rp_out'></div>")
+    out.append("<div class='note'>Pravděpodobnost kombinace je součin jednotlivých pravděpodobností, takže rychle klesá: "
+               "pět favoritů po 70 % vyjde jen v 17 % případů. Model nezná zranění ani sestavy, "
+               "a vysoká jistota ještě neznamená, že se sázka vyplatí – záleží na kurzu.</div>")
+    js = """
+(function(){
+var sel=document.getElementById('fv_min'),near=document.getElementById('fv_near');
+try{var sv=localStorage.getItem('sb_fvmin');if(sv)sel.value=sv;var sn=localStorage.getItem('sb_fvnear');if(sn!==null)near.checked=sn==='1'}catch(e){}
+near.onchange=function(){try{localStorage.setItem('sb_fvnear',near.checked?'1':'0')}catch(e){}calc()};
+function calc(){
+  var min=parseFloat(sel.value),shown=0,n=0,p=1,m=1,allm=true;
+  document.querySelectorAll('tr.fvr').forEach(function(tr){
+    var ok=parseFloat(tr.dataset.p)>=min&&(!near.checked||tr.dataset.n==='1');tr.style.display=ok?'':'none';
+    var cb=tr.querySelector('.fvc');if(!ok){cb.checked=false}else{shown++}
+    if(cb.checked){n++;p*=parseFloat(tr.dataset.p);if(tr.dataset.o){m*=parseFloat(tr.dataset.o)}else{allm=false}}
+  });
+  document.getElementById('fv_cnt').textContent='zobrazeno '+shown+' zápasů';
+  document.getElementById('kc_n').textContent=n;
+  document.getElementById('kc_p').textContent=n?(p*100).toFixed(1)+' %':'–';
+  document.getElementById('kc_f').textContent=n?(1/p).toFixed(2):'–';
+  document.getElementById('kc_m').textContent=(n&&allm)?m.toFixed(2):'–';
+  singles();
+}
+function singles(){
+  var ps=[],os=[],allo=true;
+  document.querySelectorAll('tr.fvr').forEach(function(tr){
+    if(tr.style.display==='none'||!tr.querySelector('.fvc').checked)return;
+    ps.push(parseFloat(tr.dataset.p));if(tr.dataset.o)os.push(parseFloat(tr.dataset.o));else allo=false});
+  var n=ps.length,$=function(i){return document.getElementById(i)};
+  var pctv=Math.min(100,Math.max(1,parseFloat($('kk').value)||60)),k=Math.max(1,Math.ceil(pctv/100*n-1e-9));
+  $('kk_n').textContent=n?'= aspoň '+k+' z '+n+' zápasů':'';
+  var tb=$('ks_tb');tb.innerHTML='';
+  if(!n){$('ks_p').textContent=$('ks_need').textContent=$('ks_have').textContent=$('ks_ev').textContent='–';$('ks_msg').textContent='';return}
+  var d=[1];for(var i=0;i<n;i++){var nd=new Array(d.length+1).fill(0);
+    for(var j=0;j<d.length;j++){nd[j]+=d[j]*(1-ps[i]);nd[j+1]+=d[j]*ps[i]}d=nd}
+  var pk=0;for(var j=k;j<=n;j++)pk+=d[j];
+  var avg=allo?os.reduce(function(x,y){return x+y},0)/n:null,cum=1,h='<tr><th>Vyjde zápasů</th><th>Pravděpodobnost přesně</th><th>Aspoň tolik</th><th>Zisk při průměrném kurzu (násobky vkladu)</th></tr>';
+  for(var j=0;j<=n;j++){var pr=d[j];
+    var pf='–';
+    if(avg!==null){var v=j*avg-n,c=v>0?'good':(v<0?'bad':'');pf="<span class='"+c+"'>"+(v>=0?'+':'')+v.toFixed(2)+"</span>"}
+    h+="<tr"+(j===k?" class='pick'":"")+"><td>"+j+" z "+n+" ("+Math.round(100*j/n)+" %)</td><td>"+(pr*100).toFixed(1)+" %</td><td>"+(cum*100).toFixed(1)+" %</td><td>"+pf+"</td></tr>";cum-=pr}
+  tb.innerHTML=h;
+  $('ks_p').textContent=k>n?'0 %':(pk*100).toFixed(0)+' %';
+  $('ks_need').textContent=k>n?'–':(n/k).toFixed(2);
+  if(allo){var a=os.reduce(function(x,y){return x+y},0)/n;$('ks_have').textContent=a.toFixed(2);
+    var ev=0;for(var i=0;i<n;i++)ev+=ps[i]*os[i]-1;$('ks_ev').textContent=(ev>=0?'+':'')+ev.toFixed(2);
+    $('ks_msg').textContent=k>n?'':(a*k>n?'Když vyjde '+k+' z '+n+' favoritů, jsi v zisku (průměrný kurz '+a.toFixed(2)+' stačí).'
+      :'Když vyjde '+k+' z '+n+' favoritů, jsi ve ztrátě: potřebuješ průměrný kurz aspoň '+(n/k).toFixed(2)+', vybrané mají '+a.toFixed(2)+'.')}
+  else{$('ks_have').textContent='–';$('ks_ev').textContent='–';$('ks_msg').textContent='Některé vybrané zápasy nemají kurz trhu, zisk nejde spočítat. Potřebný průměrný kurz je '+(k>n?'–':(n/k).toFixed(2))+'.'}
+}
+document.getElementById('kk').oninput=singles;
+function pc(x){var c=0;while(x){c+=x&1;x>>=1}return c}
+function rozpis(){
+  var out=document.getElementById('rp_out'),rows=[];
+  document.querySelectorAll('tr.fvr').forEach(function(tr){
+    if(tr.style.display==='none'||!tr.querySelector('.fvc').checked)return;
+    var mine=parseFloat((tr.querySelector('.fvo').value||'').replace(',','.')),o=mine>1?mine:(tr.dataset.o?parseFloat(tr.dataset.o):null);
+    rows.push({p:parseFloat(tr.dataset.p),o:o,f:tr.dataset.f,m:tr.dataset.m})});
+  var n=rows.length,m=parseInt(document.getElementById('rp_m').value),st=parseFloat(document.getElementById('rp_st').value)||10;
+  var pctv=Math.min(100,Math.max(1,parseFloat(document.getElementById('kk').value)||60)),k=Math.max(1,Math.ceil(pctv/100*n-1e-9));
+  if(n<m){out.innerHTML="<div class='note'>Vyber aspoň "+m+" favority.</div>";return}
+  if(n>12){out.innerHTML="<div class='note'>Vybráno "+n+" favoritů, maximum je 12.</div>";return}
+  if(m>k){out.innerHTML="<div class='note'>Při "+k+" výhrách (z "+n+") nemůže vyjít tiket po "+m+" týmech. Sniž velikost tiketu nebo zvyš procento.</div>";return}
+  for(var i=0;i<n;i++)if(rows[i].o===null){out.innerHTML="<div class='note'>Favorit "+rows[i].f+" nemá kurz. Zapiš ho do sloupce „Můj kurz“.</div>";return}
+  var N=1<<n,cand=[],targ=[];
+  for(var x=0;x<N;x++){var c=pc(x);if(c===m)cand.push(x);if(c===k)targ.push(x)}
+  var best=null;
+  for(var run=0;run<24;run++){
+    var cs=cand.slice();if(run>0)cs.sort(function(){return Math.random()-0.5});
+    var unc=targ.slice(),pick=[];
+    while(unc.length){var bi=-1,bc=-1;
+      for(var a=0;a<cs.length;a++){var t=cs[a],cnt=0;for(var b=0;b<unc.length;b++)if((t&unc[b])===t)cnt++;if(cnt>bc){bc=cnt;bi=a}}
+      pick.push(cs[bi]);var t2=cs[bi];unc=unc.filter(function(u){return (t2&u)!==t2})}
+    for(var a=pick.length-1;a>=0;a--){var rest=pick.slice(0,a).concat(pick.slice(a+1));
+      var okc=targ.every(function(u){return rest.some(function(t){return (t&u)===t})});if(okc)pick=rest}
+    if(best===null||pick.length<best.length)best=pick}
+  var T=best.length,tprod=best.map(function(t){var pr=1;for(var i=0;i<n;i++)if(t&(1<<i))pr*=rows[i].o;return pr});
+  var agg=[];for(var j=0;j<=n;j++)agg.push({pj:0,min:1e18,max:-1e18,ev:0,pw:0,nmin:1e9,nmax:-1});
+  var pall=0,evall=0;
+  for(var W=0;W<N;W++){var j=pc(W),pr=1;for(var i=0;i<n;i++)pr*=(W&(1<<i))?rows[i].p:(1-rows[i].p);
+    var pay=0,nw=0;for(var q=0;q<T;q++)if((best[q]&W)===best[q]){pay+=tprod[q];nw++}
+    var prof=(pay-T)*st,A=agg[j];A.pj+=pr;A.ev+=pr*prof;if(prof<A.min)A.min=prof;if(prof>A.max)A.max=prof;
+    if(prof>0)A.pw+=pr;if(nw<A.nmin)A.nmin=nw;if(nw>A.nmax)A.nmax=nw;pall+=prof>0?pr:0;evall+=pr*prof}
+  var h="<div class='cards'><div class='card'><b>"+T+"</b><span>tiketů v rozpisu (z "+cand.length+" možných)</span></div>"
+   +"<div class='card'><b>"+(T*st).toFixed(0)+" Kč</b><span>celkový vklad</span></div>"
+   +"<div class='card'><b>"+(pall*100).toFixed(0)+" %</b><span>pravděpodobnost zisku celého rozpisu</span></div>"
+   +"<div class='card'><b class='"+(evall>=0?'good':'bad')+"'>"+(evall>=0?'+':'')+evall.toFixed(0)+" Kč</b><span>očekávaný zisk podle modelu</span></div></div>";
+  h+="<div class='wrap'><table><tr><th>Vyjde favoritů</th><th>Pravděpodobnost</th><th>Vyherních tiketů</th><th>Nejhorší zisk</th><th>Očekávaný zisk</th><th>Pravděpodobnost zisku</th></tr>";
+  for(var j=0;j<=n;j++){var A=agg[j];if(A.pj<1e-9)continue;var e=A.ev/A.pj;
+    h+="<tr"+(j===k?" class='pick'":"")+"><td>"+j+" z "+n+"</td><td>"+(A.pj*100).toFixed(1)+" %</td><td>"+A.nmin+(A.nmax!==A.nmin?"–"+A.nmax:"")+"</td>"
+     +"<td class='"+(A.min>=0?'good':'bad')+"'>"+(A.min>=0?'+':'')+A.min.toFixed(0)+" Kč</td><td class='"+(e>=0?'good':'bad')+"'>"+(e>=0?'+':'')+e.toFixed(0)+" Kč</td><td>"+(A.pw/A.pj*100).toFixed(0)+" %</td></tr>"}
+  h+="</table></div><h3>Tikety</h3><div class='note'>";
+  best.forEach(function(t,q){var nm=[];for(var i=0;i<n;i++)if(t&(1<<i))nm.push(rows[i].f);h+=(q+1)+". "+nm.join(" + ")+" (kurz "+tprod[q].toFixed(2)+")<br>"});
+  h+="</div><div class='note'>Rozpis je hledaný rychlým heuristickým postupem, takže nemusí mít úplně nejmenší možný počet tiketů. Zisk je po odečtení všech vkladů. "
+   +"Pravděpodobnosti počítají favority jako nezávislé.</div>";
+  out.innerHTML=h}
+document.getElementById('rp_go').onclick=rozpis;
+sel.onchange=function(){try{localStorage.setItem('sb_fvmin',sel.value)}catch(e){}calc()};
+document.querySelectorAll('.fvc').forEach(function(c){c.onchange=calc});
+calc();
+})();
+"""
+    return page_close(out, js, static)
+
+
 def render_diary(cfg, static=False, games=None):
     out = page_open("SportBayes – deník sázek", "Deník sázek", cfg, "denik", static)
     where = ("Deník je uložen jen v tomto prohlížeči (na GitHubu se nikam neposílá). Sázky se vyhodnocují ručně."
@@ -1259,6 +1526,9 @@ class Handler(BaseHTTPRequestHandler):
             return
         if name == "denik":
             self._send(render_diary(cfg, games=upcoming_games(Handler.apps, cfg)))
+            return
+        if name == "favoriti":
+            self._send(render_favorites(cfg, games=upcoming_games(Handler.apps, cfg)))
             return
         if name == "nastaveni":
             self._send(render_settings(cfg))
@@ -1470,6 +1740,7 @@ def cmd_build(cfg, only=None):
     if not ok:
         sys.exit(1)
     for name, fn in (("denik.html", lambda c, static: render_diary(c, static, upcoming_games(built, c, True))),
+                     ("favoriti.html", lambda c, static: render_favorites(c, static, upcoming_games(built, c, True))),
                      ("nastaveni.html", render_settings)):
         with open(os.path.join(out_dir, name), "w", encoding="utf-8") as f:
             f.write(fn(cfg, static=True))

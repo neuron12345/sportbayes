@@ -793,6 +793,16 @@ def ch_window(lg, back=1, ahead=7):
 def ch_history(lg, progress=None):
     """Dohrane zapasy sezony do cache games.csv; starsi sezony (kdyz jsou v LEAGUES[...]['comps']) jen jednou."""
     rows = load_games(lg)
+    fixed = 0
+    for r in rows:                                           # oprava chybnych dat z hokej.cz (leden-cerven mel rok sezony)
+        if str(r["event_id"]).startswith("extrach_h"):
+            y, mo = int(r["date_utc"][:4]), int(r["date_utc"][5:7])
+            if mo < 7 and y == int(r["season"]):
+                r["date_utc"] = f"{y + 1}" + r["date_utc"][4:]
+                fixed += 1
+    if fixed:
+        save_games(rows, lg)
+        print(f"[{lg}] Opraveno {fixed} chybných dat ve starších sezónách.")
     have = {r["season"] for r in rows}
     cur = max(LEAGUES[lg]["comps"])
     new = 0
@@ -883,7 +893,8 @@ def hk_parse(page_html, season):
             if not ot and (reg_h, reg_a) != (fh, fa):
                 continue                                    # nesedi -> radsi vynechat
             d, mo = int(dm.group(1)), int(dm.group(2))
-            when = dt.datetime(year, mo, d, 17, 0, tzinfo=dt.timezone.utc)
+            yr = season if mo >= 7 else season + 1          # zakladni cast: zari-brezen (rok podle mesice, ne podle hlavicky)
+            when = dt.datetime(yr, mo, d, 17, 0, tzinfo=dt.timezone.utc)
             h_, a_ = canon_team(_clean(names[0])), canon_team(_clean(names[1]))
             out.append({"event_id": "extrach_h" + gid, "date_utc": when.strftime("%Y-%m-%dT%H:%MZ"),
                         "season": season, "season_type": 0, "home": h_, "away": a_, "home_name": h_,
